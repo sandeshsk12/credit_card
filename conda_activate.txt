@@ -1,0 +1,1 @@
+conda activate /mnt/work/data_science/ineuron/ccdp/envs

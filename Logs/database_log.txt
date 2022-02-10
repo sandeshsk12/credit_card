@@ -1,0 +1,366 @@
+2022-02-05/01:14:43		Connected successfully
+2022-02-05/01:14:53		Failed to delete table. The error is: errors={'3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397
+2022-02-05/01:14:56		Table successfully created
+2022-02-05/01:37:59		Data Insertion failed. The error is: errors={'3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397
+2022-02-05/01:56:26		Connected successfully
+2022-02-05/01:56:36		Failed to delete table. The error is: errors={'3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:9aa6a5eb-54d6-4dba-9f82-948c138b4588': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:9aa6a5eb-54d6-4dba-9f82-948c138b4588
+2022-02-05/01:56:38		Table successfully created
+2022-02-05/01:56:38		Table retrieval failed. The error is: Error from server: code=1300 [Replica(s) failed to execute read] message="Operation failed - received 0 responses and 1 failures: FROM_THE_FUTURE from 172.29.160.3:7000" info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'failures': 1}
+2022-02-05/01:56:38		Table retrieval failed. The error is: Error from server: code=1300 [Replica(s) failed to execute read] message="Operation failed - received 0 responses and 1 failures: FROM_THE_FUTURE from 172.29.160.3:7000" info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'failures': 1}
+2022-02-05/01:56:38		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/01:56:38		Shutdown successful
+2022-02-05/02:24:41		Connected successfully
+2022-02-05/02:24:41		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:24:41		Table retrieval successful
+2022-02-05/02:24:41		Table retrieval successful
+2022-02-05/02:24:41		Successfully created csv file
+2022-02-05/02:24:41		Shutdown successful
+2022-02-05/02:30:25		Connected successfully
+2022-02-05/02:30:25		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:30:25		Table retrieval successful
+2022-02-05/02:30:25		Table retrieval successful
+2022-02-05/02:30:25		Successfully created csv file
+2022-02-05/02:30:25		Shutdown successful
+2022-02-05/02:31:53		Connected successfully
+2022-02-05/02:31:53		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:31:55		Table retrieval failed. The error is: Error from server: code=1200 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1}
+2022-02-05/02:31:58		Table retrieval failed. The error is: Error from server: code=1200 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1}
+2022-02-05/02:31:58		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/02:31:58		Shutdown successful
+2022-02-05/02:32:46		Connected successfully
+2022-02-05/02:32:46		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:32:50		Table retrieval successful
+2022-02-05/02:32:55		Table retrieval successful
+2022-02-05/02:32:56		Successfully created csv file
+2022-02-05/02:32:56		Shutdown successful
+2022-02-05/02:33:09		Connected successfully
+2022-02-05/02:33:09		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:33:12		Table retrieval successful
+2022-02-05/02:33:16		Table retrieval successful
+2022-02-05/02:33:17		Successfully created csv file
+2022-02-05/02:33:17		Shutdown successful
+2022-02-05/02:33:34		Connected successfully
+2022-02-05/02:33:34		Table creation failed. The error is : Table 'ccdp.uci_credit_card' already exists
+2022-02-05/02:33:34		Table retrieval successful
+2022-02-05/02:33:34		Table retrieval successful
+2022-02-05/02:33:34		Successfully created csv file
+2022-02-05/02:33:34		Shutdown successful
+2022-02-05/02:35:36		Connected successfully
+2022-02-05/02:35:36		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/02:35:40		Table retrieval successful
+2022-02-05/02:35:43		Table retrieval successful
+2022-02-05/02:35:44		Successfully created csv file
+2022-02-05/02:35:44		Shutdown successful
+2022-02-05/02:56:55		Connected successfully
+2022-02-05/02:56:55		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/02:56:57		Table retrieval failed. The error is: Error from server: code=1200 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1}
+2022-02-05/02:56:59		Table retrieval failed. The error is: Error from server: code=1200 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1}
+2022-02-05/02:56:59		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/02:56:59		Shutdown successful
+2022-02-05/02:57:28		Connected successfully
+2022-02-05/02:57:28		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/02:57:32		Table retrieval successful
+2022-02-05/02:57:35		Table retrieval successful
+2022-02-05/02:57:35		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/02:57:35		Shutdown successful
+2022-02-05/02:57:45		Connected successfully
+2022-02-05/02:57:45		Failed to delete table. The error is: local variable 'e' referenced before assignment
+2022-02-05/02:57:45		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/02:57:48		Table retrieval successful
+2022-02-05/02:57:51		Table retrieval successful
+2022-02-05/02:57:51		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/02:57:51		Shutdown successful
+2022-02-05/03:00:52		Connected successfully
+2022-02-05/03:00:52		Failed to delete table. The error is: local variable 'e' referenced before assignment
+2022-02-05/03:00:52		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:00:55		Table retrieval successful
+2022-02-05/03:00:58		Table retrieval successful
+2022-02-05/03:00:59		Successfully created csv file
+2022-02-05/03:00:59		Shutdown successful
+2022-02-05/03:06:44		Connected successfully
+2022-02-05/03:06:44		Failed to delete table. The error is: local variable 'e' referenced before assignment
+2022-02-05/03:06:44		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:06:49		Table retrieval successful
+2022-02-05/03:06:49		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:06:53		Table retrieval successful
+2022-02-05/03:06:54		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:06:54		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:06:54		Shutdown successful
+2022-02-05/03:08:23		Connected successfully
+2022-02-05/03:08:23		Table deletion successful:
+2022-02-05/03:08:23		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:08:27		Table retrieval successful
+2022-02-05/03:08:27		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:08:30		Table retrieval successful
+2022-02-05/03:08:30		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:08:30		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:08:30		Shutdown successful
+2022-02-05/03:10:41		Connected successfully
+2022-02-05/03:10:41		Table deletion successful:
+2022-02-05/03:10:41		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:10:46		Table retrieval successful
+2022-02-05/03:10:46		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:10:50		Table retrieval successful
+2022-02-05/03:10:51		Table retrieval failed. The error is: "['default.payment.next.month'] not in index"
+2022-02-05/03:10:51		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:10:51		Shutdown successful
+2022-02-05/03:12:41		Connected successfully
+2022-02-05/03:12:41		Table deletion successful:
+2022-02-05/03:12:41		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:12:44		Table retrieval successful
+2022-02-05/03:12:49		Table retrieval successful
+2022-02-05/03:12:50		Successfully created csv file
+2022-02-05/03:12:50		Shutdown successful
+2022-02-05/03:14:16		Connected successfully
+2022-02-05/03:14:16		Table deletion successful:
+2022-02-05/03:14:16		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:14:21		Table retrieval successful
+2022-02-05/03:14:25		Table retrieval successful
+2022-02-05/03:14:25		Successfully created csv file
+2022-02-05/03:14:25		Shutdown successful
+2022-02-05/03:14:40		Connected successfully
+2022-02-05/03:14:40		Table deletion successful:
+2022-02-05/03:14:40		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:14:43		Table retrieval successful
+2022-02-05/03:14:47		Table retrieval successful
+2022-02-05/03:14:48		Successfully created csv file
+2022-02-05/03:14:48		Shutdown successful
+2022-02-05/03:16:04		Connected successfully
+2022-02-05/03:16:04		Table deletion successful:
+2022-02-05/03:16:04		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:16:08		Table retrieval successful
+2022-02-05/03:16:09		Table retrieval failed. The error is: '(slice(None, None, None), 1)' is an invalid key
+2022-02-05/03:16:12		Table retrieval successful
+2022-02-05/03:16:12		Table retrieval failed. The error is: '(slice(None, None, None), 1)' is an invalid key
+2022-02-05/03:16:12		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:16:12		Shutdown successful
+2022-02-05/03:16:46		Connected successfully
+2022-02-05/03:16:46		Table deletion successful:
+2022-02-05/03:16:46		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:16:50		Table retrieval successful
+2022-02-05/03:16:53		Table retrieval successful
+2022-02-05/03:16:54		Successfully created csv file
+2022-02-05/03:16:54		Shutdown successful
+2022-02-05/03:17:24		Connected successfully
+2022-02-05/03:17:24		Table deletion successful:
+2022-02-05/03:17:24		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:17:27		Table retrieval successful
+2022-02-05/03:17:31		Table retrieval successful
+2022-02-05/03:17:31		Successfully created csv file
+2022-02-05/03:17:31		Shutdown successful
+2022-02-05/03:17:56		Connected successfully
+2022-02-05/03:17:56		Table deletion successful:
+2022-02-05/03:17:56		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:17:59		Table retrieval successful
+2022-02-05/03:18:03		Table retrieval successful
+2022-02-05/03:18:03		Successfully created csv file
+2022-02-05/03:18:03		Shutdown successful
+2022-02-05/03:22:40		Connected successfully
+2022-02-05/03:22:40		Table deletion successful:
+2022-02-05/03:22:40		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:22:43		Table retrieval successful
+2022-02-05/03:22:43		Table retrieval failed. The error is: "['Unnamed: 0'] not found in axis"
+2022-02-05/03:22:47		Table retrieval successful
+2022-02-05/03:22:47		Table retrieval failed. The error is: "['Unnamed: 0'] not found in axis"
+2022-02-05/03:22:47		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:22:47		Shutdown successful
+2022-02-05/03:23:36		Connected successfully
+2022-02-05/03:23:36		Table deletion successful:
+2022-02-05/03:23:36		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:23:40		Table retrieval successful
+2022-02-05/03:23:43		Table retrieval successful
+2022-02-05/03:23:43		Failed to create csv. The error is: "['Unnamed: 0'] not found in axis"
+2022-02-05/03:23:43		Shutdown successful
+2022-02-05/03:24:02		Connected successfully
+2022-02-05/03:24:02		Table deletion successful:
+2022-02-05/03:24:02		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:24:05		Table retrieval successful
+2022-02-05/03:24:09		Table retrieval successful
+2022-02-05/03:24:09		Failed to create csv. The error is: "['Unnamed: 0'] not found in axis"
+2022-02-05/03:24:09		Shutdown successful
+2022-02-05/03:24:39		Connected successfully
+2022-02-05/03:24:39		Table deletion successful:
+2022-02-05/03:24:39		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:24:43		Table retrieval successful
+2022-02-05/03:24:47		Table retrieval successful
+2022-02-05/03:24:48		Successfully created csv file
+2022-02-05/03:24:48		Shutdown successful
+2022-02-05/03:25:49		Connected successfully
+2022-02-05/03:25:49		Table deletion successful:
+2022-02-05/03:25:50		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:25:53		Table retrieval successful
+2022-02-05/03:25:53		Table retrieval failed. The error is: Length mismatch: Expected axis has 25 elements, new values have 26 elements
+2022-02-05/03:25:56		Table retrieval successful
+2022-02-05/03:25:56		Table retrieval failed. The error is: Length mismatch: Expected axis has 25 elements, new values have 26 elements
+2022-02-05/03:25:56		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/03:25:56		Shutdown successful
+2022-02-05/03:26:52		Connected successfully
+2022-02-05/03:26:52		Table deletion successful:
+2022-02-05/03:26:52		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:26:55		Table retrieval successful
+2022-02-05/03:26:59		Table retrieval successful
+2022-02-05/03:27:00		Successfully created csv file
+2022-02-05/03:27:00		Shutdown successful
+2022-02-05/03:28:46		Connected successfully
+2022-02-05/03:28:46		Table deletion successful:
+2022-02-05/03:28:46		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/03:28:49		Table retrieval successful
+2022-02-05/03:28:52		Table retrieval successful
+2022-02-05/03:28:53		Successfully created csv file
+2022-02-05/03:28:53		Shutdown successful
+2022-02-05/10:27:59		Connected successfully
+2022-02-05/10:27:59		Table deletion successful:
+2022-02-05/10:27:59		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:28:05		Table retrieval successful
+2022-02-05/10:28:05		Table retrieval failed. The error is: Index(...) must be called with a collection of some kind, 'ID' was passed
+2022-02-05/10:28:11		Table retrieval successful
+2022-02-05/10:28:11		Table retrieval failed. The error is: Index(...) must be called with a collection of some kind, 'ID' was passed
+2022-02-05/10:28:11		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/10:28:11		Shutdown successful
+2022-02-05/10:29:38		Connected successfully
+2022-02-05/10:29:38		Table deletion successful:
+2022-02-05/10:29:38		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:29:42		Table retrieval successful
+2022-02-05/10:29:42		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:29:45		Table retrieval successful
+2022-02-05/10:29:45		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:29:45		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/10:29:45		Shutdown successful
+2022-02-05/10:30:32		Connected successfully
+2022-02-05/10:30:32		Table deletion successful:
+2022-02-05/10:30:32		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:30:36		Table retrieval successful
+2022-02-05/10:30:36		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:30:40		Table retrieval successful
+2022-02-05/10:30:40		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:30:40		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/10:30:40		Shutdown successful
+2022-02-05/10:32:05		Connected successfully
+2022-02-05/10:32:05		Table deletion successful:
+2022-02-05/10:32:05		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:32:10		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:32:14		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:32:14		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/10:32:14		Shutdown successful
+2022-02-05/10:32:23		Connected successfully
+2022-02-05/10:32:23		Table deletion successful:
+2022-02-05/10:32:23		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:32:27		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:32:30		Table retrieval failed. The error is: Shape of passed values is (30000, 25), indices imply (1, 25)
+2022-02-05/10:32:30		Failed to create csv. The error is: 'NoneType' object has no attribute 'to_csv'
+2022-02-05/10:32:30		Shutdown successful
+2022-02-05/10:33:10		Connected successfully
+2022-02-05/10:33:10		Table deletion successful:
+2022-02-05/10:33:10		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/10:33:13		Table retrieval successful
+2022-02-05/10:33:17		Table retrieval successful
+2022-02-05/10:33:18		Successfully created csv file
+2022-02-05/10:33:18		Shutdown successful
+2022-02-05/13:56:17		Connected successfully
+2022-02-05/13:56:17		Table deletion successful:
+2022-02-05/13:56:17		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/13:56:22		Table retrieval successful
+2022-02-05/13:56:27		Table retrieval successful
+2022-02-05/13:56:27		Successfully created csv file
+2022-02-05/13:56:27		Shutdown successful
+2022-02-05/13:57:05		Connected successfully
+2022-02-05/13:57:05		Table deletion successful:
+2022-02-05/13:57:05		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/13:57:10		Table retrieval successful
+2022-02-05/13:57:15		Table retrieval successful
+2022-02-05/13:57:15		Successfully created csv file
+2022-02-05/13:57:15		Shutdown successful
+2022-02-05/17:38:08		Connected successfully
+2022-02-05/17:38:08		Table deletion successful:
+2022-02-05/17:38:08		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/17:38:14		Table retrieval successful
+2022-02-05/17:38:14		Failed to create csv. The error is: 'cassandra_ops' object has no attribute 'show_table'
+2022-02-05/17:38:14		Shutdown successful
+2022-02-05/17:39:46		Connected successfully
+2022-02-05/17:39:46		Table deletion successful:
+2022-02-05/17:39:46		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/17:39:52		Table retrieval successful
+2022-02-05/17:39:57		Table retrieval successful
+2022-02-05/17:39:58		Successfully created csv file
+2022-02-05/17:39:58		Shutdown successful
+2022-02-05/17:40:34		Connected successfully
+2022-02-05/17:40:34		Table deletion successful:
+2022-02-05/17:40:34		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-05/17:40:39		Table retrieval successful
+2022-02-05/17:40:43		Table retrieval successful
+2022-02-05/17:40:44		Successfully created csv file
+2022-02-05/17:40:44		Shutdown successful
+2022-02-10/00:18:45		Connection Failed. The error is : Unable to connect to the metadata service at https://3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2022-02-10/00:18:45		Table creation failed. The error is : name 'session' is not defined
+2022-02-10/00:18:45		Data Insertion failed. The error is: name 'session' is not defined
+2022-02-10/00:22:18		Connected successfully
+2022-02-10/00:22:18		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:22:18		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-10/00:25:32		Connected successfully
+2022-02-10/00:25:32		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:25:32		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-10/00:26:03		Connected successfully
+2022-02-10/00:26:03		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:26:03		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-10/00:27:45		Connected successfully
+2022-02-10/00:27:45		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:27:46		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name limit_bal"
+2022-02-10/00:32:28		Connected successfully
+2022-02-10/00:32:28		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:32:28		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-10/00:34:07		Connected successfully
+2022-02-10/00:34:07		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:34:07		Data Insertion failed. The error is: invalid literal for int() with base 10: '20000.0'
+2022-02-10/00:34:28		Connected successfully
+2022-02-10/00:34:28		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:34:28		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-10/00:47:23		Connected successfully
+2022-02-10/00:47:23		Table creation failed. The error is : Table 'ccdp.UCI_Credit_Card' already exists
+2022-02-10/00:47:30		Table retrieval successful
+2022-02-10/00:47:31		Successfully created csv file
+2022-02-10/00:47:31		Shutdown successful
+2022-02-10/00:48:05		Connected successfully
+2022-02-10/00:48:05		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:37 mismatched input 'if' expecting '(' (create table ccdp."UCI_Credit_Card"  [if]...)">
+2022-02-10/00:48:10		Table retrieval successful
+2022-02-10/00:48:10		Successfully created csv file
+2022-02-10/00:48:10		Shutdown successful
+2022-02-10/00:48:59		Connected successfully
+2022-02-10/00:48:59		Table successfully created
+2022-02-10/00:49:06		Table retrieval successful
+2022-02-10/00:49:07		Successfully created csv file
+2022-02-10/00:49:07		Shutdown successful
+2022-02-10/00:49:50		Connected successfully
+2022-02-10/00:49:50		Table successfully created
+2022-02-10/00:49:55		Table retrieval successful
+2022-02-10/00:49:56		Successfully created csv file
+2022-02-10/00:49:56		Shutdown successful
+2022-02-10/01:13:52		Connected successfully
+2022-02-10/01:13:52		Table successfully created
+2022-02-10/01:13:57		Table retrieval successful
+2022-02-10/01:13:58		Successfully created csv file
+2022-02-10/01:13:58		Shutdown successful
+2022-02-10/01:15:04		Connected successfully
+2022-02-10/01:15:05		Table successfully created
+2022-02-10/01:15:13		Table retrieval successful
+2022-02-10/01:15:13		Successfully created csv file
+2022-02-10/01:15:13		Shutdown successful
+2022-02-10/01:16:02		Connected successfully
+2022-02-10/01:16:02		Table successfully created
+2022-02-10/01:16:07		Table retrieval successful
+2022-02-10/01:16:08		Successfully created csv file
+2022-02-10/01:16:08		Shutdown successful
+2022-02-10/01:25:35		Connected successfully
+2022-02-10/01:25:35		Table successfully created
+2022-02-10/01:25:43		Table retrieval successful
+2022-02-10/01:25:44		Successfully created csv file
+2022-02-10/01:25:44		Shutdown successful
+2022-02-10/01:28:22		Connected successfully
+2022-02-10/01:28:23		Table successfully created
+2022-02-10/01:28:29		Table retrieval successful
+2022-02-10/01:28:29		Successfully created csv file
+2022-02-10/01:28:29		Shutdown successful
+2022-02-10/21:56:21		Connected successfully
+2022-02-10/21:56:21		Table successfully created
+2022-02-10/21:56:26		Table retrieval successful
+2022-02-10/21:56:27		Successfully created csv file
+2022-02-10/21:56:27		Shutdown successful

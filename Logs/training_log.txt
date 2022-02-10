@@ -1,0 +1,1819 @@
+2022-02-07/00:46:16		Starting reading operation
+2022-02-07/00:46:16		Successfully read file
+2022-02-07/00:55:49		Starting reading operation
+2022-02-07/00:55:49		Successfully read file
+2022-02-07/00:56:28		Starting reading operation
+2022-02-07/00:56:28		Successfully read file
+2022-02-07/00:56:28		Checking for empty spaces in colum  names operation
+2022-02-07/00:56:28		Successfully checked for empty spaces
+2022-02-07/00:56:28		Failed to read file 'remove_empty_spaces' object has no attribute 'data'
+2022-02-07/00:57:38		Starting reading operation
+2022-02-07/00:57:38		Successfully read file
+2022-02-07/00:57:38		Checking for empty spaces in colum  names operation
+2022-02-07/00:57:38		Successfully checked for empty spaces
+2022-02-07/01:06:50		Starting reading operation
+2022-02-07/01:06:50		Successfully read file
+2022-02-07/01:06:50		Checking for empty spaces in colum  names operation
+2022-02-07/01:06:50		Successfully checked and removed empty spaces
+2022-02-07/01:06:50		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/01:06:50		Created features dataframe
+2022-02-07/01:06:50		Created target dataframe
+2022-02-07/21:39:30		Starting reading operation
+2022-02-07/21:39:30		Successfully read file
+2022-02-07/21:39:30		Checking for empty spaces in colum  names operation
+2022-02-07/21:39:30		Successfully checked and removed empty spaces
+2022-02-07/21:39:30		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:39:30		Created features dataframe
+2022-02-07/21:39:30		Created target dataframe
+2022-02-07/21:39:30		Checking for missing values in dataframes
+2022-02-07/21:39:30		No missing values found!!
+2022-02-07/21:40:40		Starting reading operation
+2022-02-07/21:40:40		Successfully read file
+2022-02-07/21:40:40		Checking for empty spaces in colum  names operation
+2022-02-07/21:40:40		Successfully checked and removed empty spaces
+2022-02-07/21:40:40		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:40:40		Created features dataframe
+2022-02-07/21:40:40		Created target dataframe
+2022-02-07/21:40:40		Checking for missing values in dataframes
+2022-02-07/21:40:40		Found missing values in column: AGE
+2022-02-07/21:40:40		Found a total of 1 missing values
+2022-02-07/21:46:11		Starting reading operation
+2022-02-07/21:46:11		Successfully read file
+2022-02-07/21:46:11		Checking for empty spaces in colum  names operation
+2022-02-07/21:46:11		Successfully checked and removed empty spaces
+2022-02-07/21:46:11		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:46:11		Created features dataframe
+2022-02-07/21:46:11		Created target dataframe
+2022-02-07/21:46:11		Checking for missing values in dataframes
+2022-02-07/21:46:11		Found missing values in column: AGE
+2022-02-07/21:46:11		Found a total of 1 missing values
+2022-02-07/21:46:34		Starting reading operation
+2022-02-07/21:46:34		Successfully read file
+2022-02-07/21:46:34		Checking for empty spaces in colum  names operation
+2022-02-07/21:46:34		Successfully checked and removed empty spaces
+2022-02-07/21:46:34		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:46:34		Created features dataframe
+2022-02-07/21:46:34		Created target dataframe
+2022-02-07/21:46:34		Checking for missing values in dataframes
+2022-02-07/21:46:34		Found missing values in column: AGE
+2022-02-07/21:46:34		Found a total of 1 missing values
+2022-02-07/21:46:50		Starting reading operation
+2022-02-07/21:46:50		Successfully read file
+2022-02-07/21:46:50		Checking for empty spaces in colum  names operation
+2022-02-07/21:46:50		Successfully checked and removed empty spaces
+2022-02-07/21:46:50		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:46:50		Created features dataframe
+2022-02-07/21:46:50		Created target dataframe
+2022-02-07/21:46:50		Checking for missing values in dataframes
+2022-02-07/21:46:50		Found missing values in column: AGE
+2022-02-07/21:46:50		Found a total of 1 missing values
+2022-02-07/21:52:09		Starting reading operation
+2022-02-07/21:52:09		Successfully read file
+2022-02-07/21:52:09		Checking for empty spaces in colum  names operation
+2022-02-07/21:52:09		Successfully checked and removed empty spaces
+2022-02-07/21:52:09		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/21:52:09		Created features dataframe
+2022-02-07/21:52:09		Created target dataframe
+2022-02-07/21:52:09		Checking for missing values in dataframes
+2022-02-07/21:52:09		Found missing values in column: AGE
+2022-02-07/21:52:09		Found a total of 1 missing values
+2022-02-07/22:13:20		Starting reading operation
+2022-02-07/22:13:20		Failed to read file 'preprocessor' object has no attribute 'path'
+2022-02-07/22:13:20		Checking for empty spaces in colum  names operation
+2022-02-07/22:13:20		Failed to read file 'NoneType' object has no attribute 'columns'
+2022-02-07/22:13:20		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:13:20		Failed to split the dataframe into features and target 'NoneType' object has no attribute 'drop'
+2022-02-07/22:14:54		Starting reading operation
+2022-02-07/22:14:54		Successfully read file
+2022-02-07/22:14:54		Checking for empty spaces in colum  names operation
+2022-02-07/22:14:54		Successfully checked and removed empty spaces
+2022-02-07/22:14:54		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:14:54		Created features dataframe
+2022-02-07/22:14:54		Created target dataframe
+2022-02-07/22:14:54		Checking for missing values in dataframes
+2022-02-07/22:14:54		Found missing values in column: AGE
+2022-02-07/22:14:54		Found a total of 1 missing values
+2022-02-07/22:18:50		Starting reading operation
+2022-02-07/22:18:51		Successfully read file
+2022-02-07/22:18:51		Checking for empty spaces in colum  names operation
+2022-02-07/22:18:51		Successfully checked and removed empty spaces
+2022-02-07/22:18:51		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:18:51		Created features dataframe
+2022-02-07/22:18:51		Created target dataframe
+2022-02-07/22:18:51		Checking for missing values in dataframes
+2022-02-07/22:18:51		Found missing values in column: AGE
+2022-02-07/22:18:51		Found a total of 1 missing values
+2022-02-07/22:19:13		Starting reading operation
+2022-02-07/22:19:13		Successfully read file
+2022-02-07/22:19:13		Checking for empty spaces in colum  names operation
+2022-02-07/22:19:13		Successfully checked and removed empty spaces
+2022-02-07/22:19:13		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:19:13		Created features dataframe
+2022-02-07/22:19:13		Created target dataframe
+2022-02-07/22:19:13		Checking for missing values in dataframes
+2022-02-07/22:19:13		Found missing values in column: AGE
+2022-02-07/22:19:13		Found a total of 1 missing values
+2022-02-07/22:20:16		Starting reading operation
+2022-02-07/22:20:16		Successfully read file
+2022-02-07/22:20:16		Checking for empty spaces in colum  names operation
+2022-02-07/22:20:16		Successfully checked and removed empty spaces
+2022-02-07/22:20:16		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:20:16		Created features dataframe
+2022-02-07/22:20:16		Created target dataframe
+2022-02-07/22:20:16		Checking for missing values in dataframes
+2022-02-07/22:20:16		Found missing values in column: AGE
+2022-02-07/22:20:16		Found a total of 1 missing values
+2022-02-07/22:20:16		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:20:16		Exception occured in impute_missing_values method of the Preprocessor class. Exception message:  Expected 2D array, got 1D array instead:
+array=[24. 26. 34. ... 37. 41. 46.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+2022-02-07/22:20:16		Imputing missing values failed. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:03		Starting reading operation
+2022-02-07/22:21:03		Successfully read file
+2022-02-07/22:21:03		Checking for empty spaces in colum  names operation
+2022-02-07/22:21:03		Successfully checked and removed empty spaces
+2022-02-07/22:21:03		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:21:03		Created features dataframe
+2022-02-07/22:21:03		Created target dataframe
+2022-02-07/22:21:03		Checking for missing values in dataframes
+2022-02-07/22:21:03		Found missing values in column: AGE
+2022-02-07/22:21:03		Found a total of 1 missing values
+2022-02-07/22:21:03		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:03		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:09		Starting reading operation
+2022-02-07/22:21:09		Successfully read file
+2022-02-07/22:21:09		Checking for empty spaces in colum  names operation
+2022-02-07/22:21:09		Successfully checked and removed empty spaces
+2022-02-07/22:21:09		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:21:09		Created features dataframe
+2022-02-07/22:21:09		Created target dataframe
+2022-02-07/22:21:09		Checking for missing values in dataframes
+2022-02-07/22:21:09		Found missing values in column: AGE
+2022-02-07/22:21:09		Found a total of 1 missing values
+2022-02-07/22:21:09		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:09		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:28		Starting reading operation
+2022-02-07/22:21:28		Successfully read file
+2022-02-07/22:21:28		Checking for empty spaces in colum  names operation
+2022-02-07/22:21:28		Successfully checked and removed empty spaces
+2022-02-07/22:21:28		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:21:28		Created features dataframe
+2022-02-07/22:21:28		Created target dataframe
+2022-02-07/22:21:28		Checking for missing values in dataframes
+2022-02-07/22:21:28		Found missing values in column: AGE
+2022-02-07/22:21:28		Found a total of 1 missing values
+2022-02-07/22:21:28		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:28		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:28		Checking for missing values in dataframes
+2022-02-07/22:21:28		Found missing values in column: AGE
+2022-02-07/22:21:28		Found a total of 1 missing values
+2022-02-07/22:21:58		Starting reading operation
+2022-02-07/22:21:58		Successfully read file
+2022-02-07/22:21:58		Checking for empty spaces in colum  names operation
+2022-02-07/22:21:58		Successfully checked and removed empty spaces
+2022-02-07/22:21:58		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:21:58		Created features dataframe
+2022-02-07/22:21:58		Created target dataframe
+2022-02-07/22:21:58		Checking for missing values in dataframes
+2022-02-07/22:21:58		Found missing values in column: AGE
+2022-02-07/22:21:58		Found a total of 1 missing values
+2022-02-07/22:21:58		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:58		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:21:58		Checking for missing values in dataframes
+2022-02-07/22:21:58		No missing values found!!
+2022-02-07/22:51:33		Starting reading operation
+2022-02-07/22:51:33		Successfully read file
+2022-02-07/22:51:33		Checking for empty spaces in colum  names operation
+2022-02-07/22:51:33		Successfully checked and removed empty spaces
+2022-02-07/22:51:33		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:51:33		Created features dataframe
+2022-02-07/22:51:33		Created target dataframe
+2022-02-07/22:51:33		Checking for missing values in dataframes
+2022-02-07/22:51:33		Found missing values in column: AGE
+2022-02-07/22:51:33		Found a total of 1 missing values
+2022-02-07/22:51:33		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:51:33		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:51:33		Checking for missing values in dataframes
+2022-02-07/22:51:33		No missing values found!!
+2022-02-07/22:51:41		Starting reading operation
+2022-02-07/22:51:41		Successfully read file
+2022-02-07/22:51:41		Checking for empty spaces in colum  names operation
+2022-02-07/22:51:41		Successfully checked and removed empty spaces
+2022-02-07/22:51:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:51:41		Created features dataframe
+2022-02-07/22:51:41		Created target dataframe
+2022-02-07/22:51:41		Checking for missing values in dataframes
+2022-02-07/22:51:41		Found missing values in column: AGE
+2022-02-07/22:51:41		Found a total of 1 missing values
+2022-02-07/22:51:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:51:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:51:41		Checking for missing values in dataframes
+2022-02-07/22:51:41		No missing values found!!
+2022-02-07/22:52:24		Starting reading operation
+2022-02-07/22:52:25		Successfully read file
+2022-02-07/22:52:25		Checking for empty spaces in colum  names operation
+2022-02-07/22:52:25		Successfully checked and removed empty spaces
+2022-02-07/22:52:25		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:52:25		Created features dataframe
+2022-02-07/22:52:25		Created target dataframe
+2022-02-07/22:52:25		Checking for missing values in dataframes
+2022-02-07/22:52:25		Found missing values in column: AGE
+2022-02-07/22:52:25		Found a total of 1 missing values
+2022-02-07/22:52:25		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:52:25		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:52:25		Checking for missing values in dataframes
+2022-02-07/22:52:25		No missing values found!!
+2022-02-07/22:54:48		Starting reading operation
+2022-02-07/22:54:48		Successfully read file
+2022-02-07/22:54:48		Checking for empty spaces in colum  names operation
+2022-02-07/22:54:48		Successfully checked and removed empty spaces
+2022-02-07/22:54:48		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:54:48		Created features dataframe
+2022-02-07/22:54:48		Created target dataframe
+2022-02-07/22:54:48		Checking for missing values in dataframes
+2022-02-07/22:54:48		Found missing values in column: AGE
+2022-02-07/22:54:48		Found a total of 1 missing values
+2022-02-07/22:54:48		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:54:48		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:54:48		Checking for missing values in dataframes
+2022-02-07/22:54:48		No missing values found!!
+2022-02-07/22:55:13		Starting reading operation
+2022-02-07/22:55:13		Successfully read file
+2022-02-07/22:55:13		Checking for empty spaces in colum  names operation
+2022-02-07/22:55:13		Successfully checked and removed empty spaces
+2022-02-07/22:55:13		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:55:13		Created features dataframe
+2022-02-07/22:55:13		Created target dataframe
+2022-02-07/22:55:13		Checking for missing values in dataframes
+2022-02-07/22:55:13		Found missing values in column: AGE
+2022-02-07/22:55:13		Found a total of 1 missing values
+2022-02-07/22:55:13		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:55:13		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:55:13		Checking for missing values in dataframes
+2022-02-07/22:55:13		No missing values found!!
+2022-02-07/22:55:21		Starting reading operation
+2022-02-07/22:55:22		Successfully read file
+2022-02-07/22:55:22		Checking for empty spaces in colum  names operation
+2022-02-07/22:55:22		Successfully checked and removed empty spaces
+2022-02-07/22:55:22		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:55:22		Created features dataframe
+2022-02-07/22:55:22		Created target dataframe
+2022-02-07/22:55:22		Checking for missing values in dataframes
+2022-02-07/22:55:22		Found missing values in column: AGE
+2022-02-07/22:55:22		Found a total of 1 missing values
+2022-02-07/22:55:22		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:55:22		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:55:22		Checking for missing values in dataframes
+2022-02-07/22:55:22		No missing values found!!
+2022-02-07/22:56:06		Starting reading operation
+2022-02-07/22:56:06		Successfully read file
+2022-02-07/22:56:06		Checking for empty spaces in colum  names operation
+2022-02-07/22:56:06		Successfully checked and removed empty spaces
+2022-02-07/22:56:06		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:56:06		Created features dataframe
+2022-02-07/22:56:06		Created target dataframe
+2022-02-07/22:56:06		Checking for missing values in dataframes
+2022-02-07/22:56:06		Found missing values in column: AGE
+2022-02-07/22:56:06		Found a total of 1 missing values
+2022-02-07/22:56:06		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:56:06		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:56:06		Checking for missing values in dataframes
+2022-02-07/22:56:06		No missing values found!!
+2022-02-07/22:57:19		Starting reading operation
+2022-02-07/22:57:19		Successfully read file
+2022-02-07/22:57:19		Checking for empty spaces in colum  names operation
+2022-02-07/22:57:19		Successfully checked and removed empty spaces
+2022-02-07/22:57:19		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:57:19		Created features dataframe
+2022-02-07/22:57:19		Created target dataframe
+2022-02-07/22:57:19		Checking for missing values in dataframes
+2022-02-07/22:57:19		Found missing values in column: AGE
+2022-02-07/22:57:19		Found a total of 1 missing values
+2022-02-07/22:57:19		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:57:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:57:19		Checking for missing values in dataframes
+2022-02-07/22:57:19		No missing values found!!
+2022-02-07/22:57:46		Starting reading operation
+2022-02-07/22:57:46		Successfully read file
+2022-02-07/22:57:46		Checking for empty spaces in colum  names operation
+2022-02-07/22:57:46		Successfully checked and removed empty spaces
+2022-02-07/22:57:46		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:57:46		Created features dataframe
+2022-02-07/22:57:46		Created target dataframe
+2022-02-07/22:57:46		Checking for missing values in dataframes
+2022-02-07/22:57:46		Found missing values in column: AGE
+2022-02-07/22:57:46		Found a total of 1 missing values
+2022-02-07/22:57:46		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:57:46		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:57:46		Checking for missing values in dataframes
+2022-02-07/22:57:46		No missing values found!!
+2022-02-07/22:58:08		Starting reading operation
+2022-02-07/22:58:08		Successfully read file
+2022-02-07/22:58:08		Checking for empty spaces in colum  names operation
+2022-02-07/22:58:08		Successfully checked and removed empty spaces
+2022-02-07/22:58:08		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:58:08		Created features dataframe
+2022-02-07/22:58:08		Created target dataframe
+2022-02-07/22:58:08		Checking for missing values in dataframes
+2022-02-07/22:58:08		Found missing values in column: AGE
+2022-02-07/22:58:08		Found a total of 1 missing values
+2022-02-07/22:58:08		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:58:08		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:58:08		Checking for missing values in dataframes
+2022-02-07/22:58:08		No missing values found!!
+2022-02-07/22:58:42		Starting reading operation
+2022-02-07/22:58:42		Successfully read file
+2022-02-07/22:58:42		Checking for empty spaces in colum  names operation
+2022-02-07/22:58:42		Successfully checked and removed empty spaces
+2022-02-07/22:58:42		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/22:58:42		Created features dataframe
+2022-02-07/22:58:42		Created target dataframe
+2022-02-07/22:58:42		Checking for missing values in dataframes
+2022-02-07/22:58:42		Found missing values in column: AGE
+2022-02-07/22:58:42		Found a total of 1 missing values
+2022-02-07/22:58:42		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/22:58:42		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/22:58:42		Checking for missing values in dataframes
+2022-02-07/22:58:42		No missing values found!!
+2022-02-07/23:04:16		Starting reading operation
+2022-02-07/23:04:16		Successfully read file
+2022-02-07/23:04:16		Checking for empty spaces in colum  names operation
+2022-02-07/23:04:16		Successfully checked and removed empty spaces
+2022-02-07/23:04:16		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:04:16		Created features dataframe
+2022-02-07/23:04:16		Created target dataframe
+2022-02-07/23:04:16		Checking for missing values in dataframes
+2022-02-07/23:04:16		Found missing values in column: AGE
+2022-02-07/23:04:16		Found a total of 1 missing values
+2022-02-07/23:04:16		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:04:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:04:16		Checking for missing values in dataframes
+2022-02-07/23:04:16		No missing values found!!
+2022-02-07/23:04:16		Checking for columns that dont have variation
+2022-02-07/23:08:50		Starting reading operation
+2022-02-07/23:08:50		Successfully read file
+2022-02-07/23:08:50		Checking for empty spaces in colum  names operation
+2022-02-07/23:08:50		Successfully checked and removed empty spaces
+2022-02-07/23:08:50		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:08:50		Created features dataframe
+2022-02-07/23:08:50		Created target dataframe
+2022-02-07/23:08:50		Checking for missing values in dataframes
+2022-02-07/23:08:50		Found missing values in column: AGE
+2022-02-07/23:08:50		Found a total of 1 missing values
+2022-02-07/23:08:50		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:08:50		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:08:50		Checking for missing values in dataframes
+2022-02-07/23:08:50		No missing values found!!
+2022-02-07/23:08:50		Checking for columns that dont have variation
+2022-02-07/23:09:04		Starting reading operation
+2022-02-07/23:09:04		Successfully read file
+2022-02-07/23:09:04		Checking for empty spaces in colum  names operation
+2022-02-07/23:09:04		Successfully checked and removed empty spaces
+2022-02-07/23:09:04		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:09:04		Created features dataframe
+2022-02-07/23:09:04		Created target dataframe
+2022-02-07/23:09:04		Checking for missing values in dataframes
+2022-02-07/23:09:04		Found missing values in column: AGE
+2022-02-07/23:09:04		Found a total of 1 missing values
+2022-02-07/23:09:04		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:04		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:04		Checking for missing values in dataframes
+2022-02-07/23:09:04		No missing values found!!
+2022-02-07/23:09:04		Checking for columns that dont have variation
+2022-02-07/23:09:11		Starting reading operation
+2022-02-07/23:09:11		Successfully read file
+2022-02-07/23:09:11		Checking for empty spaces in colum  names operation
+2022-02-07/23:09:11		Successfully checked and removed empty spaces
+2022-02-07/23:09:11		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:09:11		Created features dataframe
+2022-02-07/23:09:11		Created target dataframe
+2022-02-07/23:09:11		Checking for missing values in dataframes
+2022-02-07/23:09:11		Found missing values in column: AGE
+2022-02-07/23:09:11		Found a total of 1 missing values
+2022-02-07/23:09:11		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:11		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:11		Checking for missing values in dataframes
+2022-02-07/23:09:11		No missing values found!!
+2022-02-07/23:09:11		Checking for columns that dont have variation
+2022-02-07/23:09:18		Starting reading operation
+2022-02-07/23:09:18		Successfully read file
+2022-02-07/23:09:18		Checking for empty spaces in colum  names operation
+2022-02-07/23:09:18		Successfully checked and removed empty spaces
+2022-02-07/23:09:18		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:09:18		Created features dataframe
+2022-02-07/23:09:18		Created target dataframe
+2022-02-07/23:09:18		Checking for missing values in dataframes
+2022-02-07/23:09:18		Found missing values in column: AGE
+2022-02-07/23:09:18		Found a total of 1 missing values
+2022-02-07/23:09:18		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:18		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:09:18		Checking for missing values in dataframes
+2022-02-07/23:09:18		No missing values found!!
+2022-02-07/23:09:18		Checking for columns that dont have variation
+2022-02-07/23:10:05		Starting reading operation
+2022-02-07/23:10:05		Successfully read file
+2022-02-07/23:10:05		Checking for empty spaces in colum  names operation
+2022-02-07/23:10:05		Successfully checked and removed empty spaces
+2022-02-07/23:10:05		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:10:05		Created features dataframe
+2022-02-07/23:10:05		Created target dataframe
+2022-02-07/23:10:05		Checking for missing values in dataframes
+2022-02-07/23:10:05		Found missing values in column: AGE
+2022-02-07/23:10:05		Found a total of 1 missing values
+2022-02-07/23:10:05		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:05		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:05		Checking for missing values in dataframes
+2022-02-07/23:10:05		No missing values found!!
+2022-02-07/23:10:05		Checking for columns that dont have variation
+2022-02-07/23:10:06		Completed Checking for columns that dont have variation
+2022-02-07/23:10:27		Starting reading operation
+2022-02-07/23:10:27		Successfully read file
+2022-02-07/23:10:27		Checking for empty spaces in colum  names operation
+2022-02-07/23:10:27		Successfully checked and removed empty spaces
+2022-02-07/23:10:27		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:10:27		Created features dataframe
+2022-02-07/23:10:27		Created target dataframe
+2022-02-07/23:10:27		Checking for missing values in dataframes
+2022-02-07/23:10:27		Found missing values in column: AGE
+2022-02-07/23:10:27		Found a total of 1 missing values
+2022-02-07/23:10:27		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:27		Checking for missing values in dataframes
+2022-02-07/23:10:27		No missing values found!!
+2022-02-07/23:10:27		Checking for columns that dont have variation
+2022-02-07/23:10:27		Failed to read file name 'vcol' is not defined
+2022-02-07/23:10:45		Starting reading operation
+2022-02-07/23:10:45		Successfully read file
+2022-02-07/23:10:45		Checking for empty spaces in colum  names operation
+2022-02-07/23:10:45		Successfully checked and removed empty spaces
+2022-02-07/23:10:45		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:10:45		Created features dataframe
+2022-02-07/23:10:45		Created target dataframe
+2022-02-07/23:10:45		Checking for missing values in dataframes
+2022-02-07/23:10:45		Found missing values in column: AGE
+2022-02-07/23:10:45		Found a total of 1 missing values
+2022-02-07/23:10:45		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:45		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:10:45		Checking for missing values in dataframes
+2022-02-07/23:10:45		No missing values found!!
+2022-02-07/23:10:45		Checking for columns that dont have variation
+2022-02-07/23:10:45		column SEX appears to be highly skewed
+2022-02-07/23:10:46		Completed Checking for columns that dont have variation
+2022-02-07/23:11:41		Starting reading operation
+2022-02-07/23:11:41		Successfully read file
+2022-02-07/23:11:41		Checking for empty spaces in colum  names operation
+2022-02-07/23:11:41		Successfully checked and removed empty spaces
+2022-02-07/23:11:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:11:41		Created features dataframe
+2022-02-07/23:11:41		Created target dataframe
+2022-02-07/23:11:41		Checking for missing values in dataframes
+2022-02-07/23:11:41		Found missing values in column: AGE
+2022-02-07/23:11:41		Found a total of 1 missing values
+2022-02-07/23:11:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:11:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:11:41		Checking for missing values in dataframes
+2022-02-07/23:11:41		No missing values found!!
+2022-02-07/23:11:41		Checking for columns that dont have variation
+2022-02-07/23:11:41		column SEX appears to be highly skewed
+2022-02-07/23:11:42		Completed Checking for columns that dont have variation
+2022-02-07/23:15:29		Starting reading operation
+2022-02-07/23:15:29		Successfully read file
+2022-02-07/23:15:29		Checking for empty spaces in colum  names operation
+2022-02-07/23:15:29		Successfully checked and removed empty spaces
+2022-02-07/23:15:29		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:15:29		Created features dataframe
+2022-02-07/23:15:29		Created target dataframe
+2022-02-07/23:15:29		Checking for missing values in dataframes
+2022-02-07/23:15:29		Found missing values in column: AGE
+2022-02-07/23:15:29		Found a total of 1 missing values
+2022-02-07/23:15:29		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:15:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:15:29		Checking for missing values in dataframes
+2022-02-07/23:15:29		No missing values found!!
+2022-02-07/23:15:29		Checking for columns that dont have variation
+2022-02-07/23:15:29		column SEX appears to be highly skewed
+2022-02-07/23:15:30		Completed Checking for columns that dont have variation
+2022-02-07/23:15:30		dropping columns that dont have variation
+2022-02-07/23:15:30		Failed to read file "['SEX'] not found in axis"
+2022-02-07/23:16:36		Starting reading operation
+2022-02-07/23:16:36		Successfully read file
+2022-02-07/23:16:36		Checking for empty spaces in colum  names operation
+2022-02-07/23:16:36		Successfully checked and removed empty spaces
+2022-02-07/23:16:36		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:16:36		Created features dataframe
+2022-02-07/23:16:36		Created target dataframe
+2022-02-07/23:16:36		Checking for missing values in dataframes
+2022-02-07/23:16:36		Found missing values in column: AGE
+2022-02-07/23:16:36		Found a total of 1 missing values
+2022-02-07/23:16:36		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:16:36		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:16:36		Checking for missing values in dataframes
+2022-02-07/23:16:36		No missing values found!!
+2022-02-07/23:16:36		Checking for columns that dont have variation
+2022-02-07/23:16:36		column SEX appears to be highly skewed
+2022-02-07/23:16:37		Completed Checking for columns that dont have variation
+2022-02-07/23:16:37		dropping columns that dont have variation
+2022-02-07/23:16:37		Failed to read file "['SEX'] not found in axis"
+2022-02-07/23:17:19		Starting reading operation
+2022-02-07/23:17:19		Successfully read file
+2022-02-07/23:17:19		Checking for empty spaces in colum  names operation
+2022-02-07/23:17:19		Successfully checked and removed empty spaces
+2022-02-07/23:17:19		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:17:19		Created features dataframe
+2022-02-07/23:17:19		Created target dataframe
+2022-02-07/23:17:19		Checking for missing values in dataframes
+2022-02-07/23:17:19		Found missing values in column: AGE
+2022-02-07/23:17:19		Found a total of 1 missing values
+2022-02-07/23:17:19		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:17:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:17:19		Checking for missing values in dataframes
+2022-02-07/23:17:19		No missing values found!!
+2022-02-07/23:17:19		Checking for columns that dont have variation
+2022-02-07/23:17:19		column SEX appears to be highly skewed
+2022-02-07/23:17:20		Completed Checking for columns that dont have variation
+2022-02-07/23:17:20		dropping columns that dont have variation
+2022-02-07/23:17:20		Failed to read file "['SEX'] not found in axis"
+2022-02-07/23:44:15		Starting reading operation
+2022-02-07/23:44:16		Successfully read file
+2022-02-07/23:44:16		Checking for empty spaces in colum  names operation
+2022-02-07/23:44:16		Successfully checked and removed empty spaces
+2022-02-07/23:44:16		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:44:16		Created features dataframe
+2022-02-07/23:44:16		Created target dataframe
+2022-02-07/23:44:16		Checking for missing values in dataframes
+2022-02-07/23:44:16		Found missing values in column: AGE
+2022-02-07/23:44:16		Found a total of 1 missing values
+2022-02-07/23:44:16		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:44:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:44:16		Checking for missing values in dataframes
+2022-02-07/23:44:16		No missing values found!!
+2022-02-07/23:44:16		Checking for columns that dont have variation
+2022-02-07/23:44:16		column SEX appears to be highly skewed
+2022-02-07/23:44:17		Completed Checking for columns that dont have variation
+2022-02-07/23:44:17		dropping columns that dont have variation
+2022-02-07/23:44:17		Failed to read file "['SEX'] not found in axis"
+2022-02-07/23:44:50		Starting reading operation
+2022-02-07/23:44:50		Successfully read file
+2022-02-07/23:44:50		Checking for empty spaces in colum  names operation
+2022-02-07/23:44:50		Successfully checked and removed empty spaces
+2022-02-07/23:44:50		Attempting to split data into seperate dataframes containing features and target
+2022-02-07/23:44:50		Created features dataframe
+2022-02-07/23:44:50		Created target dataframe
+2022-02-07/23:44:50		Checking for missing values in dataframes
+2022-02-07/23:44:50		Found missing values in column: AGE
+2022-02-07/23:44:50		Found a total of 1 missing values
+2022-02-07/23:44:50		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/23:44:50		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/23:44:50		Checking for missing values in dataframes
+2022-02-07/23:44:50		No missing values found!!
+2022-02-07/23:44:50		Checking for columns that dont have variation
+2022-02-07/23:44:50		column SEX appears to be highly skewed
+2022-02-07/23:44:51		Completed Checking for columns that dont have variation
+2022-02-07/23:44:51		dropping columns that dont have variation
+2022-02-07/23:44:51		dropped columns that dont have variation
+2022-02-08/00:17:16		Starting reading operation
+2022-02-08/00:17:16		Successfully read file
+2022-02-08/00:17:16		Checking for empty spaces in colum  names operation
+2022-02-08/00:17:16		Successfully checked and removed empty spaces
+2022-02-08/00:17:16		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/00:17:16		Created features dataframe
+2022-02-08/00:17:16		Created target dataframe
+2022-02-08/00:17:16		Checking for missing values in dataframes
+2022-02-08/00:17:16		Found missing values in column: AGE
+2022-02-08/00:17:16		Found a total of 1 missing values
+2022-02-08/00:17:16		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/00:17:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/00:17:16		Checking for missing values in dataframes
+2022-02-08/00:17:16		No missing values found!!
+2022-02-08/00:17:16		Checking for columns that dont have variation
+2022-02-08/00:17:16		column SEX appears to be highly skewed
+2022-02-08/00:17:17		Completed Checking for columns that dont have variation
+2022-02-08/00:17:17		dropping columns that dont have variation
+2022-02-08/00:17:17		dropped columns that dont have variation
+2022-02-08/00:17:35		Starting reading operation
+2022-02-08/00:17:35		Successfully read file
+2022-02-08/00:17:35		Checking for empty spaces in colum  names operation
+2022-02-08/00:17:35		Successfully checked and removed empty spaces
+2022-02-08/00:17:35		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/00:17:35		Created features dataframe
+2022-02-08/00:17:35		Created target dataframe
+2022-02-08/00:17:35		Checking for missing values in dataframes
+2022-02-08/00:17:35		Found missing values in column: AGE
+2022-02-08/00:17:35		Found a total of 1 missing values
+2022-02-08/00:17:35		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/00:17:35		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/00:17:35		Checking for missing values in dataframes
+2022-02-08/00:17:35		No missing values found!!
+2022-02-08/00:17:35		Checking for columns that dont have variation
+2022-02-08/00:17:35		column SEX appears to be highly skewed
+2022-02-08/00:17:36		Completed Checking for columns that dont have variation
+2022-02-08/00:17:36		dropping columns that dont have variation
+2022-02-08/00:17:36		dropped columns that dont have variation
+2022-02-08/23:20:47		Starting reading operation
+2022-02-08/23:20:47		Successfully read file
+2022-02-08/23:20:47		Checking for empty spaces in colum  names operation
+2022-02-08/23:20:47		Successfully checked and removed empty spaces
+2022-02-08/23:20:47		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:20:47		Created features dataframe
+2022-02-08/23:20:47		Created target dataframe
+2022-02-08/23:20:47		Checking for missing values in dataframes
+2022-02-08/23:20:47		Found missing values in column: AGE
+2022-02-08/23:20:47		Found a total of 1 missing values
+2022-02-08/23:20:47		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:20:47		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:20:47		Checking for missing values in dataframes
+2022-02-08/23:20:47		No missing values found!!
+2022-02-08/23:20:47		Checking for columns that dont have variation
+2022-02-08/23:20:47		column SEX appears to be highly skewed
+2022-02-08/23:20:48		Completed Checking for columns that dont have variation
+2022-02-08/23:20:48		dropping columns that dont have variation
+2022-02-08/23:20:48		dropped columns that dont have variation
+2022-02-08/23:24:31		Starting reading operation
+2022-02-08/23:24:31		Successfully read file
+2022-02-08/23:24:31		Checking for empty spaces in colum  names operation
+2022-02-08/23:24:31		Successfully checked and removed empty spaces
+2022-02-08/23:24:31		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:24:31		Created features dataframe
+2022-02-08/23:24:31		Created target dataframe
+2022-02-08/23:24:31		Checking for missing values in dataframes
+2022-02-08/23:24:31		Found missing values in column: AGE
+2022-02-08/23:24:31		Found a total of 1 missing values
+2022-02-08/23:24:31		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:31		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:31		Checking for missing values in dataframes
+2022-02-08/23:24:31		No missing values found!!
+2022-02-08/23:24:31		Checking for columns that dont have variation
+2022-02-08/23:24:31		column SEX appears to be highly skewed
+2022-02-08/23:24:32		Completed Checking for columns that dont have variation
+2022-02-08/23:24:32		dropping columns that dont have variation
+2022-02-08/23:24:32		dropped columns that dont have variation
+2022-02-08/23:24:33		Starting reading operation
+2022-02-08/23:24:33		Successfully read file
+2022-02-08/23:24:33		Checking for empty spaces in colum  names operation
+2022-02-08/23:24:33		Successfully checked and removed empty spaces
+2022-02-08/23:24:33		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:24:33		Created features dataframe
+2022-02-08/23:24:33		Created target dataframe
+2022-02-08/23:24:33		Checking for missing values in dataframes
+2022-02-08/23:24:33		Found missing values in column: AGE
+2022-02-08/23:24:33		Found a total of 1 missing values
+2022-02-08/23:24:33		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:33		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:33		Checking for missing values in dataframes
+2022-02-08/23:24:33		No missing values found!!
+2022-02-08/23:24:33		Checking for columns that dont have variation
+2022-02-08/23:24:33		column SEX appears to be highly skewed
+2022-02-08/23:24:34		Completed Checking for columns that dont have variation
+2022-02-08/23:24:34		dropping columns that dont have variation
+2022-02-08/23:24:34		dropped columns that dont have variation
+2022-02-08/23:24:41		Starting reading operation
+2022-02-08/23:24:41		Successfully read file
+2022-02-08/23:24:41		Checking for empty spaces in colum  names operation
+2022-02-08/23:24:41		Successfully checked and removed empty spaces
+2022-02-08/23:24:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:24:41		Created features dataframe
+2022-02-08/23:24:41		Created target dataframe
+2022-02-08/23:24:41		Checking for missing values in dataframes
+2022-02-08/23:24:41		Found missing values in column: AGE
+2022-02-08/23:24:41		Found a total of 1 missing values
+2022-02-08/23:24:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:41		Checking for missing values in dataframes
+2022-02-08/23:24:41		No missing values found!!
+2022-02-08/23:24:41		Checking for columns that dont have variation
+2022-02-08/23:24:41		column SEX appears to be highly skewed
+2022-02-08/23:24:42		Completed Checking for columns that dont have variation
+2022-02-08/23:24:42		dropping columns that dont have variation
+2022-02-08/23:24:42		dropped columns that dont have variation
+2022-02-08/23:24:42		Scaling numerical columns
+2022-02-08/23:24:42		Finished Scaling
+2022-02-08/23:24:57		Starting reading operation
+2022-02-08/23:24:57		Successfully read file
+2022-02-08/23:24:57		Checking for empty spaces in colum  names operation
+2022-02-08/23:24:57		Successfully checked and removed empty spaces
+2022-02-08/23:24:57		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:24:57		Created features dataframe
+2022-02-08/23:24:57		Created target dataframe
+2022-02-08/23:24:57		Checking for missing values in dataframes
+2022-02-08/23:24:57		Found missing values in column: AGE
+2022-02-08/23:24:57		Found a total of 1 missing values
+2022-02-08/23:24:57		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:57		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:24:57		Checking for missing values in dataframes
+2022-02-08/23:24:57		No missing values found!!
+2022-02-08/23:24:57		Checking for columns that dont have variation
+2022-02-08/23:24:58		column SEX appears to be highly skewed
+2022-02-08/23:24:59		Completed Checking for columns that dont have variation
+2022-02-08/23:24:59		dropping columns that dont have variation
+2022-02-08/23:24:59		dropped columns that dont have variation
+2022-02-08/23:24:59		Scaling numerical columns
+2022-02-08/23:24:59		Finished Scaling
+2022-02-08/23:25:27		Starting reading operation
+2022-02-08/23:25:27		Successfully read file
+2022-02-08/23:25:27		Checking for empty spaces in colum  names operation
+2022-02-08/23:25:27		Successfully checked and removed empty spaces
+2022-02-08/23:25:27		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:25:27		Created features dataframe
+2022-02-08/23:25:27		Created target dataframe
+2022-02-08/23:25:27		Checking for missing values in dataframes
+2022-02-08/23:25:27		Found missing values in column: AGE
+2022-02-08/23:25:27		Found a total of 1 missing values
+2022-02-08/23:25:27		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:25:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:25:27		Checking for missing values in dataframes
+2022-02-08/23:25:27		No missing values found!!
+2022-02-08/23:25:27		Checking for columns that dont have variation
+2022-02-08/23:25:27		column SEX appears to be highly skewed
+2022-02-08/23:25:28		Completed Checking for columns that dont have variation
+2022-02-08/23:25:28		dropping columns that dont have variation
+2022-02-08/23:25:28		dropped columns that dont have variation
+2022-02-08/23:25:28		Scaling numerical columns
+2022-02-08/23:25:28		Finished Scaling
+2022-02-08/23:53:48		Starting reading operation
+2022-02-08/23:53:48		Successfully read file
+2022-02-08/23:53:48		Checking for empty spaces in colum  names operation
+2022-02-08/23:53:48		Successfully checked and removed empty spaces
+2022-02-08/23:53:48		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:53:48		Created features dataframe
+2022-02-08/23:53:48		Created target dataframe
+2022-02-08/23:53:48		Checking for missing values in dataframes
+2022-02-08/23:53:48		Found missing values in column: AGE
+2022-02-08/23:53:48		Found a total of 1 missing values
+2022-02-08/23:53:48		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:53:48		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:53:48		Checking for missing values in dataframes
+2022-02-08/23:53:48		No missing values found!!
+2022-02-08/23:53:48		Checking for columns that dont have variation
+2022-02-08/23:53:48		column SEX appears to be highly skewed
+2022-02-08/23:53:49		Completed Checking for columns that dont have variation
+2022-02-08/23:53:49		dropping columns that dont have variation
+2022-02-08/23:53:49		dropped columns that dont have variation
+2022-02-08/23:53:49		Scaling numerical columns
+2022-02-08/23:53:49		Finished Scaling
+2022-02-08/23:53:49		Entered data splitter function
+2022-02-08/23:53:49		Successfully split the data into 2 parts
+2022-02-08/23:54:44		Starting reading operation
+2022-02-08/23:54:44		Successfully read file
+2022-02-08/23:54:44		Checking for empty spaces in colum  names operation
+2022-02-08/23:54:44		Successfully checked and removed empty spaces
+2022-02-08/23:54:44		Attempting to split data into seperate dataframes containing features and target
+2022-02-08/23:54:44		Created features dataframe
+2022-02-08/23:54:44		Created target dataframe
+2022-02-08/23:54:44		Checking for missing values in dataframes
+2022-02-08/23:54:44		Found missing values in column: AGE
+2022-02-08/23:54:44		Found a total of 1 missing values
+2022-02-08/23:54:44		Entered the impute_missing_values method of the Preprocessor class
+2022-02-08/23:54:44		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-08/23:54:44		Checking for missing values in dataframes
+2022-02-08/23:54:44		No missing values found!!
+2022-02-08/23:54:44		Checking for columns that dont have variation
+2022-02-08/23:54:45		column SEX appears to be highly skewed
+2022-02-08/23:54:46		Completed Checking for columns that dont have variation
+2022-02-08/23:54:46		dropping columns that dont have variation
+2022-02-08/23:54:46		dropped columns that dont have variation
+2022-02-08/23:54:46		Scaling numerical columns
+2022-02-08/23:54:46		Finished Scaling
+2022-02-08/23:54:46		Entered data splitter function
+2022-02-08/23:54:46		Successfully split the data into 2 parts
+2022-02-08/23:54:46		Start model training
+2022-02-08/23:54:46		Successfully trained a model
+2022-02-08/23:54:46		Saving model
+2022-02-08/23:54:46		Successfully saved model
+2022-02-09/00:10:32		Starting reading operation
+2022-02-09/00:10:32		Successfully read file
+2022-02-09/00:10:32		Checking for empty spaces in colum  names operation
+2022-02-09/00:10:32		Successfully checked and removed empty spaces
+2022-02-09/00:10:32		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/00:10:32		Created features dataframe
+2022-02-09/00:10:32		Created target dataframe
+2022-02-09/00:10:32		Checking for missing values in dataframes
+2022-02-09/00:10:32		Found missing values in column: AGE
+2022-02-09/00:10:32		Found a total of 1 missing values
+2022-02-09/00:10:32		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/00:10:32		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/00:10:32		Checking for missing values in dataframes
+2022-02-09/00:10:32		No missing values found!!
+2022-02-09/00:10:32		Checking for columns that dont have variation
+2022-02-09/00:10:33		column SEX appears to be highly skewed
+2022-02-09/00:10:34		Completed Checking for columns that dont have variation
+2022-02-09/00:10:34		dropping columns that dont have variation
+2022-02-09/00:10:34		dropped columns that dont have variation
+2022-02-09/00:10:34		Scaling numerical columns
+2022-02-09/00:10:34		Finished Scaling
+2022-02-09/00:10:34		Entered data splitter function
+2022-02-09/00:10:34		Successfully split the data into 2 parts
+2022-02-09/00:10:34		Start model training
+2022-02-09/00:10:34		Successfully trained a model
+2022-02-09/00:10:34		Saving model
+2022-02-09/00:10:34		Successfully saved model
+2022-02-09/01:09:27		Starting reading operation
+2022-02-09/01:09:28		Successfully read file
+2022-02-09/01:09:28		Checking for empty spaces in colum  names operation
+2022-02-09/01:09:28		Successfully checked and removed empty spaces
+2022-02-09/01:09:28		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/01:09:28		Created features dataframe
+2022-02-09/01:09:28		Created target dataframe
+2022-02-09/01:09:28		Checking for missing values in dataframes
+2022-02-09/01:09:28		Found missing values in column: AGE
+2022-02-09/01:09:28		Found a total of 1 missing values
+2022-02-09/01:09:28		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/01:09:28		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/01:09:28		Checking for missing values in dataframes
+2022-02-09/01:09:28		No missing values found!!
+2022-02-09/01:09:28		Checking for columns that dont have variation
+2022-02-09/01:09:28		column SEX appears to be highly skewed
+2022-02-09/01:09:29		Completed Checking for columns that dont have variation
+2022-02-09/01:09:29		dropping columns that dont have variation
+2022-02-09/01:09:29		dropped columns that dont have variation
+2022-02-09/01:09:29		Scaling numerical columns
+2022-02-09/01:09:29		Finished Scaling
+2022-02-09/01:09:29		Entered data splitter function
+2022-02-09/01:09:29		Successfully split the data into 2 parts
+2022-02-09/01:09:30		Starting reading operation
+2022-02-09/01:09:30		Successfully read file
+2022-02-09/01:09:30		Checking for empty spaces in colum  names operation
+2022-02-09/01:09:30		Successfully checked and removed empty spaces
+2022-02-09/01:09:30		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/01:09:30		Created features dataframe
+2022-02-09/01:09:30		Created target dataframe
+2022-02-09/01:09:30		Checking for missing values in dataframes
+2022-02-09/01:09:30		Found missing values in column: AGE
+2022-02-09/01:09:30		Found a total of 1 missing values
+2022-02-09/01:09:30		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/01:09:30		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/01:09:30		Checking for missing values in dataframes
+2022-02-09/01:09:30		No missing values found!!
+2022-02-09/01:09:30		Checking for columns that dont have variation
+2022-02-09/01:09:30		column SEX appears to be highly skewed
+2022-02-09/01:09:31		Completed Checking for columns that dont have variation
+2022-02-09/01:09:31		dropping columns that dont have variation
+2022-02-09/01:09:31		dropped columns that dont have variation
+2022-02-09/01:09:31		Scaling numerical columns
+2022-02-09/01:09:31		Finished Scaling
+2022-02-09/01:09:31		Entered data splitter function
+2022-02-09/01:09:31		Successfully split the data into 2 parts
+2022-02-09/01:10:07		Starting reading operation
+2022-02-09/01:10:07		Successfully read file
+2022-02-09/01:10:07		Checking for empty spaces in colum  names operation
+2022-02-09/01:10:07		Successfully checked and removed empty spaces
+2022-02-09/01:10:07		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/01:10:07		Created features dataframe
+2022-02-09/01:10:07		Created target dataframe
+2022-02-09/01:10:07		Checking for missing values in dataframes
+2022-02-09/01:10:07		Found missing values in column: AGE
+2022-02-09/01:10:07		Found a total of 1 missing values
+2022-02-09/01:10:07		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/01:10:07		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/01:10:07		Checking for missing values in dataframes
+2022-02-09/01:10:07		No missing values found!!
+2022-02-09/01:10:07		Checking for columns that dont have variation
+2022-02-09/01:10:08		column SEX appears to be highly skewed
+2022-02-09/01:10:08		Completed Checking for columns that dont have variation
+2022-02-09/01:10:08		dropping columns that dont have variation
+2022-02-09/01:10:08		dropped columns that dont have variation
+2022-02-09/01:10:09		Scaling numerical columns
+2022-02-09/01:10:09		Finished Scaling
+2022-02-09/01:10:09		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/01:10:09		Entered data splitter function
+2022-02-09/01:10:09		Successfully split the data into 2 parts
+2022-02-09/01:10:41		Starting reading operation
+2022-02-09/01:10:41		Successfully read file
+2022-02-09/01:10:41		Checking for empty spaces in colum  names operation
+2022-02-09/01:10:41		Successfully checked and removed empty spaces
+2022-02-09/01:10:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/01:10:41		Created features dataframe
+2022-02-09/01:10:41		Created target dataframe
+2022-02-09/01:10:41		Checking for missing values in dataframes
+2022-02-09/01:10:41		Found missing values in column: AGE
+2022-02-09/01:10:41		Found a total of 1 missing values
+2022-02-09/01:10:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/01:10:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/01:10:41		Checking for missing values in dataframes
+2022-02-09/01:10:41		No missing values found!!
+2022-02-09/01:10:41		Checking for columns that dont have variation
+2022-02-09/01:10:41		column SEX appears to be highly skewed
+2022-02-09/01:10:42		Completed Checking for columns that dont have variation
+2022-02-09/01:10:42		dropping columns that dont have variation
+2022-02-09/01:10:42		dropped columns that dont have variation
+2022-02-09/01:10:42		Scaling numerical columns
+2022-02-09/01:10:42		Finished Scaling
+2022-02-09/01:10:42		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/01:10:42		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/01:10:42		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/01:10:42		Entered data splitter function
+2022-02-09/01:10:42		Successfully split the data into 2 parts
+2022-02-09/01:13:28		Starting reading operation
+2022-02-09/01:13:28		Successfully read file
+2022-02-09/01:13:28		Checking for empty spaces in colum  names operation
+2022-02-09/01:13:28		Successfully checked and removed empty spaces
+2022-02-09/01:13:28		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/01:13:28		Created features dataframe
+2022-02-09/01:13:28		Created target dataframe
+2022-02-09/01:13:28		Checking for missing values in dataframes
+2022-02-09/01:13:28		Found missing values in column: AGE
+2022-02-09/01:13:28		Found a total of 1 missing values
+2022-02-09/01:13:28		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/01:13:28		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/01:13:28		Checking for missing values in dataframes
+2022-02-09/01:13:28		No missing values found!!
+2022-02-09/01:13:28		Checking for columns that dont have variation
+2022-02-09/01:13:28		column SEX appears to be highly skewed
+2022-02-09/01:13:29		Completed Checking for columns that dont have variation
+2022-02-09/01:13:29		dropping columns that dont have variation
+2022-02-09/01:13:29		dropped columns that dont have variation
+2022-02-09/01:13:29		Scaling numerical columns
+2022-02-09/01:13:29		Finished Scaling
+2022-02-09/01:13:29		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/01:13:29		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/01:13:29		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/01:13:29		Entered data splitter function
+2022-02-09/01:13:29		Successfully split the data into 2 parts
+2022-02-09/20:40:41		Starting reading operation
+2022-02-09/20:40:41		Successfully read file
+2022-02-09/20:40:41		Checking for empty spaces in colum  names operation
+2022-02-09/20:40:41		Successfully checked and removed empty spaces
+2022-02-09/20:40:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:40:41		Created features dataframe
+2022-02-09/20:40:41		Created target dataframe
+2022-02-09/20:40:41		Checking for missing values in dataframes
+2022-02-09/20:40:41		Found missing values in column: AGE
+2022-02-09/20:40:41		Found a total of 1 missing values
+2022-02-09/20:40:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:40:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:40:41		Checking for missing values in dataframes
+2022-02-09/20:40:41		No missing values found!!
+2022-02-09/20:40:41		Checking for columns that dont have variation
+2022-02-09/20:40:41		column SEX appears to be highly skewed
+2022-02-09/20:40:42		Completed Checking for columns that dont have variation
+2022-02-09/20:40:42		dropping columns that dont have variation
+2022-02-09/20:40:42		dropped columns that dont have variation
+2022-02-09/20:40:42		Scaling numerical columns
+2022-02-09/20:40:42		Finished Scaling
+2022-02-09/20:40:42		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:40:42		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/20:40:42		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:40:42		Entered data splitter function
+2022-02-09/20:40:42		Successfully split the data into 2 parts
+2022-02-09/20:40:44		Starting reading operation
+2022-02-09/20:40:44		Successfully read file
+2022-02-09/20:40:44		Checking for empty spaces in colum  names operation
+2022-02-09/20:40:44		Successfully checked and removed empty spaces
+2022-02-09/20:40:44		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:40:44		Created features dataframe
+2022-02-09/20:40:44		Created target dataframe
+2022-02-09/20:40:44		Checking for missing values in dataframes
+2022-02-09/20:40:44		Found missing values in column: AGE
+2022-02-09/20:40:44		Found a total of 1 missing values
+2022-02-09/20:40:44		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:40:44		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:40:44		Checking for missing values in dataframes
+2022-02-09/20:40:44		No missing values found!!
+2022-02-09/20:40:44		Checking for columns that dont have variation
+2022-02-09/20:40:44		column SEX appears to be highly skewed
+2022-02-09/20:40:45		Completed Checking for columns that dont have variation
+2022-02-09/20:40:45		dropping columns that dont have variation
+2022-02-09/20:40:45		dropped columns that dont have variation
+2022-02-09/20:40:45		Scaling numerical columns
+2022-02-09/20:40:45		Finished Scaling
+2022-02-09/20:40:45		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:40:45		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/20:40:45		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:40:45		Entered data splitter function
+2022-02-09/20:40:45		Successfully split the data into 2 parts
+2022-02-09/20:42:54		Starting reading operation
+2022-02-09/20:42:54		Successfully read file
+2022-02-09/20:42:54		Checking for empty spaces in colum  names operation
+2022-02-09/20:42:54		Successfully checked and removed empty spaces
+2022-02-09/20:42:54		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:42:54		Created features dataframe
+2022-02-09/20:42:54		Created target dataframe
+2022-02-09/20:42:54		Checking for missing values in dataframes
+2022-02-09/20:42:54		Found missing values in column: AGE
+2022-02-09/20:42:54		Found a total of 1 missing values
+2022-02-09/20:42:54		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:42:54		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:42:54		Checking for missing values in dataframes
+2022-02-09/20:42:55		No missing values found!!
+2022-02-09/20:42:55		Checking for columns that dont have variation
+2022-02-09/20:42:55		column SEX appears to be highly skewed
+2022-02-09/20:42:56		Completed Checking for columns that dont have variation
+2022-02-09/20:42:56		dropping columns that dont have variation
+2022-02-09/20:42:56		dropped columns that dont have variation
+2022-02-09/20:42:56		Scaling numerical columns
+2022-02-09/20:42:56		Finished Scaling
+2022-02-09/20:42:56		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:42:56		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/20:42:56		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:42:56		Entered data splitter function
+2022-02-09/20:42:56		Successfully split the data into 2 parts
+2022-02-09/20:44:18		Starting reading operation
+2022-02-09/20:44:18		Successfully read file
+2022-02-09/20:44:18		Checking for empty spaces in colum  names operation
+2022-02-09/20:44:18		Successfully checked and removed empty spaces
+2022-02-09/20:44:18		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:44:18		Created features dataframe
+2022-02-09/20:44:18		Created target dataframe
+2022-02-09/20:44:18		Checking for missing values in dataframes
+2022-02-09/20:44:18		Found missing values in column: AGE
+2022-02-09/20:44:18		Found a total of 1 missing values
+2022-02-09/20:44:18		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:44:18		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:44:18		Checking for missing values in dataframes
+2022-02-09/20:44:18		No missing values found!!
+2022-02-09/20:44:18		Checking for columns that dont have variation
+2022-02-09/20:44:18		column SEX appears to be highly skewed
+2022-02-09/20:44:19		Completed Checking for columns that dont have variation
+2022-02-09/20:44:19		dropping columns that dont have variation
+2022-02-09/20:44:19		dropped columns that dont have variation
+2022-02-09/20:44:19		Scaling numerical columns
+2022-02-09/20:44:19		Finished Scaling
+2022-02-09/20:44:19		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:44:19		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/20:44:19		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:44:19		Entered data splitter function
+2022-02-09/20:44:19		Successfully split the data into 2 parts
+2022-02-09/20:45:42		Starting reading operation
+2022-02-09/20:45:42		Successfully read file
+2022-02-09/20:45:42		Checking for empty spaces in colum  names operation
+2022-02-09/20:45:42		Successfully checked and removed empty spaces
+2022-02-09/20:45:42		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:45:42		Created features dataframe
+2022-02-09/20:45:42		Created target dataframe
+2022-02-09/20:45:42		Checking for missing values in dataframes
+2022-02-09/20:45:42		Found missing values in column: AGE
+2022-02-09/20:45:42		Found a total of 1 missing values
+2022-02-09/20:45:42		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:45:42		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:45:42		Checking for missing values in dataframes
+2022-02-09/20:45:42		No missing values found!!
+2022-02-09/20:45:42		Checking for columns that dont have variation
+2022-02-09/20:45:42		column SEX appears to be highly skewed
+2022-02-09/20:45:43		Completed Checking for columns that dont have variation
+2022-02-09/20:45:43		dropping columns that dont have variation
+2022-02-09/20:45:43		dropped columns that dont have variation
+2022-02-09/20:45:43		Scaling numerical columns
+2022-02-09/20:45:43		Finished Scaling
+2022-02-09/20:45:43		Entered data splitter function
+2022-02-09/20:45:43		Successfully split the data into 2 parts
+2022-02-09/20:45:43		Start model training
+2022-02-09/20:45:43		Successfully trained a model
+2022-02-09/20:45:43		Saving model
+2022-02-09/20:45:43		Successfully saved model
+2022-02-09/20:46:09		Starting reading operation
+2022-02-09/20:46:09		Successfully read file
+2022-02-09/20:46:09		Checking for empty spaces in colum  names operation
+2022-02-09/20:46:09		Successfully checked and removed empty spaces
+2022-02-09/20:46:09		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:46:09		Created features dataframe
+2022-02-09/20:46:09		Created target dataframe
+2022-02-09/20:46:09		Checking for missing values in dataframes
+2022-02-09/20:46:09		Found missing values in column: AGE
+2022-02-09/20:46:09		Found a total of 1 missing values
+2022-02-09/20:46:09		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:46:09		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:46:09		Checking for missing values in dataframes
+2022-02-09/20:46:09		No missing values found!!
+2022-02-09/20:46:09		Checking for columns that dont have variation
+2022-02-09/20:46:10		column SEX appears to be highly skewed
+2022-02-09/20:46:11		Completed Checking for columns that dont have variation
+2022-02-09/20:46:11		dropping columns that dont have variation
+2022-02-09/20:46:11		dropped columns that dont have variation
+2022-02-09/20:46:11		Scaling numerical columns
+2022-02-09/20:46:11		Finished Scaling
+2022-02-09/20:46:11		Entered data splitter function
+2022-02-09/20:46:11		Successfully split the data into 2 parts
+2022-02-09/20:46:11		Start model training
+2022-02-09/20:46:11		Successfully trained a model
+2022-02-09/20:46:11		Saving model
+2022-02-09/20:46:11		Successfully saved model
+2022-02-09/20:46:36		Starting reading operation
+2022-02-09/20:46:36		Successfully read file
+2022-02-09/20:46:36		Checking for empty spaces in colum  names operation
+2022-02-09/20:46:36		Successfully checked and removed empty spaces
+2022-02-09/20:46:36		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:46:36		Created features dataframe
+2022-02-09/20:46:36		Created target dataframe
+2022-02-09/20:46:36		Checking for missing values in dataframes
+2022-02-09/20:46:36		Found missing values in column: AGE
+2022-02-09/20:46:36		Found a total of 1 missing values
+2022-02-09/20:46:36		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:46:36		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:46:36		Checking for missing values in dataframes
+2022-02-09/20:46:36		No missing values found!!
+2022-02-09/20:46:36		Checking for columns that dont have variation
+2022-02-09/20:46:36		column SEX appears to be highly skewed
+2022-02-09/20:46:37		Completed Checking for columns that dont have variation
+2022-02-09/20:46:37		dropping columns that dont have variation
+2022-02-09/20:46:37		dropped columns that dont have variation
+2022-02-09/20:46:37		Scaling numerical columns
+2022-02-09/20:46:37		Finished Scaling
+2022-02-09/20:46:37		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:46:37		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  unhashable type: 'numpy.ndarray'
+2022-02-09/20:46:37		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:46:37		Entered data splitter function
+2022-02-09/20:46:37		Successfully split the data into 2 parts
+2022-02-09/20:48:29		Starting reading operation
+2022-02-09/20:48:29		Successfully read file
+2022-02-09/20:48:29		Checking for empty spaces in colum  names operation
+2022-02-09/20:48:29		Successfully checked and removed empty spaces
+2022-02-09/20:48:29		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:48:29		Created features dataframe
+2022-02-09/20:48:29		Created target dataframe
+2022-02-09/20:48:29		Checking for missing values in dataframes
+2022-02-09/20:48:29		Found missing values in column: AGE
+2022-02-09/20:48:29		Found a total of 1 missing values
+2022-02-09/20:48:29		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:48:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:48:29		Checking for missing values in dataframes
+2022-02-09/20:48:29		No missing values found!!
+2022-02-09/20:48:29		Checking for columns that dont have variation
+2022-02-09/20:48:29		column SEX appears to be highly skewed
+2022-02-09/20:48:30		Completed Checking for columns that dont have variation
+2022-02-09/20:48:30		dropping columns that dont have variation
+2022-02-09/20:48:30		dropped columns that dont have variation
+2022-02-09/20:48:30		Scaling numerical columns
+2022-02-09/20:48:30		Finished Scaling
+2022-02-09/20:48:30		Entered data splitter function
+2022-02-09/20:48:30		Successfully split the data into 2 parts
+2022-02-09/20:48:42		Starting reading operation
+2022-02-09/20:48:42		Successfully read file
+2022-02-09/20:48:42		Checking for empty spaces in colum  names operation
+2022-02-09/20:48:42		Successfully checked and removed empty spaces
+2022-02-09/20:48:42		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:48:42		Created features dataframe
+2022-02-09/20:48:42		Created target dataframe
+2022-02-09/20:48:42		Checking for missing values in dataframes
+2022-02-09/20:48:42		Found missing values in column: AGE
+2022-02-09/20:48:42		Found a total of 1 missing values
+2022-02-09/20:48:42		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:48:42		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:48:42		Checking for missing values in dataframes
+2022-02-09/20:48:42		No missing values found!!
+2022-02-09/20:48:42		Checking for columns that dont have variation
+2022-02-09/20:48:42		column SEX appears to be highly skewed
+2022-02-09/20:48:43		Completed Checking for columns that dont have variation
+2022-02-09/20:48:43		dropping columns that dont have variation
+2022-02-09/20:48:43		dropped columns that dont have variation
+2022-02-09/20:48:43		Scaling numerical columns
+2022-02-09/20:48:43		Finished Scaling
+2022-02-09/20:48:43		Entered data splitter function
+2022-02-09/20:48:43		Successfully split the data into 2 parts
+2022-02-09/20:49:02		Starting reading operation
+2022-02-09/20:49:02		Successfully read file
+2022-02-09/20:49:02		Checking for empty spaces in colum  names operation
+2022-02-09/20:49:02		Successfully checked and removed empty spaces
+2022-02-09/20:49:02		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:49:02		Created features dataframe
+2022-02-09/20:49:02		Created target dataframe
+2022-02-09/20:49:02		Checking for missing values in dataframes
+2022-02-09/20:49:02		Found missing values in column: AGE
+2022-02-09/20:49:02		Found a total of 1 missing values
+2022-02-09/20:49:02		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:02		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:02		Checking for missing values in dataframes
+2022-02-09/20:49:02		No missing values found!!
+2022-02-09/20:49:02		Checking for columns that dont have variation
+2022-02-09/20:49:02		column SEX appears to be highly skewed
+2022-02-09/20:49:03		Completed Checking for columns that dont have variation
+2022-02-09/20:49:03		dropping columns that dont have variation
+2022-02-09/20:49:03		dropped columns that dont have variation
+2022-02-09/20:49:03		Scaling numerical columns
+2022-02-09/20:49:03		Finished Scaling
+2022-02-09/20:49:03		Entered data splitter function
+2022-02-09/20:49:03		Successfully split the data into 2 parts
+2022-02-09/20:49:16		Starting reading operation
+2022-02-09/20:49:16		Successfully read file
+2022-02-09/20:49:16		Checking for empty spaces in colum  names operation
+2022-02-09/20:49:16		Successfully checked and removed empty spaces
+2022-02-09/20:49:16		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:49:16		Created features dataframe
+2022-02-09/20:49:16		Created target dataframe
+2022-02-09/20:49:16		Checking for missing values in dataframes
+2022-02-09/20:49:16		Found missing values in column: AGE
+2022-02-09/20:49:16		Found a total of 1 missing values
+2022-02-09/20:49:16		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:16		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:16		Checking for missing values in dataframes
+2022-02-09/20:49:16		No missing values found!!
+2022-02-09/20:49:16		Checking for columns that dont have variation
+2022-02-09/20:49:16		column SEX appears to be highly skewed
+2022-02-09/20:49:17		Completed Checking for columns that dont have variation
+2022-02-09/20:49:17		dropping columns that dont have variation
+2022-02-09/20:49:17		dropped columns that dont have variation
+2022-02-09/20:49:17		Scaling numerical columns
+2022-02-09/20:49:17		Finished Scaling
+2022-02-09/20:49:17		Entered data splitter function
+2022-02-09/20:49:17		Successfully split the data into 2 parts
+2022-02-09/20:49:29		Starting reading operation
+2022-02-09/20:49:29		Successfully read file
+2022-02-09/20:49:29		Checking for empty spaces in colum  names operation
+2022-02-09/20:49:29		Successfully checked and removed empty spaces
+2022-02-09/20:49:29		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:49:29		Created features dataframe
+2022-02-09/20:49:29		Created target dataframe
+2022-02-09/20:49:29		Checking for missing values in dataframes
+2022-02-09/20:49:29		Found missing values in column: AGE
+2022-02-09/20:49:29		Found a total of 1 missing values
+2022-02-09/20:49:29		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:29		Checking for missing values in dataframes
+2022-02-09/20:49:29		No missing values found!!
+2022-02-09/20:49:29		Checking for columns that dont have variation
+2022-02-09/20:49:30		column SEX appears to be highly skewed
+2022-02-09/20:49:31		Completed Checking for columns that dont have variation
+2022-02-09/20:49:31		dropping columns that dont have variation
+2022-02-09/20:49:31		dropped columns that dont have variation
+2022-02-09/20:49:31		Scaling numerical columns
+2022-02-09/20:49:31		Finished Scaling
+2022-02-09/20:49:31		Entered data splitter function
+2022-02-09/20:49:31		Successfully split the data into 2 parts
+2022-02-09/20:49:37		Starting reading operation
+2022-02-09/20:49:37		Successfully read file
+2022-02-09/20:49:37		Checking for empty spaces in colum  names operation
+2022-02-09/20:49:37		Successfully checked and removed empty spaces
+2022-02-09/20:49:37		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:49:37		Created features dataframe
+2022-02-09/20:49:37		Created target dataframe
+2022-02-09/20:49:37		Checking for missing values in dataframes
+2022-02-09/20:49:37		Found missing values in column: AGE
+2022-02-09/20:49:37		Found a total of 1 missing values
+2022-02-09/20:49:37		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:37		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:37		Checking for missing values in dataframes
+2022-02-09/20:49:37		No missing values found!!
+2022-02-09/20:49:37		Checking for columns that dont have variation
+2022-02-09/20:49:37		column SEX appears to be highly skewed
+2022-02-09/20:49:38		Completed Checking for columns that dont have variation
+2022-02-09/20:49:38		dropping columns that dont have variation
+2022-02-09/20:49:38		dropped columns that dont have variation
+2022-02-09/20:49:38		Scaling numerical columns
+2022-02-09/20:49:38		Finished Scaling
+2022-02-09/20:49:38		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:49:38		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-09/20:49:38		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:49:38		Entered data splitter function
+2022-02-09/20:49:38		Successfully split the data into 2 parts
+2022-02-09/20:49:48		Starting reading operation
+2022-02-09/20:49:48		Successfully read file
+2022-02-09/20:49:48		Checking for empty spaces in colum  names operation
+2022-02-09/20:49:48		Successfully checked and removed empty spaces
+2022-02-09/20:49:48		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:49:48		Created features dataframe
+2022-02-09/20:49:48		Created target dataframe
+2022-02-09/20:49:48		Checking for missing values in dataframes
+2022-02-09/20:49:48		Found missing values in column: AGE
+2022-02-09/20:49:48		Found a total of 1 missing values
+2022-02-09/20:49:48		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:49:49		Checking for missing values in dataframes
+2022-02-09/20:49:49		No missing values found!!
+2022-02-09/20:49:49		Checking for columns that dont have variation
+2022-02-09/20:49:49		column SEX appears to be highly skewed
+2022-02-09/20:49:50		Completed Checking for columns that dont have variation
+2022-02-09/20:49:50		dropping columns that dont have variation
+2022-02-09/20:49:50		dropped columns that dont have variation
+2022-02-09/20:49:50		Scaling numerical columns
+2022-02-09/20:49:50		Finished Scaling
+2022-02-09/20:49:50		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:49:50		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:49:50		Entered data splitter function
+2022-02-09/20:49:50		Successfully split the data into 2 parts
+2022-02-09/20:50:04		Starting reading operation
+2022-02-09/20:50:04		Successfully read file
+2022-02-09/20:50:04		Checking for empty spaces in colum  names operation
+2022-02-09/20:50:04		Successfully checked and removed empty spaces
+2022-02-09/20:50:04		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:50:04		Created features dataframe
+2022-02-09/20:50:04		Created target dataframe
+2022-02-09/20:50:04		Checking for missing values in dataframes
+2022-02-09/20:50:04		Found missing values in column: AGE
+2022-02-09/20:50:04		Found a total of 1 missing values
+2022-02-09/20:50:04		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:50:04		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:50:04		Checking for missing values in dataframes
+2022-02-09/20:50:04		No missing values found!!
+2022-02-09/20:50:04		Checking for columns that dont have variation
+2022-02-09/20:50:04		column SEX appears to be highly skewed
+2022-02-09/20:50:05		Completed Checking for columns that dont have variation
+2022-02-09/20:50:05		dropping columns that dont have variation
+2022-02-09/20:50:05		dropped columns that dont have variation
+2022-02-09/20:50:05		Scaling numerical columns
+2022-02-09/20:50:05		Finished Scaling
+2022-02-09/20:50:05		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:50:05		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:50:05		Entered data splitter function
+2022-02-09/20:50:05		Successfully split the data into 2 parts
+2022-02-09/20:50:05		Start model training
+2022-02-09/20:50:05		Successfully trained a model
+2022-02-09/20:50:05		Saving model
+2022-02-09/20:50:05		Successfully saved model
+2022-02-09/20:57:18		Starting reading operation
+2022-02-09/20:57:18		Successfully read file
+2022-02-09/20:57:18		Checking for empty spaces in colum  names operation
+2022-02-09/20:57:18		Successfully checked and removed empty spaces
+2022-02-09/20:57:18		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:57:18		Created features dataframe
+2022-02-09/20:57:18		Created target dataframe
+2022-02-09/20:57:18		Checking for missing values in dataframes
+2022-02-09/20:57:18		Found missing values in column: AGE
+2022-02-09/20:57:18		Found a total of 1 missing values
+2022-02-09/20:57:18		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:57:18		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:57:18		Checking for missing values in dataframes
+2022-02-09/20:57:18		No missing values found!!
+2022-02-09/20:57:18		Checking for columns that dont have variation
+2022-02-09/20:57:18		column SEX appears to be highly skewed
+2022-02-09/20:57:19		Completed Checking for columns that dont have variation
+2022-02-09/20:57:19		dropping columns that dont have variation
+2022-02-09/20:57:19		dropped columns that dont have variation
+2022-02-09/20:57:19		Scaling numerical columns
+2022-02-09/20:57:19		Finished Scaling
+2022-02-09/20:57:19		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:57:19		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:57:19		Entered data splitter function
+2022-02-09/20:57:19		Successfully split the data into 2 parts
+2022-02-09/20:57:19		Start model training
+2022-02-09/20:57:19		Successfully trained a model
+2022-02-09/20:57:19		Saving model
+2022-02-09/20:57:19		Successfully saved model
+2022-02-09/20:57:44		Starting reading operation
+2022-02-09/20:57:44		Successfully read file
+2022-02-09/20:57:44		Checking for empty spaces in colum  names operation
+2022-02-09/20:57:44		Successfully checked and removed empty spaces
+2022-02-09/20:57:44		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:57:44		Created features dataframe
+2022-02-09/20:57:44		Created target dataframe
+2022-02-09/20:57:44		Checking for missing values in dataframes
+2022-02-09/20:57:44		Found missing values in column: AGE
+2022-02-09/20:57:44		Found a total of 1 missing values
+2022-02-09/20:57:44		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:57:44		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:57:44		Checking for missing values in dataframes
+2022-02-09/20:57:44		No missing values found!!
+2022-02-09/20:57:44		Checking for columns that dont have variation
+2022-02-09/20:57:44		column SEX appears to be highly skewed
+2022-02-09/20:57:45		Completed Checking for columns that dont have variation
+2022-02-09/20:57:45		dropping columns that dont have variation
+2022-02-09/20:57:45		dropped columns that dont have variation
+2022-02-09/20:57:45		Scaling numerical columns
+2022-02-09/20:57:45		Finished Scaling
+2022-02-09/20:57:45		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:57:45		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:57:45		Entered data splitter function
+2022-02-09/20:57:45		Successfully split the data into 2 parts
+2022-02-09/20:57:45		Start model training
+2022-02-09/20:57:46		Successfully trained a model
+2022-02-09/20:57:46		Saving model
+2022-02-09/20:57:46		Successfully saved model
+2022-02-09/20:58:16		Starting reading operation
+2022-02-09/20:58:17		Successfully read file
+2022-02-09/20:58:17		Checking for empty spaces in colum  names operation
+2022-02-09/20:58:17		Successfully checked and removed empty spaces
+2022-02-09/20:58:17		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:58:17		Created features dataframe
+2022-02-09/20:58:17		Created target dataframe
+2022-02-09/20:58:17		Checking for missing values in dataframes
+2022-02-09/20:58:17		Found missing values in column: AGE
+2022-02-09/20:58:17		Found a total of 1 missing values
+2022-02-09/20:58:17		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:58:17		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:58:17		Checking for missing values in dataframes
+2022-02-09/20:58:17		No missing values found!!
+2022-02-09/20:58:17		Checking for columns that dont have variation
+2022-02-09/20:58:17		column SEX appears to be highly skewed
+2022-02-09/20:58:18		Completed Checking for columns that dont have variation
+2022-02-09/20:58:18		dropping columns that dont have variation
+2022-02-09/20:58:18		dropped columns that dont have variation
+2022-02-09/20:58:18		Scaling numerical columns
+2022-02-09/20:58:18		Finished Scaling
+2022-02-09/20:58:18		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:58:18		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:58:18		Entered data splitter function
+2022-02-09/20:58:18		Successfully split the data into 2 parts
+2022-02-09/20:58:18		Start model training
+2022-02-09/20:58:18		Successfully trained a model
+2022-02-09/20:58:18		Saving model
+2022-02-09/20:58:18		Successfully saved model
+2022-02-09/20:58:56		Starting reading operation
+2022-02-09/20:58:56		Successfully read file
+2022-02-09/20:58:56		Checking for empty spaces in colum  names operation
+2022-02-09/20:58:56		Successfully checked and removed empty spaces
+2022-02-09/20:58:56		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/20:58:56		Created features dataframe
+2022-02-09/20:58:56		Created target dataframe
+2022-02-09/20:58:56		Checking for missing values in dataframes
+2022-02-09/20:58:56		Found missing values in column: AGE
+2022-02-09/20:58:56		Found a total of 1 missing values
+2022-02-09/20:58:56		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/20:58:56		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/20:58:56		Checking for missing values in dataframes
+2022-02-09/20:58:56		No missing values found!!
+2022-02-09/20:58:56		Checking for columns that dont have variation
+2022-02-09/20:58:56		column SEX appears to be highly skewed
+2022-02-09/20:58:57		Completed Checking for columns that dont have variation
+2022-02-09/20:58:57		dropping columns that dont have variation
+2022-02-09/20:58:57		dropped columns that dont have variation
+2022-02-09/20:58:57		Scaling numerical columns
+2022-02-09/20:58:57		Finished Scaling
+2022-02-09/20:58:57		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:58:57		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/20:58:57		Entered data splitter function
+2022-02-09/20:58:57		Successfully split the data into 2 parts
+2022-02-09/20:58:57		Start model training
+2022-02-09/20:58:57		Successfully trained a model
+2022-02-09/20:58:57		Saving model
+2022-02-09/20:58:57		Successfully saved model
+2022-02-09/21:00:49		Starting reading operation
+2022-02-09/21:00:49		Successfully read file
+2022-02-09/21:00:49		Checking for empty spaces in colum  names operation
+2022-02-09/21:00:49		Successfully checked and removed empty spaces
+2022-02-09/21:00:49		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:00:49		Created features dataframe
+2022-02-09/21:00:49		Created target dataframe
+2022-02-09/21:00:49		Checking for missing values in dataframes
+2022-02-09/21:00:49		Found missing values in column: AGE
+2022-02-09/21:00:49		Found a total of 1 missing values
+2022-02-09/21:00:49		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:00:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:00:49		Checking for missing values in dataframes
+2022-02-09/21:00:49		No missing values found!!
+2022-02-09/21:00:49		Checking for columns that dont have variation
+2022-02-09/21:00:49		column SEX appears to be highly skewed
+2022-02-09/21:00:50		Completed Checking for columns that dont have variation
+2022-02-09/21:00:50		dropping columns that dont have variation
+2022-02-09/21:00:50		dropped columns that dont have variation
+2022-02-09/21:00:50		Scaling numerical columns
+2022-02-09/21:00:50		Finished Scaling
+2022-02-09/21:00:50		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:00:50		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:00:50		Entered data splitter function
+2022-02-09/21:00:50		Successfully split the data into 2 parts
+2022-02-09/21:00:50		Start model training
+2022-02-09/21:00:50		Successfully trained a model
+2022-02-09/21:00:50		Saving model
+2022-02-09/21:00:50		Successfully saved model
+2022-02-09/21:01:32		Starting reading operation
+2022-02-09/21:01:32		Successfully read file
+2022-02-09/21:01:32		Checking for empty spaces in colum  names operation
+2022-02-09/21:01:32		Successfully checked and removed empty spaces
+2022-02-09/21:01:32		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:01:32		Created features dataframe
+2022-02-09/21:01:32		Created target dataframe
+2022-02-09/21:01:32		Checking for missing values in dataframes
+2022-02-09/21:01:32		Found missing values in column: AGE
+2022-02-09/21:01:32		Found a total of 1 missing values
+2022-02-09/21:01:32		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:01:32		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:01:32		Checking for missing values in dataframes
+2022-02-09/21:01:32		No missing values found!!
+2022-02-09/21:01:32		Checking for columns that dont have variation
+2022-02-09/21:01:32		column SEX appears to be highly skewed
+2022-02-09/21:01:33		Completed Checking for columns that dont have variation
+2022-02-09/21:01:33		dropping columns that dont have variation
+2022-02-09/21:01:33		dropped columns that dont have variation
+2022-02-09/21:01:33		Scaling numerical columns
+2022-02-09/21:01:33		Finished Scaling
+2022-02-09/21:01:33		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:01:33		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:01:33		Entered data splitter function
+2022-02-09/21:01:33		Successfully split the data into 2 parts
+2022-02-09/21:01:33		Start model training
+2022-02-09/21:01:33		Successfully trained a model
+2022-02-09/21:01:33		Saving model
+2022-02-09/21:01:33		Successfully saved model
+2022-02-09/21:14:40		Starting reading operation
+2022-02-09/21:14:40		Successfully read file
+2022-02-09/21:14:40		Checking for empty spaces in colum  names operation
+2022-02-09/21:14:40		Successfully checked and removed empty spaces
+2022-02-09/21:14:40		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:14:40		Created features dataframe
+2022-02-09/21:14:40		Created target dataframe
+2022-02-09/21:14:40		Checking for missing values in dataframes
+2022-02-09/21:14:40		Found missing values in column: AGE
+2022-02-09/21:14:40		Found a total of 1 missing values
+2022-02-09/21:14:40		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:14:40		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:14:40		Checking for missing values in dataframes
+2022-02-09/21:14:40		No missing values found!!
+2022-02-09/21:14:40		Checking for columns that dont have variation
+2022-02-09/21:14:41		column SEX appears to be highly skewed
+2022-02-09/21:14:42		Completed Checking for columns that dont have variation
+2022-02-09/21:14:42		dropping columns that dont have variation
+2022-02-09/21:14:42		dropped columns that dont have variation
+2022-02-09/21:14:42		Scaling numerical columns
+2022-02-09/21:14:42		Finished Scaling
+2022-02-09/21:14:42		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:14:42		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:14:42		Entered data splitter function
+2022-02-09/21:14:42		Successfully split the data into 2 parts
+2022-02-09/21:14:42		Start model training
+2022-02-09/21:14:42		Successfully trained a model
+2022-02-09/21:14:42		Saving model
+2022-02-09/21:14:42		Successfully saved model
+2022-02-09/21:15:03		Starting reading operation
+2022-02-09/21:15:03		Successfully read file
+2022-02-09/21:15:03		Checking for empty spaces in colum  names operation
+2022-02-09/21:15:03		Successfully checked and removed empty spaces
+2022-02-09/21:15:03		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:15:03		Created features dataframe
+2022-02-09/21:15:03		Created target dataframe
+2022-02-09/21:15:03		Checking for missing values in dataframes
+2022-02-09/21:15:03		Found missing values in column: AGE
+2022-02-09/21:15:03		Found a total of 1 missing values
+2022-02-09/21:15:03		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:03		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:03		Checking for missing values in dataframes
+2022-02-09/21:15:03		No missing values found!!
+2022-02-09/21:15:03		Checking for columns that dont have variation
+2022-02-09/21:15:03		column SEX appears to be highly skewed
+2022-02-09/21:15:04		Completed Checking for columns that dont have variation
+2022-02-09/21:15:04		dropping columns that dont have variation
+2022-02-09/21:15:04		dropped columns that dont have variation
+2022-02-09/21:15:04		Scaling numerical columns
+2022-02-09/21:15:04		Finished Scaling
+2022-02-09/21:15:04		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:04		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:04		Entered data splitter function
+2022-02-09/21:15:04		Successfully split the data into 2 parts
+2022-02-09/21:15:19		Starting reading operation
+2022-02-09/21:15:19		Successfully read file
+2022-02-09/21:15:19		Checking for empty spaces in colum  names operation
+2022-02-09/21:15:19		Successfully checked and removed empty spaces
+2022-02-09/21:15:19		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:15:19		Created features dataframe
+2022-02-09/21:15:19		Created target dataframe
+2022-02-09/21:15:19		Checking for missing values in dataframes
+2022-02-09/21:15:19		Found missing values in column: AGE
+2022-02-09/21:15:19		Found a total of 1 missing values
+2022-02-09/21:15:19		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:19		Checking for missing values in dataframes
+2022-02-09/21:15:19		No missing values found!!
+2022-02-09/21:15:19		Checking for columns that dont have variation
+2022-02-09/21:15:19		column SEX appears to be highly skewed
+2022-02-09/21:15:20		Completed Checking for columns that dont have variation
+2022-02-09/21:15:20		dropping columns that dont have variation
+2022-02-09/21:15:20		dropped columns that dont have variation
+2022-02-09/21:15:20		Scaling numerical columns
+2022-02-09/21:15:20		Finished Scaling
+2022-02-09/21:15:20		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:20		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:20		Entered data splitter function
+2022-02-09/21:15:20		Successfully split the data into 2 parts
+2022-02-09/21:15:20		Start model training
+2022-02-09/21:15:20		Successfully trained a model
+2022-02-09/21:15:20		Saving model
+2022-02-09/21:15:20		Successfully saved model
+2022-02-09/21:15:30		Starting reading operation
+2022-02-09/21:15:30		Successfully read file
+2022-02-09/21:15:30		Checking for empty spaces in colum  names operation
+2022-02-09/21:15:30		Successfully checked and removed empty spaces
+2022-02-09/21:15:30		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:15:30		Created features dataframe
+2022-02-09/21:15:30		Created target dataframe
+2022-02-09/21:15:30		Checking for missing values in dataframes
+2022-02-09/21:15:30		Found missing values in column: AGE
+2022-02-09/21:15:30		Found a total of 1 missing values
+2022-02-09/21:15:30		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:30		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:30		Checking for missing values in dataframes
+2022-02-09/21:15:30		No missing values found!!
+2022-02-09/21:15:30		Checking for columns that dont have variation
+2022-02-09/21:15:30		column SEX appears to be highly skewed
+2022-02-09/21:15:31		Completed Checking for columns that dont have variation
+2022-02-09/21:15:31		dropping columns that dont have variation
+2022-02-09/21:15:31		dropped columns that dont have variation
+2022-02-09/21:15:31		Scaling numerical columns
+2022-02-09/21:15:31		Finished Scaling
+2022-02-09/21:15:31		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:31		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:31		Entered data splitter function
+2022-02-09/21:15:31		Successfully split the data into 2 parts
+2022-02-09/21:15:31		Start model training
+2022-02-09/21:15:32		Successfully trained a model
+2022-02-09/21:15:32		Saving model
+2022-02-09/21:15:32		Successfully saved model
+2022-02-09/21:15:43		Starting reading operation
+2022-02-09/21:15:43		Successfully read file
+2022-02-09/21:15:43		Checking for empty spaces in colum  names operation
+2022-02-09/21:15:43		Successfully checked and removed empty spaces
+2022-02-09/21:15:43		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:15:43		Created features dataframe
+2022-02-09/21:15:43		Created target dataframe
+2022-02-09/21:15:43		Checking for missing values in dataframes
+2022-02-09/21:15:43		Found missing values in column: AGE
+2022-02-09/21:15:43		Found a total of 1 missing values
+2022-02-09/21:15:43		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:43		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:15:43		Checking for missing values in dataframes
+2022-02-09/21:15:43		No missing values found!!
+2022-02-09/21:15:43		Checking for columns that dont have variation
+2022-02-09/21:15:43		column SEX appears to be highly skewed
+2022-02-09/21:15:44		Completed Checking for columns that dont have variation
+2022-02-09/21:15:44		dropping columns that dont have variation
+2022-02-09/21:15:44		dropped columns that dont have variation
+2022-02-09/21:15:44		Scaling numerical columns
+2022-02-09/21:15:44		Finished Scaling
+2022-02-09/21:15:44		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:44		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:15:44		Entered data splitter function
+2022-02-09/21:15:44		Successfully split the data into 2 parts
+2022-02-09/21:15:44		Start model training
+2022-02-09/21:15:44		Successfully trained a model
+2022-02-09/21:15:44		Saving model
+2022-02-09/21:15:44		Successfully saved model
+2022-02-09/21:17:21		Starting reading operation
+2022-02-09/21:17:21		Successfully read file
+2022-02-09/21:17:21		Checking for empty spaces in colum  names operation
+2022-02-09/21:17:21		Successfully checked and removed empty spaces
+2022-02-09/21:17:21		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:17:21		Created features dataframe
+2022-02-09/21:17:21		Created target dataframe
+2022-02-09/21:17:21		Checking for missing values in dataframes
+2022-02-09/21:17:21		Found missing values in column: AGE
+2022-02-09/21:17:21		Found a total of 1 missing values
+2022-02-09/21:17:21		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:21		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:21		Checking for missing values in dataframes
+2022-02-09/21:17:21		No missing values found!!
+2022-02-09/21:17:21		Checking for columns that dont have variation
+2022-02-09/21:17:21		column SEX appears to be highly skewed
+2022-02-09/21:17:22		Completed Checking for columns that dont have variation
+2022-02-09/21:17:22		dropping columns that dont have variation
+2022-02-09/21:17:22		dropped columns that dont have variation
+2022-02-09/21:17:22		Scaling numerical columns
+2022-02-09/21:17:22		Finished Scaling
+2022-02-09/21:17:22		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:22		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:22		Entered data splitter function
+2022-02-09/21:17:22		Successfully split the data into 2 parts
+2022-02-09/21:17:22		Start model training
+2022-02-09/21:17:22		Successfully trained a model
+2022-02-09/21:17:22		Saving model
+2022-02-09/21:17:22		Successfully saved model
+2022-02-09/21:17:38		Starting reading operation
+2022-02-09/21:17:38		Successfully read file
+2022-02-09/21:17:38		Checking for empty spaces in colum  names operation
+2022-02-09/21:17:38		Successfully checked and removed empty spaces
+2022-02-09/21:17:38		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:17:38		Created features dataframe
+2022-02-09/21:17:38		Created target dataframe
+2022-02-09/21:17:38		Checking for missing values in dataframes
+2022-02-09/21:17:38		Found missing values in column: AGE
+2022-02-09/21:17:38		Found a total of 1 missing values
+2022-02-09/21:17:38		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:39		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:39		Checking for missing values in dataframes
+2022-02-09/21:17:39		No missing values found!!
+2022-02-09/21:17:39		Checking for columns that dont have variation
+2022-02-09/21:17:39		column SEX appears to be highly skewed
+2022-02-09/21:17:40		Completed Checking for columns that dont have variation
+2022-02-09/21:17:40		dropping columns that dont have variation
+2022-02-09/21:17:40		dropped columns that dont have variation
+2022-02-09/21:17:40		Scaling numerical columns
+2022-02-09/21:17:40		Finished Scaling
+2022-02-09/21:17:40		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:40		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:40		Entered data splitter function
+2022-02-09/21:17:40		Successfully split the data into 2 parts
+2022-02-09/21:17:40		Start model training
+2022-02-09/21:17:40		Successfully trained a model
+2022-02-09/21:17:40		Saving model
+2022-02-09/21:17:40		Successfully saved model
+2022-02-09/21:17:56		Starting reading operation
+2022-02-09/21:17:56		Successfully read file
+2022-02-09/21:17:56		Checking for empty spaces in colum  names operation
+2022-02-09/21:17:56		Successfully checked and removed empty spaces
+2022-02-09/21:17:56		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:17:56		Created features dataframe
+2022-02-09/21:17:56		Created target dataframe
+2022-02-09/21:17:56		Checking for missing values in dataframes
+2022-02-09/21:17:56		Found missing values in column: AGE
+2022-02-09/21:17:56		Found a total of 1 missing values
+2022-02-09/21:17:56		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:56		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:17:56		Checking for missing values in dataframes
+2022-02-09/21:17:56		No missing values found!!
+2022-02-09/21:17:56		Checking for columns that dont have variation
+2022-02-09/21:17:57		column SEX appears to be highly skewed
+2022-02-09/21:17:58		Completed Checking for columns that dont have variation
+2022-02-09/21:17:58		dropping columns that dont have variation
+2022-02-09/21:17:58		dropped columns that dont have variation
+2022-02-09/21:17:58		Scaling numerical columns
+2022-02-09/21:17:58		Finished Scaling
+2022-02-09/21:17:58		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:58		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:17:58		Entered data splitter function
+2022-02-09/21:17:58		Successfully split the data into 2 parts
+2022-02-09/21:17:58		Start model training
+2022-02-09/21:17:58		Successfully trained a model
+2022-02-09/21:17:58		Saving model
+2022-02-09/21:17:58		Successfully saved model
+2022-02-09/21:20:17		Starting reading operation
+2022-02-09/21:20:17		Successfully read file
+2022-02-09/21:20:17		Checking for empty spaces in colum  names operation
+2022-02-09/21:20:17		Successfully checked and removed empty spaces
+2022-02-09/21:20:17		Attempting to split data into seperate dataframes containing features and target
+2022-02-09/21:20:17		Created features dataframe
+2022-02-09/21:20:17		Created target dataframe
+2022-02-09/21:20:17		Checking for missing values in dataframes
+2022-02-09/21:20:17		Found missing values in column: AGE
+2022-02-09/21:20:17		Found a total of 1 missing values
+2022-02-09/21:20:17		Entered the impute_missing_values method of the Preprocessor class
+2022-02-09/21:20:17		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-09/21:20:17		Checking for missing values in dataframes
+2022-02-09/21:20:17		No missing values found!!
+2022-02-09/21:20:17		Checking for columns that dont have variation
+2022-02-09/21:20:17		column SEX appears to be highly skewed
+2022-02-09/21:20:18		Completed Checking for columns that dont have variation
+2022-02-09/21:20:18		dropping columns that dont have variation
+2022-02-09/21:20:18		dropped columns that dont have variation
+2022-02-09/21:20:18		Scaling numerical columns
+2022-02-09/21:20:18		Finished Scaling
+2022-02-09/21:20:18		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:20:18		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-09/21:20:18		Entered data splitter function
+2022-02-09/21:20:18		Successfully split the data into 2 parts
+2022-02-09/21:20:18		Start model training
+2022-02-09/21:20:19		Successfully trained a model
+2022-02-09/21:20:19		Saving model
+2022-02-09/21:20:19		Successfully saved model
+2022-02-10/01:16:08		Starting reading operation
+2022-02-10/01:16:08		Successfully read file
+2022-02-10/01:25:44		Starting reading operation
+2022-02-10/01:25:44		Successfully read file
+2022-02-10/01:25:44		Checking for empty spaces in colum  names operation
+2022-02-10/01:25:44		Successfully checked and removed empty spaces
+2022-02-10/01:25:44		Attempting to split data into seperate dataframes containing features and target
+2022-02-10/01:25:44		Created features dataframe
+2022-02-10/01:25:44		Created target dataframe
+2022-02-10/01:25:44		Checking for missing values in dataframes
+2022-02-10/01:25:44		No missing values found!!
+2022-02-10/01:25:44		Entered the impute_missing_values method of the Preprocessor class
+2022-02-10/01:25:44		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-10/01:25:44		Checking for columns that dont have variation
+2022-02-10/01:25:44		column SEX appears to be highly skewed
+2022-02-10/01:25:45		Completed Checking for columns that dont have variation
+2022-02-10/01:25:45		dropping columns that dont have variation
+2022-02-10/01:25:45		dropped columns that dont have variation
+2022-02-10/01:25:45		Scaling numerical columns
+2022-02-10/01:25:45		Finished Scaling
+2022-02-10/01:25:45		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/01:25:45		Exception occured in handle_imbalanced_dataset method of the Preprocessor class. Exception message:  'DataFrame' object has no attribute 'name'
+2022-02-10/01:25:45		dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/01:28:29		Starting reading operation
+2022-02-10/01:28:29		Successfully read file
+2022-02-10/01:28:29		Checking for empty spaces in colum  names operation
+2022-02-10/01:28:29		Successfully checked and removed empty spaces
+2022-02-10/01:28:29		Attempting to split data into seperate dataframes containing features and target
+2022-02-10/01:28:29		Created features dataframe
+2022-02-10/01:28:29		Created target dataframe
+2022-02-10/01:28:29		Checking for missing values in dataframes
+2022-02-10/01:28:29		No missing values found!!
+2022-02-10/01:28:29		Entered the impute_missing_values method of the Preprocessor class
+2022-02-10/01:28:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-10/01:28:29		Checking for columns that dont have variation
+2022-02-10/01:28:30		column SEX appears to be highly skewed
+2022-02-10/01:28:31		Completed Checking for columns that dont have variation
+2022-02-10/01:28:31		dropping columns that dont have variation
+2022-02-10/01:28:31		dropped columns that dont have variation
+2022-02-10/01:28:31		Scaling numerical columns
+2022-02-10/01:28:31		Finished Scaling
+2022-02-10/01:28:31		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/01:28:31		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/01:28:31		Entered data splitter function
+2022-02-10/01:28:31		Successfully split the data into 2 parts
+2022-02-10/01:28:31		Start model training
+2022-02-10/01:28:31		Successfully trained a model
+2022-02-10/01:28:31		Saving model
+2022-02-10/01:28:31		Successfully saved model
+2022-02-10/01:28:31		Saving model
+2022-02-10/01:28:31		Successfully saved model
+2022-02-10/21:56:27		Starting reading operation
+2022-02-10/21:56:27		Successfully read file
+2022-02-10/21:56:27		Checking for empty spaces in colum  names operation
+2022-02-10/21:56:27		Successfully checked and removed empty spaces
+2022-02-10/21:56:27		Attempting to split data into seperate dataframes containing features and target
+2022-02-10/21:56:27		Created features dataframe
+2022-02-10/21:56:27		Created target dataframe
+2022-02-10/21:56:27		Checking for missing values in dataframes
+2022-02-10/21:56:27		No missing values found!!
+2022-02-10/21:56:27		Entered the impute_missing_values method of the Preprocessor class
+2022-02-10/21:56:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-10/21:56:27		Checking for columns that dont have variation
+2022-02-10/21:56:27		column SEX appears to be highly skewed
+2022-02-10/21:56:28		Completed Checking for columns that dont have variation
+2022-02-10/21:56:28		dropping columns that dont have variation
+2022-02-10/21:56:28		dropped columns that dont have variation
+2022-02-10/21:56:28		Scaling numerical columns
+2022-02-10/21:56:28		Finished Scaling
+2022-02-10/21:56:28		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/21:56:28		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-10/21:56:28		Entered data splitter function
+2022-02-10/21:56:28		Successfully split the data into 2 parts
+2022-02-10/21:56:28		Start model training
+2022-02-10/21:56:28		Successfully trained a model
+2022-02-10/21:56:28		Saving model
+2022-02-10/21:56:28		Successfully saved model
+2022-02-10/21:56:28		Saving model
+2022-02-10/21:56:28		Successfully saved model
