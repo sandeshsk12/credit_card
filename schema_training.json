@@ -3,6 +3,7 @@
 	"LengthOfTimeStampInFile": 6,
 	"NumberofColumns" : 23,
 	"ColName": {
+		"ID": "Integer",
 		"LIMIT_BAL" : "Integer",
 		"SEX": "Integer",
 		"EDUCATION": "Integer",

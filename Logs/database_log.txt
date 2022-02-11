@@ -364,3 +364,123 @@
 2022-02-10/21:56:26		Table retrieval successful
 2022-02-10/21:56:27		Successfully created csv file
 2022-02-10/21:56:27		Shutdown successful
+2022-02-11/16:25:18		Connected successfully
+2022-02-11/16:25:18		Table successfully created
+2022-02-11/16:25:25		Table retrieval successful
+2022-02-11/16:25:26		Successfully created csv file
+2022-02-11/16:25:26		Shutdown successful
+2022-02-11/17:47:33		Connected successfully
+2022-02-11/17:47:33		Table successfully created
+2022-02-11/17:47:40		Table retrieval successful
+2022-02-11/17:47:41		Successfully created csv file
+2022-02-11/17:47:41		Shutdown successful
+2022-02-11/17:48:05		Connected successfully
+2022-02-11/17:48:05		Table successfully created
+2022-02-11/17:48:09		Table retrieval successful
+2022-02-11/17:48:10		Successfully created csv file
+2022-02-11/17:48:10		Shutdown successful
+2022-02-11/17:49:44		Connected successfully
+2022-02-11/17:49:44		Table successfully created
+2022-02-11/17:49:53		Table retrieval successful
+2022-02-11/17:49:53		Successfully created csv file
+2022-02-11/17:49:53		Shutdown successful
+2022-02-11/17:57:13		Connected successfully
+2022-02-11/17:57:26		Connected successfully
+2022-02-11/18:10:25		Connected successfully
+2022-02-11/18:11:44		Connected successfully
+2022-02-11/18:18:53		Connected successfully
+2022-02-11/18:18:53		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="No keyspace has been specified. USE a keyspace, or explicitly specify keyspace.tablename"
+2022-02-11/18:19:14		Connected successfully
+2022-02-11/18:19:14		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="No keyspace has been specified. USE a keyspace, or explicitly specify keyspace.tablename"
+2022-02-11/18:19:49		Connected successfully
+2022-02-11/18:19:49		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="No PRIMARY KEY specified for table 'ccdp.train_table' (exactly one required)"
+2022-02-11/18:21:07		Connected successfully
+2022-02-11/18:21:07		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:21:54		Connected successfully
+2022-02-11/18:21:54		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:51 mismatched input 'primary' expecting EOF (...ccdp.train_table (LIMIT_BAL Integer) [primary]...)">
+2022-02-11/18:22:23		Connected successfully
+2022-02-11/18:22:23		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:50 mismatched input ',' expecting EOF (...  ccdp.train_table (LIMIT_BAL Integer)[,]...)">
+2022-02-11/18:24:52		Connected successfully
+2022-02-11/18:24:52		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:32 no viable alternative at input '(' (CREATE TABLE  ccdp.train_table ([(]...)">
+2022-02-11/18:25:53		Connected successfully
+2022-02-11/18:25:53		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="No PRIMARY KEY specified for table 'ccdp.train_table' (exactly one required)"
+2022-02-11/18:26:19		Connected successfully
+2022-02-11/18:26:19		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:51 mismatched input 'PRIMARY' expecting EOF (...ccdp.train_table (LIMIT_BAL Integer) [PRIMARY]...)">
+2022-02-11/18:28:51		Connected successfully
+2022-02-11/18:28:51		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:31:38		Connected successfully
+2022-02-11/18:31:38		LIMIT_BALInteger
+2022-02-11/18:31:38		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:31:58		Connected successfully
+2022-02-11/18:31:58		LIMIT_BAL Integer
+2022-02-11/18:31:58		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:32:36		Connected successfully
+2022-02-11/18:32:36		LIMIT_BAL Integer
+2022-02-11/18:32:36		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:19 no viable alternative at input 'table' (CREATE TABLE  ccdp.[table]...)">
+2022-02-11/18:33:14		Connected successfully
+2022-02-11/18:33:14		LIMIT_BAL Integer
+2022-02-11/18:33:15		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:36:46		Connected successfully
+2022-02-11/18:36:46		LIMIT_BAL Integer
+2022-02-11/18:36:46		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:38:02		Connected successfully
+2022-02-11/18:38:02		LIMIT_BAL Integer
+2022-02-11/18:38:02		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:38:35		Connected successfully
+2022-02-11/18:38:35		LIMIT_BAL Integer
+2022-02-11/18:38:35		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:39:14		Connected successfully
+2022-02-11/18:39:14		ID Integer
+2022-02-11/18:39:14		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.integer"
+2022-02-11/18:39:54		Connected successfully
+2022-02-11/18:39:54		ID Integer PRIMARY
+2022-02-11/18:39:54		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:41 mismatched input ',' expecting K_KEY (...ccdp.sd (ID Integer PRIMARY[,]...)">
+2022-02-11/18:40:30		Connected successfully
+2022-02-11/18:40:30		ID Integer PRIMARY,
+2022-02-11/18:40:30		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:41 mismatched input ',' expecting K_KEY (...ccdp.sd (ID Integer PRIMARY[,])">
+2022-02-11/18:41:10		Connected successfully
+2022-02-11/18:41:10		ID Interger PRIMARY,
+2022-02-11/18:41:10		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:42 mismatched input ',' expecting K_KEY (...ccdp.sd (ID Interger PRIMARY[,])">
+2022-02-11/18:41:37		Connected successfully
+2022-02-11/18:41:37		ID Interger PRIMARY
+2022-02-11/18:41:37		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:42 mismatched input ')' expecting K_KEY (...ccdp.sd (ID Interger PRIMARY[)])">
+2022-02-11/18:43:37		Connected successfully
+2022-02-11/18:43:37		ID Interger PRIMARY KEY 
+2022-02-11/18:43:37		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.interger"
+2022-02-11/18:44:51		Connected successfully
+2022-02-11/18:44:51		ID Interger PRIMARY KEY (ID)
+2022-02-11/18:44:51		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:47 mismatched input '(' expecting ')' (... (ID Interger PRIMARY KEY [(]...)">
+2022-02-11/18:45:44		Connected successfully
+2022-02-11/18:45:44		ID Interger ,primary key(ID)
+2022-02-11/18:45:44		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.interger"
+2022-02-11/18:46:44		Connected successfully
+2022-02-11/18:46:44		ID Interger,primary key(ID),
+2022-02-11/18:46:44		Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Unknown type ccdp.interger"
+2022-02-11/18:49:13		Connected successfully
+2022-02-11/18:49:13		Table successfully created
+2022-02-11/19:30:41		Connected successfully
+2022-02-11/19:31:37		Connected successfully
+2022-02-11/19:42:13		Connected successfully
+2022-02-11/19:42:13		Table successfully created
+2022-02-11/19:43:52		Connected successfully
+2022-02-11/19:44:16		Connected successfully
+2022-02-11/19:44:33		Connected successfully
+2022-02-11/19:44:34		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:50 mismatched input '[' expecting '(' (...if not exists ccdp."UCI_Credit_Card" [[]...)">
+2022-02-11/19:45:19		Connected successfully
+2022-02-11/19:45:19		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:51 no viable alternative at input 'ID Interger' (... not exists ccdp."UCI_Credit_Card" (['ID Interge]...)">
+2022-02-11/19:48:25		Connected successfully
+2022-02-11/19:48:25		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:51 no viable alternative at input 'ID Interger' (... not exists ccdp."UCI_Credit_Card" (['ID Interge]...)">
+2022-02-11/19:50:05		Connected successfully
+2022-02-11/19:50:05		Table successfully created
+2022-02-11/19:54:51		Connected successfully
+2022-02-11/19:54:51		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:457 mismatched input 'default' expecting ')' (...PAY_AMT5 Integer, PAY_AMT6 Integer, [default]...)">
+2022-02-11/20:06:27		Connected successfully
+2022-02-11/20:06:27		Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:457 mismatched input 'default' expecting ')' (...PAY_AMT5 Integer, PAY_AMT6 Integer, [default]...)">
+2022-02-11/20:15:44		Connected successfully
+2022-02-11/20:15:44		Prediction Table successfully created
+2022-02-11/20:16:53		Connected successfully
+2022-02-11/20:16:53		Prediction Table successfully created
+2022-02-11/20:16:53		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "ID""
+2022-02-11/20:20:28		Connected successfully
+2022-02-11/20:20:28		Prediction Table successfully created
+2022-02-11/20:20:28		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">

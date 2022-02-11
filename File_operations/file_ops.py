@@ -34,6 +34,7 @@ class file_operations:
         self.data_dic=self.schema.read_json()
         self.log_file=open('Logs/file_operations_log.txt','a+')
         self.logger = App_Logger()
+        self.file_name='UCI_Credit_Card.csv'
     
     def  break_file_into_smaller_files(self):
         """
@@ -52,11 +53,11 @@ class file_operations:
         self.logger.log(self.log_file,"Breaking the complete csv file into chunks")
         
         try:
-            data=pd.read_csv('UCI_Credit_Card.csv')
+            data=pd.read_csv(self.file_name)
             for j in range(0,31):
                 new = data.iloc[i:i+1001]
                 name = "creditCardFraud_" +str(date) + '_' + str(time) + ".csv"
-                new.to_csv('Batch_files'+'/'+name, index=None, header=True)
+                new.to_csv(self.path+'/'+name, index=None, header=True)
                 i += 1
                 date+=1
                 time+=1
@@ -64,7 +65,7 @@ class file_operations:
                 
                 #Below code is meant to forcefully create a bad file just for emulation purpose
                 while faulty_record==True:
-                    new.to_csv('Batch_files'+'/'+name[:-4]+'faulty.csv', index=None, header=True)
+                    new.to_csv(self.path+'/'+name[:-4]+'faulty.csv', index=None, header=True)
                     faulty_record=False
         except Exception as e:
 
@@ -98,6 +99,7 @@ class file_operations:
 
                 else:
                     shutil.copy(source,bad_files_dest)
+                    self.logger.log(self.log_file,"Moving {} to {}".format(source,bad_files_dest))
                     self.logger.log(self.log_file,"Bad file identified{}".format(file_name))
                     pass
         except Exception as e:
@@ -124,10 +126,12 @@ class file_operations:
                 data=pd.read_csv(os.path.join(self.good_files_path+'/'+file_name))
                 good_files_dest=(os.path.join(self.good_files_path+'/'+file_name))
                 bad_files_dest=(os.path.join(self.bad_files_path+'/'+file_name))
+                self.logger.log(self.log_file,"verifying {}".format(file_name))
                 for col in data.columns:
+                    #self.logger.log(self.log_file,"{},col{}, count{}".format(file_name,col,data[col].count()))
                     if data[col].count()==0:
                         
-                        self.logger.log(self.log_file,"File with entire column found {}".format(file_name))       
+                        self.logger.log(self.log_file,"File with entire column missing found {}".format(file_name))       
                         try:           
                             shutil.move(good_files_dest,bad_files_dest)
                             self.logger.log(self.log_file,"Moving bad file {} to bad folder".format(file_name)) 
@@ -158,7 +162,7 @@ class file_operations:
                 good_files_dest=(os.path.join(self.good_files_path+'/'+file_name))
                 for col in data.columns:
                     if data[col].isna().sum()>0:
-                        print(file_name,col)
+                        self.logger.log(self.log_file,"missing value found at filname:{}, column:{}".format(file_name,col))
                         data[col].fillna(np.nan,inplace=True)
                         self.logger.log(self.log_file,"Imputing values for {}".format(file_name))
                 data.to_csv(good_files_dest)

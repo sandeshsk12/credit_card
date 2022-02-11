@@ -1,0 +1,22 @@
+2022-02-11/17:48:11		Start of prediction operation
+2022-02-11/17:48:11		Breaking the csv file into smaller chunks
+2022-02-11/17:48:12		Completed Breaking the csv file into smaller chunks
+2022-02-11/17:48:12		Checking for file name violation
+2022-02-11/17:48:12		Checking for file name violation complete
+2022-02-11/17:48:12		Checking if any column has an empty column
+2022-02-11/17:48:12		Files with empty columns moved into archive
+2022-02-11/17:48:12		Checking and imputing NULL where data is missing
+2022-02-11/17:48:13		Imputed empty spaces with NULL successfully
+2022-02-11/17:48:13		Checking for file name violation
+2022-02-11/17:48:13		Checking for file name violation complete
+2022-02-11/17:49:55		Start of prediction operation
+2022-02-11/17:49:55		Breaking the csv file into smaller chunks
+2022-02-11/17:49:55		Completed Breaking the csv file into smaller chunks
+2022-02-11/17:49:55		Checking for file name violation
+2022-02-11/17:49:55		Checking for file name violation complete
+2022-02-11/17:49:55		Checking if any column has an empty column
+2022-02-11/17:49:56		Files with empty columns moved into archive
+2022-02-11/17:49:56		Checking and imputing NULL where data is missing
+2022-02-11/17:49:56		Imputed empty spaces with NULL successfully
+2022-02-11/17:49:56		Checking for file name violation
+2022-02-11/17:49:56		Checking for file name violation complete

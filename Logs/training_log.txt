@@ -1817,3 +1817,115 @@ Reshape your data either using array.reshape(-1, 1) if your data has a single fe
 2022-02-10/21:56:28		Successfully saved model
 2022-02-10/21:56:28		Saving model
 2022-02-10/21:56:28		Successfully saved model
+2022-02-11/16:25:26		Starting reading operation
+2022-02-11/16:25:26		Successfully read file
+2022-02-11/16:25:26		Checking for empty spaces in colum  names operation
+2022-02-11/16:25:26		Successfully checked and removed empty spaces
+2022-02-11/16:25:26		Attempting to split data into seperate dataframes containing features and target
+2022-02-11/16:25:26		Created features dataframe
+2022-02-11/16:25:26		Created target dataframe
+2022-02-11/16:25:26		Checking for missing values in dataframes
+2022-02-11/16:25:26		No missing values found!!
+2022-02-11/16:25:26		Entered the impute_missing_values method of the Preprocessor class
+2022-02-11/16:25:26		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-11/16:25:26		Checking for columns that dont have variation
+2022-02-11/16:25:26		column SEX appears to be highly skewed
+2022-02-11/16:25:27		Completed Checking for columns that dont have variation
+2022-02-11/16:25:27		dropping columns that dont have variation
+2022-02-11/16:25:27		dropped columns that dont have variation
+2022-02-11/16:25:27		Scaling numerical columns
+2022-02-11/16:25:27		Finished Scaling
+2022-02-11/16:25:27		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/16:25:27		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/16:25:27		Entered data splitter function
+2022-02-11/16:25:27		Successfully split the data into 2 parts
+2022-02-11/16:25:27		Start model training
+2022-02-11/16:25:27		Successfully trained a model
+2022-02-11/16:25:27		Saving model
+2022-02-11/16:25:27		Successfully saved model
+2022-02-11/16:25:27		Saving model
+2022-02-11/16:25:27		Successfully saved model
+2022-02-11/17:47:41		Starting reading operation
+2022-02-11/17:47:41		Successfully read file
+2022-02-11/17:47:41		Checking for empty spaces in colum  names operation
+2022-02-11/17:47:41		Successfully checked and removed empty spaces
+2022-02-11/17:47:41		Attempting to split data into seperate dataframes containing features and target
+2022-02-11/17:47:41		Created features dataframe
+2022-02-11/17:47:41		Created target dataframe
+2022-02-11/17:47:41		Checking for missing values in dataframes
+2022-02-11/17:47:41		No missing values found!!
+2022-02-11/17:47:41		Entered the impute_missing_values method of the Preprocessor class
+2022-02-11/17:47:41		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-11/17:47:41		Checking for columns that dont have variation
+2022-02-11/17:47:41		column SEX appears to be highly skewed
+2022-02-11/17:47:42		Completed Checking for columns that dont have variation
+2022-02-11/17:47:42		dropping columns that dont have variation
+2022-02-11/17:47:42		dropped columns that dont have variation
+2022-02-11/17:47:42		Scaling numerical columns
+2022-02-11/17:47:42		Finished Scaling
+2022-02-11/17:47:42		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:47:42		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:47:42		Entered data splitter function
+2022-02-11/17:47:42		Successfully split the data into 2 parts
+2022-02-11/17:47:42		Start model training
+2022-02-11/17:47:42		Successfully trained a model
+2022-02-11/17:47:42		Saving model
+2022-02-11/17:47:42		Successfully saved model
+2022-02-11/17:47:42		Saving model
+2022-02-11/17:47:42		Successfully saved model
+2022-02-11/17:48:10		Starting reading operation
+2022-02-11/17:48:10		Successfully read file
+2022-02-11/17:48:10		Checking for empty spaces in colum  names operation
+2022-02-11/17:48:10		Successfully checked and removed empty spaces
+2022-02-11/17:48:10		Attempting to split data into seperate dataframes containing features and target
+2022-02-11/17:48:10		Created features dataframe
+2022-02-11/17:48:10		Created target dataframe
+2022-02-11/17:48:10		Checking for missing values in dataframes
+2022-02-11/17:48:10		No missing values found!!
+2022-02-11/17:48:10		Entered the impute_missing_values method of the Preprocessor class
+2022-02-11/17:48:10		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-11/17:48:10		Checking for columns that dont have variation
+2022-02-11/17:48:10		column SEX appears to be highly skewed
+2022-02-11/17:48:11		Completed Checking for columns that dont have variation
+2022-02-11/17:48:11		dropping columns that dont have variation
+2022-02-11/17:48:11		dropped columns that dont have variation
+2022-02-11/17:48:11		Scaling numerical columns
+2022-02-11/17:48:11		Finished Scaling
+2022-02-11/17:48:11		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:48:11		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:48:11		Entered data splitter function
+2022-02-11/17:48:11		Successfully split the data into 2 parts
+2022-02-11/17:48:11		Start model training
+2022-02-11/17:48:11		Successfully trained a model
+2022-02-11/17:48:11		Saving model
+2022-02-11/17:48:11		Successfully saved model
+2022-02-11/17:48:11		Saving model
+2022-02-11/17:48:11		Successfully saved model
+2022-02-11/17:49:53		Starting reading operation
+2022-02-11/17:49:53		Successfully read file
+2022-02-11/17:49:53		Checking for empty spaces in colum  names operation
+2022-02-11/17:49:53		Successfully checked and removed empty spaces
+2022-02-11/17:49:53		Attempting to split data into seperate dataframes containing features and target
+2022-02-11/17:49:53		Created features dataframe
+2022-02-11/17:49:53		Created target dataframe
+2022-02-11/17:49:53		Checking for missing values in dataframes
+2022-02-11/17:49:53		No missing values found!!
+2022-02-11/17:49:53		Entered the impute_missing_values method of the Preprocessor class
+2022-02-11/17:49:53		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-11/17:49:53		Checking for columns that dont have variation
+2022-02-11/17:49:54		column SEX appears to be highly skewed
+2022-02-11/17:49:55		Completed Checking for columns that dont have variation
+2022-02-11/17:49:55		dropping columns that dont have variation
+2022-02-11/17:49:55		dropped columns that dont have variation
+2022-02-11/17:49:55		Scaling numerical columns
+2022-02-11/17:49:55		Finished Scaling
+2022-02-11/17:49:55		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:49:55		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-11/17:49:55		Entered data splitter function
+2022-02-11/17:49:55		Successfully split the data into 2 parts
+2022-02-11/17:49:55		Start model training
+2022-02-11/17:49:55		Successfully trained a model
+2022-02-11/17:49:55		Saving model
+2022-02-11/17:49:55		Successfully saved model
+2022-02-11/17:49:55		Saving model
+2022-02-11/17:49:55		Successfully saved model

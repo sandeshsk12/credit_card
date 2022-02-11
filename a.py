@@ -1,9 +1,8 @@
-import pandas as pd
-df=pd.read_csv('UCI_Credit_Card.csv')
-df.sort_values(by=['ID'],ascending=True,inplace=True)
-import random
-from scipy import stats
+class trial():
+    def __init__(self,a=1,b=3):
+        self.a=a
+        self.b=b
 
-for col in df.columns:
-    print(col)
-    print(stats.kstest(df[col], stats.uniform(loc=0.0, scale=100.0).cdf))
+ob=trial(a=3,b=5)
+ob2=trial()
+print(ob2.a)

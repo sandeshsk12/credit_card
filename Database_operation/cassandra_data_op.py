@@ -7,6 +7,7 @@ import os
 import pandas as pd
 from application_logging.logger import App_Logger
 import shutil
+from File_operations.schema_reader import read_schema
 
 
 
@@ -36,6 +37,7 @@ class cassandra_ops:
                 self.goodFilePath = "Training_files_validated/"
                 self.logger = App_Logger()
                 self.file=open('Logs/database_log.txt','a+')
+                self.output_folder='training_file_from_db'
                 
                 
 
@@ -76,36 +78,55 @@ class cassandra_ops:
 
 
 
-        def create_table(self):
+        def create_training_table(self):
                 """
                 Method Name: create_table
                 Description: This method is used to create a table in the cassandra database
                 Output: None
-
                 Written by: Sandesh
                 Version :1
                 Revisions : None
                 """
                 try:
 
-                        self.session.execute('create table if not exists ccdp."UCI_Credit_Card"  \
+                        self.session.execute('create table if not exists ccdp."training_database"  \
                                 ( ID float,LIMIT_BAL float, SEX float, EDUCATION float, MARRIAGE float, AGE float, PAY_0 float, \
                                 PAY_2 float, PAY_3 float, PAY_4 float, PAY_5 float, PAY_6 float, BILL_AMT1 float, BILL_AMT2 float, \
                                 BILL_AMT3 float, BILL_AMT4 float, BILL_AMT5 float, BILL_AMT6 float, PAY_AMT1 float, \
                                 PAY_AMT2 float, PAY_AMT3 float, PAY_AMT4 float, PAY_AMT5 float, PAY_AMT6 float, Defaulted float, primary key(ID))')
                         
-                        self.logger.log(self.file,"Table successfully created")
+                        self.logger.log(self.file,"Training Table successfully created")
                 except Exception as e:
                         
-                        self.logger.log(self.file,"Table creation failed. The error is : %s" % e)
+                        self.logger.log(self.file,"Training Table creation failed. The error is : %s" % e)
                 return None
 
-        
+        def create_prediction_table(self):
+                """
+                Method Name: create_table
+                Description: This method is used to create a table in the cassandra database
+                Output: None
+                Written by: Sandesh
+                Version :1
+                Revisions : None
+                """
+                try:
+
+                        self.session.execute('create table if not exists ccdp."prediction_database"  \
+                                ( ID float,LIMIT_BAL float, SEX float, EDUCATION float, MARRIAGE float, AGE float, PAY_0 float, \
+                                PAY_2 float, PAY_3 float, PAY_4 float, PAY_5 float, PAY_6 float, BILL_AMT1 float, BILL_AMT2 float, \
+                                BILL_AMT3 float, BILL_AMT4 float, BILL_AMT5 float, BILL_AMT6 float, PAY_AMT1 float, \
+                                PAY_AMT2 float, PAY_AMT3 float, PAY_AMT4 float, PAY_AMT5 float, PAY_AMT6 float , primary key(ID))')
+                        
+                        self.logger.log(self.file,"Prediction Table successfully created")
+                except Exception as e:
+                        
+                        self.logger.log(self.file,"Prediction Table creation failed. The error is : %s" % e)
+                return None
 
 
 
-
-        def insert_values(self):
+        def insert_values_into_training_database(self):
 
                 """
                                 Method Name: insert_values
@@ -140,7 +161,79 @@ class cassandra_ops:
                                         
                                         
                                         try:
-                                                self.session.execute('insert into ccdp."UCI_Credit_Card"("ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2","PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3","BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3","PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES  (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
+                                                self.session.execute('insert into ccdp."training_database"("ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2","PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3","BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3","PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES  (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
+                                                        ,[      float(item[0]),
+                                                                float(item[1]),
+                                                                float(item[2]),
+                                                                float(item[3]),
+                                                                float(item[4]),
+                                                                float(item[5]),
+                                                                float(item[6]),
+                                                                float(item[7]),
+                                                                float(item[8]),
+                                                                float(item[9]),
+                                                                float(item[10]),
+                                                                float(item[11]),
+                                                                float(item[12]),
+                                                                float(item[13]),
+                                                                float(item[14]),
+                                                                float(item[15]),
+                                                                float(item[16]),
+                                                                float(item[17]),
+                                                                float(item[18]),
+                                                                float(item[19]),
+                                                                float(item[20]),
+                                                                float(item[21]),
+                                                                float(item[22]),
+                                                                float(item[23]),
+                                                                float(item[24]),])
+
+                                                self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
+                                                c=c+1
+                                        except Exception as e:
+                                                c=c+1
+                                                self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
+                                                raise e
+                return None
+        
+
+        def insert_values_into_prediction_database(self):
+
+                """
+                                Method Name: insert_values
+                                Description: This method inserts the Good data files from the Good_Raw folder into the
+                                                above created table.
+                                Output: None
+                                On Failure: Raise Exception
+
+                                Written By: iNeuron Intelligence
+                                Edited by: Sandesh
+                                Version: 2.0
+                                Revisions: None
+
+                """
+                
+                goodFilePath= self.goodFilePath
+                badFilePath = self.badFilePath
+                onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
+                log_file = open('Logs/database_insertion_log.txt','a+')
+
+                for file in onlyfiles:
+                        
+                        with open(goodFilePath+'/'+file,'r') as csv_data:
+                                next(csv_data)
+                                reader= csv.reader(csv_data,delimiter=',')
+                                #csv reader object
+                                
+                                c=1
+                                for line in enumerate(reader):
+                                        item=line[1]
+                                        
+                                        
+                                        
+                                        try:
+                                                self.session.execute('insert into ccdp."prediction_database" \
+                                                ID, LIMIT_BAL, SEX, EDUCATION, MARRIAGE, AGE, PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6, BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5, BILL_AMT6, PAY_AMT1, PAY_AMT2, PAY_AMT3, PAY_AMT4, PAY_AMT5, PAY_AMT6, default payment next month) VALUES  (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
                                                         ,[      float(item[0]),
                                                                 float(item[1]),
                                                                 float(item[2]),
@@ -177,7 +270,7 @@ class cassandra_ops:
                                         
                         
 
-        def get_table(self):
+        def get_table(self,process="training"):
                 """
                                 Method Name: get_table
                                 Description: This method displays the data present in the table
@@ -191,18 +284,18 @@ class cassandra_ops:
 
                 """
                 try:
-                        data=(list(self.session.execute('select * from ccdp."UCI_Credit_Card";')))
+                        data=(list(self.session.execute('select * from ccdp.{}_database;'.format(process))))
                         
                         
                         df=pd.DataFrame(data)
                         # Cassandra keeps messing up the order. Need to figure it out properly
                         df.sort_values(by=['ID'],ascending=True,inplace=True)
                         # This is the actual order of columns. Cassandra messes up this also. Should figure this out also
-                        df=df[['ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0',
-                                'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
-                                'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1',
-                                'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6',
-                                'default_payment_next_month']]
+                        #df=df[['ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0',
+                        #        'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
+                        #       'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1',
+                        #       'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6',
+                        #        'default_payment_next_month']]
                         self.logger.log(self.file,"Table retrieval successful")
                         return df
                         
@@ -227,7 +320,7 @@ class cassandra_ops:
                 """
                 try:
                         data=self.get_table()
-                        data.to_csv('training_file_from_db/training_file.csv',index=False)
+                        data.to_csv(self.output_folder+'/training_file.csv',index=False)
                         self.logger.log(self.file,"Successfully created csv file")
                         return None
                 except Exception as e:

@@ -34,6 +34,8 @@ class train_validation():
             self.logger.log(self.log_file,"Checking for file name violation")
             self.file_operator.check_filename_and_move()
             self.logger.log(self.log_file,"Checking for file name violation complete")
+
+            
             #Database operations
             self.logger.log(self.log_file,"Database operations begins here")
             self.logger.log(self.log_file,"Establishing connection with cassandra database")

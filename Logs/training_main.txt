@@ -420,3 +420,183 @@
 2022-02-10/21:56:28		Model trained
 2022-02-10/21:56:28		Yet to save model
 2022-02-10/21:56:28		Model saved
+2022-02-11/16:25:14		Start of training operation
+2022-02-11/16:25:14		Breaking the csv file into smaller chunks
+2022-02-11/16:25:14		Completed Breaking the csv file into smaller chunks
+2022-02-11/16:25:14		Checking for file name violation
+2022-02-11/16:25:14		Checking for file name violation complete
+2022-02-11/16:25:14		Checking if any column has an empty column
+2022-02-11/16:25:15		Files with empty columns moved into archive
+2022-02-11/16:25:15		Checking and imputing NULL where data is missing
+2022-02-11/16:25:16		Imputed empty spaces with NULL successfully
+2022-02-11/16:25:16		Checking for file name violation
+2022-02-11/16:25:16		Checking for file name violation complete
+2022-02-11/16:25:16		Database operations begins here
+2022-02-11/16:25:16		Establishing connection with cassandra database
+2022-02-11/16:25:18		Successfully connected to the database
+2022-02-11/16:25:18		Creating table in cassandra database
+2022-02-11/16:25:18		Successfully created a table in the database
+2022-02-11/16:25:18		Inserting values into table in cassandra database
+2022-02-11/16:25:18		Successfully inserted data into table in the database
+2022-02-11/16:25:18		Exporting contents in cassandra database into a csv
+2022-02-11/16:25:26		Successfully exported data in the database
+2022-02-11/16:25:26		closing cassandra database connection
+2022-02-11/16:25:26		Successfully closed session
+2022-02-11/16:25:26		Preprocessing files for training
+2022-02-11/16:25:26		Loading data from csv file
+2022-02-11/16:25:26		Successfully read data from main csv file
+2022-02-11/16:25:26		Checking if column names have empty spaces 
+2022-02-11/16:25:26		Successfully checked for blanks and spaces in column names
+2022-02-11/16:25:26		Seperating data into features and target variable
+2022-02-11/16:25:26		Successfully split the dataset into features and target
+2022-02-11/16:25:26		Checking for missing values in feature dataset
+2022-02-11/16:25:26		Checking for missing values complete
+2022-02-11/16:25:26		imputing values where data is missing
+2022-02-11/16:25:26		Successfully imputed data where missing
+2022-02-11/16:25:26		Checking for columns without deviations and dropping them
+2022-02-11/16:25:27		Successfully dropped columns that had very highly imbalanced dat
+2022-02-11/16:25:27		Scaling numerical values
+2022-02-11/16:25:27		Scaling complete
+2022-02-11/16:25:27		Checking for data imbalance and handling it
+2022-02-11/16:25:27		Handled imbalanced data
+2022-02-11/16:25:27		Splitting data into test and train dataset
+2022-02-11/16:25:27		Successfully split data into test and train
+2022-02-11/16:25:27		Training a logistic regression model
+2022-02-11/16:25:27		Model trained
+2022-02-11/16:25:27		Yet to save model
+2022-02-11/16:25:27		Model saved
+2022-02-11/17:47:29		Start of training operation
+2022-02-11/17:47:29		Breaking the csv file into smaller chunks
+2022-02-11/17:47:29		Completed Breaking the csv file into smaller chunks
+2022-02-11/17:47:29		Checking for file name violation
+2022-02-11/17:47:29		Checking for file name violation complete
+2022-02-11/17:47:29		Checking if any column has an empty column
+2022-02-11/17:47:29		Files with empty columns moved into archive
+2022-02-11/17:47:29		Checking and imputing NULL where data is missing
+2022-02-11/17:47:30		Imputed empty spaces with NULL successfully
+2022-02-11/17:47:30		Checking for file name violation
+2022-02-11/17:47:30		Checking for file name violation complete
+2022-02-11/17:47:30		Database operations begins here
+2022-02-11/17:47:30		Establishing connection with cassandra database
+2022-02-11/17:47:33		Successfully connected to the database
+2022-02-11/17:47:33		Creating table in cassandra database
+2022-02-11/17:47:33		Successfully created a table in the database
+2022-02-11/17:47:33		Inserting values into table in cassandra database
+2022-02-11/17:47:33		Successfully inserted data into table in the database
+2022-02-11/17:47:33		Exporting contents in cassandra database into a csv
+2022-02-11/17:47:41		Successfully exported data in the database
+2022-02-11/17:47:41		closing cassandra database connection
+2022-02-11/17:47:41		Successfully closed session
+2022-02-11/17:47:41		Preprocessing files for training
+2022-02-11/17:47:41		Loading data from csv file
+2022-02-11/17:47:41		Successfully read data from main csv file
+2022-02-11/17:47:41		Checking if column names have empty spaces 
+2022-02-11/17:47:41		Successfully checked for blanks and spaces in column names
+2022-02-11/17:47:41		Seperating data into features and target variable
+2022-02-11/17:47:41		Successfully split the dataset into features and target
+2022-02-11/17:47:41		Checking for missing values in feature dataset
+2022-02-11/17:47:41		Checking for missing values complete
+2022-02-11/17:47:41		imputing values where data is missing
+2022-02-11/17:47:41		Successfully imputed data where missing
+2022-02-11/17:47:41		Checking for columns without deviations and dropping them
+2022-02-11/17:47:42		Successfully dropped columns that had very highly imbalanced dat
+2022-02-11/17:47:42		Scaling numerical values
+2022-02-11/17:47:42		Scaling complete
+2022-02-11/17:47:42		Checking for data imbalance and handling it
+2022-02-11/17:47:42		Handled imbalanced data
+2022-02-11/17:47:42		Splitting data into test and train dataset
+2022-02-11/17:47:42		Successfully split data into test and train
+2022-02-11/17:47:42		Training a logistic regression model
+2022-02-11/17:47:42		Model trained
+2022-02-11/17:47:42		Yet to save model
+2022-02-11/17:47:42		Model saved
+2022-02-11/17:48:02		Start of training operation
+2022-02-11/17:48:02		Breaking the csv file into smaller chunks
+2022-02-11/17:48:02		Completed Breaking the csv file into smaller chunks
+2022-02-11/17:48:02		Checking for file name violation
+2022-02-11/17:48:02		Checking for file name violation complete
+2022-02-11/17:48:02		Checking if any column has an empty column
+2022-02-11/17:48:02		Files with empty columns moved into archive
+2022-02-11/17:48:02		Checking and imputing NULL where data is missing
+2022-02-11/17:48:03		Imputed empty spaces with NULL successfully
+2022-02-11/17:48:03		Checking for file name violation
+2022-02-11/17:48:03		Checking for file name violation complete
+2022-02-11/17:48:03		Database operations begins here
+2022-02-11/17:48:03		Establishing connection with cassandra database
+2022-02-11/17:48:05		Successfully connected to the database
+2022-02-11/17:48:05		Creating table in cassandra database
+2022-02-11/17:48:05		Successfully created a table in the database
+2022-02-11/17:48:05		Inserting values into table in cassandra database
+2022-02-11/17:48:05		Successfully inserted data into table in the database
+2022-02-11/17:48:05		Exporting contents in cassandra database into a csv
+2022-02-11/17:48:10		Successfully exported data in the database
+2022-02-11/17:48:10		closing cassandra database connection
+2022-02-11/17:48:10		Successfully closed session
+2022-02-11/17:48:10		Preprocessing files for training
+2022-02-11/17:48:10		Loading data from csv file
+2022-02-11/17:48:10		Successfully read data from main csv file
+2022-02-11/17:48:10		Checking if column names have empty spaces 
+2022-02-11/17:48:10		Successfully checked for blanks and spaces in column names
+2022-02-11/17:48:10		Seperating data into features and target variable
+2022-02-11/17:48:10		Successfully split the dataset into features and target
+2022-02-11/17:48:10		Checking for missing values in feature dataset
+2022-02-11/17:48:10		Checking for missing values complete
+2022-02-11/17:48:10		imputing values where data is missing
+2022-02-11/17:48:10		Successfully imputed data where missing
+2022-02-11/17:48:10		Checking for columns without deviations and dropping them
+2022-02-11/17:48:11		Successfully dropped columns that had very highly imbalanced dat
+2022-02-11/17:48:11		Scaling numerical values
+2022-02-11/17:48:11		Scaling complete
+2022-02-11/17:48:11		Checking for data imbalance and handling it
+2022-02-11/17:48:11		Handled imbalanced data
+2022-02-11/17:48:11		Splitting data into test and train dataset
+2022-02-11/17:48:11		Successfully split data into test and train
+2022-02-11/17:48:11		Training a logistic regression model
+2022-02-11/17:48:11		Model trained
+2022-02-11/17:48:11		Yet to save model
+2022-02-11/17:48:11		Model saved
+2022-02-11/17:49:41		Start of training operation
+2022-02-11/17:49:41		Breaking the csv file into smaller chunks
+2022-02-11/17:49:41		Completed Breaking the csv file into smaller chunks
+2022-02-11/17:49:41		Checking for file name violation
+2022-02-11/17:49:41		Checking for file name violation complete
+2022-02-11/17:49:41		Checking if any column has an empty column
+2022-02-11/17:49:41		Files with empty columns moved into archive
+2022-02-11/17:49:41		Checking and imputing NULL where data is missing
+2022-02-11/17:49:42		Imputed empty spaces with NULL successfully
+2022-02-11/17:49:42		Checking for file name violation
+2022-02-11/17:49:42		Checking for file name violation complete
+2022-02-11/17:49:42		Database operations begins here
+2022-02-11/17:49:42		Establishing connection with cassandra database
+2022-02-11/17:49:44		Successfully connected to the database
+2022-02-11/17:49:44		Creating table in cassandra database
+2022-02-11/17:49:44		Successfully created a table in the database
+2022-02-11/17:49:44		Inserting values into table in cassandra database
+2022-02-11/17:49:44		Successfully inserted data into table in the database
+2022-02-11/17:49:44		Exporting contents in cassandra database into a csv
+2022-02-11/17:49:53		Successfully exported data in the database
+2022-02-11/17:49:53		closing cassandra database connection
+2022-02-11/17:49:53		Successfully closed session
+2022-02-11/17:49:53		Preprocessing files for training
+2022-02-11/17:49:53		Loading data from csv file
+2022-02-11/17:49:53		Successfully read data from main csv file
+2022-02-11/17:49:53		Checking if column names have empty spaces 
+2022-02-11/17:49:53		Successfully checked for blanks and spaces in column names
+2022-02-11/17:49:53		Seperating data into features and target variable
+2022-02-11/17:49:53		Successfully split the dataset into features and target
+2022-02-11/17:49:53		Checking for missing values in feature dataset
+2022-02-11/17:49:53		Checking for missing values complete
+2022-02-11/17:49:53		imputing values where data is missing
+2022-02-11/17:49:53		Successfully imputed data where missing
+2022-02-11/17:49:53		Checking for columns without deviations and dropping them
+2022-02-11/17:49:55		Successfully dropped columns that had very highly imbalanced dat
+2022-02-11/17:49:55		Scaling numerical values
+2022-02-11/17:49:55		Scaling complete
+2022-02-11/17:49:55		Checking for data imbalance and handling it
+2022-02-11/17:49:55		Handled imbalanced data
+2022-02-11/17:49:55		Splitting data into test and train dataset
+2022-02-11/17:49:55		Successfully split data into test and train
+2022-02-11/17:49:55		Training a logistic regression model
+2022-02-11/17:49:55		Model trained
+2022-02-11/17:49:55		Yet to save model
+2022-02-11/17:49:55		Model saved
