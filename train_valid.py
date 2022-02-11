@@ -43,12 +43,12 @@ class train_validation():
             self.logger.log(self.log_file,"Successfully connected to the database")
             
             self.logger.log(self.log_file,"Creating table in cassandra database")
-            self.database_operator.create_table()
+            self.database_operator.create_training_table()
             self.logger.log(self.log_file,"Successfully created a table in the database")
 
             
             self.logger.log(self.log_file,"Inserting values into table in cassandra database")
-            #self.database_operator.insert_values()
+            self.database_operator.insert_values_into_training_database()
             self.logger.log(self.log_file,"Successfully inserted data into table in the database")
 
             

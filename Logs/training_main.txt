@@ -600,3 +600,35 @@
 2022-02-11/17:49:55		Model trained
 2022-02-11/17:49:55		Yet to save model
 2022-02-11/17:49:55		Model saved
+2022-02-11/22:34:32		Start of training operation
+2022-02-11/22:34:32		Breaking the csv file into smaller chunks
+2022-02-11/22:34:32		Completed Breaking the csv file into smaller chunks
+2022-02-11/22:34:32		Checking for file name violation
+2022-02-11/22:34:32		Checking for file name violation complete
+2022-02-11/22:34:32		Checking if any column has an empty column
+2022-02-11/22:34:32		Files with empty columns moved into archive
+2022-02-11/22:34:32		Checking and imputing NULL where data is missing
+2022-02-11/22:34:33		Imputed empty spaces with NULL successfully
+2022-02-11/22:34:33		Checking for file name violation
+2022-02-11/22:34:33		Checking for file name violation complete
+2022-02-11/22:34:33		Database operations begins here
+2022-02-11/22:34:33		Establishing connection with cassandra database
+2022-02-11/22:34:35		Successfully connected to the database
+2022-02-11/22:34:35		Creating table in cassandra database
+2022-02-11/22:35:19		Start of training operation
+2022-02-11/22:35:19		Breaking the csv file into smaller chunks
+2022-02-11/22:35:19		Completed Breaking the csv file into smaller chunks
+2022-02-11/22:35:19		Checking for file name violation
+2022-02-11/22:35:19		Checking for file name violation complete
+2022-02-11/22:35:19		Checking if any column has an empty column
+2022-02-11/22:35:20		Files with empty columns moved into archive
+2022-02-11/22:35:20		Checking and imputing NULL where data is missing
+2022-02-11/22:35:20		Imputed empty spaces with NULL successfully
+2022-02-11/22:35:20		Checking for file name violation
+2022-02-11/22:35:20		Checking for file name violation complete
+2022-02-11/22:35:20		Database operations begins here
+2022-02-11/22:35:20		Establishing connection with cassandra database
+2022-02-11/22:35:22		Successfully connected to the database
+2022-02-11/22:35:22		Creating table in cassandra database
+2022-02-11/22:35:23		Successfully created a table in the database
+2022-02-11/22:35:23		Inserting values into table in cassandra database

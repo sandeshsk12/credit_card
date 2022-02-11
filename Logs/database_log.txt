@@ -484,3 +484,10 @@
 2022-02-11/20:20:28		Connected successfully
 2022-02-11/20:20:28		Prediction Table successfully created
 2022-02-11/20:20:28		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/22:31:20		Connected successfully
+2022-02-11/22:31:20		Prediction Table successfully created
+2022-02-11/22:31:20		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/22:34:35		Connected successfully
+2022-02-11/22:35:22		Connected successfully
+2022-02-11/22:35:23		Training Table successfully created
+2022-02-11/22:35:23		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (0.0) for "LIMIT_BAL" of type int"
