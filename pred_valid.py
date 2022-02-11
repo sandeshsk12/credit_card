@@ -67,12 +67,12 @@ class pred_validation():
             self.logger.log(self.log_file,"Successfully connected to the database")
             
             self.logger.log(self.log_file,"Creating table in cassandra database")
-            self.database_operator.create_table()
+            self.database_operator.create_prediction_table()
             self.logger.log(self.log_file,"Successfully created a table in the database")
 
             
             self.logger.log(self.log_file,"Inserting values into table in cassandra database")
-            #self.database_operator.insert_values()
+            #self.database_operator.insert_values_into_prediction_database()
             self.logger.log(self.log_file,"Successfully inserted data into table in the database")
 
             
@@ -82,7 +82,7 @@ class pred_validation():
 
             
             self.logger.log(self.log_file,"closing cassandra database connection")
-            self.database_operator.close_cassandra()
+            #self.database_operator.close_cassandra()
             self.logger.log(self.log_file,"Successfully closed session")
 
             self.log_file.close()

@@ -25,10 +25,10 @@ file_operator.logger = App_Logger()
 file_operator.file_name='UCI_Credit_Card.csv'
 
 
-#file_operator.break_file_into_smaller_files()
-#file_operator.check_filename_and_move()
-#file_operator.check_file_contents()
-#file_operator.impute_null()
+file_operator.break_file_into_smaller_files()
+file_operator.check_filename_and_move()
+file_operator.check_file_contents()
+file_operator.impute_null()
 
 
 

@@ -491,3 +491,57 @@
 2022-02-11/22:35:22		Connected successfully
 2022-02-11/22:35:23		Training Table successfully created
 2022-02-11/22:35:23		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (0.0) for "LIMIT_BAL" of type int"
+2022-02-11/23:34:15		Connected successfully
+2022-02-11/23:34:15		Prediction Table successfully created
+2022-02-11/23:34:15		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:36:26		Connected successfully
+2022-02-11/23:36:26		Prediction Table successfully created
+2022-02-11/23:36:26		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:37:03		Connected successfully
+2022-02-11/23:37:03		Prediction Table successfully created
+2022-02-11/23:37:04		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:37:20		Connected successfully
+2022-02-11/23:37:20		Prediction Table successfully created
+2022-02-11/23:37:20		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:37:53		Connected successfully
+2022-02-11/23:37:53		Prediction Table successfully created
+2022-02-11/23:37:53		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:38:46		Connected successfully
+2022-02-11/23:38:46		Prediction Table successfully created
+2022-02-11/23:38:46		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-11/23:43:32		Connected successfully
+2022-02-11/23:43:32		Prediction Table successfully created
+2022-02-11/23:43:32		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:87 no viable alternative at input 'ID' (insert into ccdp."prediction_database"                                                 [ID]...)">
+2022-02-12/00:02:50		Connected successfully
+2022-02-12/00:02:50		Prediction Table successfully created
+2022-02-12/00:02:50		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:300 no viable alternative at input 'default' (... PAY_AMT4, PAY_AMT5, PAY_AMT6, [default]...)">
+2022-02-12/00:04:15		Connected successfully
+2022-02-12/00:04:15		Prediction Table successfully created
+2022-02-12/00:04:16		Connected successfully
+2022-02-12/00:04:17		Training Table successfully created
+2022-02-12/00:05:03		Connected successfully
+2022-02-12/00:05:03		Prediction Table successfully created
+2022-02-12/00:05:03		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:300 no viable alternative at input 'default' (... PAY_AMT4, PAY_AMT5, PAY_AMT6, [default]...)">
+2022-02-12/00:05:50		Connected successfully
+2022-02-12/00:05:50		Prediction Table successfully created
+2022-02-12/00:05:50		Data Insertion failed. The error is: not enough arguments for format string
+2022-02-12/00:07:18		Connected successfully
+2022-02-12/00:07:18		Prediction Table successfully created
+2022-02-12/00:07:18		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Unmatched column names/values"
+2022-02-12/00:07:34		Connected successfully
+2022-02-12/00:07:34		Prediction Table successfully created
+2022-02-12/00:07:34		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Unmatched column names/values"
+2022-02-12/00:07:46		Connected successfully
+2022-02-12/00:07:46		Prediction Table successfully created
+2022-02-12/00:07:46		Data Insertion failed. The error is: not enough arguments for format string
+2022-02-12/00:08:05		Connected successfully
+2022-02-12/00:08:05		Prediction Table successfully created
+2022-02-12/00:09:56		Connected successfully
+2022-02-12/00:09:56		Training Table successfully created
+2022-02-12/00:15:46		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-12/01:01:57		Connected successfully
+2022-02-12/01:01:57		Training Table successfully created
+2022-02-12/01:01:57		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/01:04:40		Connected successfully
+2022-02-12/01:04:40		Training Table successfully created
+2022-02-12/01:04:40		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
