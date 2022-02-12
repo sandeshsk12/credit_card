@@ -683,3 +683,394 @@
 2022-02-12/01:04:40		Creating table in cassandra database
 2022-02-12/01:04:40		Successfully created a table in the database
 2022-02-12/01:04:40		Inserting values into table in cassandra database
+2022-02-12/22:33:53		Start of training operation
+2022-02-12/22:33:53		Breaking the csv file into smaller chunks
+2022-02-12/22:33:53		Completed Breaking the csv file into smaller chunks
+2022-02-12/22:33:53		Checking for file name violation
+2022-02-12/22:33:53		Checking for file name violation complete
+2022-02-12/22:33:53		Checking if any column has an empty column
+2022-02-12/22:33:54		Files with empty columns moved into archive
+2022-02-12/22:33:54		Checking and imputing NULL where data is missing
+2022-02-12/22:33:55		Imputed empty spaces with NULL successfully
+2022-02-12/22:33:55		Checking for file name violation
+2022-02-12/22:33:55		Checking for file name violation complete
+2022-02-12/22:33:55		Database operations begins here
+2022-02-12/22:33:55		Establishing connection with cassandra database
+2022-02-12/22:33:57		Successfully connected to the database
+2022-02-12/22:33:57		Creating table in cassandra database
+2022-02-12/22:33:57		Successfully created a table in the database
+2022-02-12/22:33:57		Inserting values into table in cassandra database
+2022-02-12/22:35:59		Start of training operation
+2022-02-12/22:35:59		Breaking the csv file into smaller chunks
+2022-02-12/22:35:59		Completed Breaking the csv file into smaller chunks
+2022-02-12/22:35:59		Checking for file name violation
+2022-02-12/22:35:59		Checking for file name violation complete
+2022-02-12/22:35:59		Checking if any column has an empty column
+2022-02-12/22:35:59		Files with empty columns moved into archive
+2022-02-12/22:35:59		Checking and imputing NULL where data is missing
+2022-02-12/22:36:00		Imputed empty spaces with NULL successfully
+2022-02-12/22:36:00		Checking for file name violation
+2022-02-12/22:36:00		Checking for file name violation complete
+2022-02-12/22:36:00		Database operations begins here
+2022-02-12/22:36:00		Establishing connection with cassandra database
+2022-02-12/22:36:03		Successfully connected to the database
+2022-02-12/22:36:03		Creating table in cassandra database
+2022-02-12/22:36:03		Successfully created a table in the database
+2022-02-12/22:36:03		Inserting values into table in cassandra database
+2022-02-12/22:38:08		Start of training operation
+2022-02-12/22:38:08		Breaking the csv file into smaller chunks
+2022-02-12/22:38:08		Completed Breaking the csv file into smaller chunks
+2022-02-12/22:38:08		Checking for file name violation
+2022-02-12/22:38:08		Checking for file name violation complete
+2022-02-12/22:38:08		Checking if any column has an empty column
+2022-02-12/22:38:09		Files with empty columns moved into archive
+2022-02-12/22:38:09		Checking and imputing NULL where data is missing
+2022-02-12/22:38:09		Imputed empty spaces with NULL successfully
+2022-02-12/22:38:09		Checking for file name violation
+2022-02-12/22:38:09		Checking for file name violation complete
+2022-02-12/22:38:09		Database operations begins here
+2022-02-12/22:38:09		Establishing connection with cassandra database
+2022-02-12/22:38:12		Successfully connected to the database
+2022-02-12/22:38:12		Creating table in cassandra database
+2022-02-12/22:38:12		Successfully created a table in the database
+2022-02-12/22:38:12		Inserting values into table in cassandra database
+2022-02-12/23:14:37		Start of training operation
+2022-02-12/23:14:37		Breaking the csv file into smaller chunks
+2022-02-12/23:14:38		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:14:38		Checking for file name violation
+2022-02-12/23:14:38		Checking for file name violation complete
+2022-02-12/23:14:38		Checking if any column has an empty column
+2022-02-12/23:14:38		Files with empty columns moved into archive
+2022-02-12/23:14:38		Checking and imputing NULL where data is missing
+2022-02-12/23:14:39		Imputed empty spaces with NULL successfully
+2022-02-12/23:14:39		Checking for file name violation
+2022-02-12/23:14:39		Checking for file name violation complete
+2022-02-12/23:14:39		Database operations begins here
+2022-02-12/23:14:39		Establishing connection with cassandra database
+2022-02-12/23:14:40		Successfully connected to the database
+2022-02-12/23:14:40		Creating table in cassandra database
+2022-02-12/23:14:40		Successfully created a table in the database
+2022-02-12/23:14:40		Inserting values into table in cassandra database
+2022-02-12/23:47:20		Start of training operation
+2022-02-12/23:47:20		Breaking the csv file into smaller chunks
+2022-02-12/23:47:21		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:47:21		Checking for file name violation
+2022-02-12/23:47:21		Checking for file name violation complete
+2022-02-12/23:47:21		Checking if any column has an empty column
+2022-02-12/23:47:21		Files with empty columns moved into archive
+2022-02-12/23:47:21		Checking and imputing NULL where data is missing
+2022-02-12/23:47:22		Imputed empty spaces with NULL successfully
+2022-02-12/23:47:22		Checking for file name violation
+2022-02-12/23:47:22		Checking for file name violation complete
+2022-02-12/23:47:22		Database operations begins here
+2022-02-12/23:47:22		Establishing connection with cassandra database
+2022-02-12/23:47:24		Successfully connected to the database
+2022-02-12/23:47:24		Creating table in cassandra database
+2022-02-12/23:47:24		Successfully created a table in the database
+2022-02-12/23:47:24		Inserting values into table in cassandra database
+2022-02-12/23:50:09		Start of training operation
+2022-02-12/23:50:09		Breaking the csv file into smaller chunks
+2022-02-12/23:50:10		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:50:10		Checking for file name violation
+2022-02-12/23:50:10		Checking for file name violation complete
+2022-02-12/23:50:10		Checking if any column has an empty column
+2022-02-12/23:50:10		Files with empty columns moved into archive
+2022-02-12/23:50:10		Checking and imputing NULL where data is missing
+2022-02-12/23:50:11		Imputed empty spaces with NULL successfully
+2022-02-12/23:50:11		Checking for file name violation
+2022-02-12/23:50:11		Checking for file name violation complete
+2022-02-12/23:50:11		Database operations begins here
+2022-02-12/23:50:11		Establishing connection with cassandra database
+2022-02-12/23:50:13		Successfully connected to the database
+2022-02-12/23:50:13		Creating table in cassandra database
+2022-02-12/23:50:13		Successfully created a table in the database
+2022-02-12/23:50:13		Inserting values into table in cassandra database
+2022-02-12/23:51:09		Start of training operation
+2022-02-12/23:51:09		Breaking the csv file into smaller chunks
+2022-02-12/23:51:10		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:51:10		Checking for file name violation
+2022-02-12/23:51:10		Checking for file name violation complete
+2022-02-12/23:51:10		Checking if any column has an empty column
+2022-02-12/23:51:10		Files with empty columns moved into archive
+2022-02-12/23:51:10		Checking and imputing NULL where data is missing
+2022-02-12/23:51:11		Imputed empty spaces with NULL successfully
+2022-02-12/23:51:11		Checking for file name violation
+2022-02-12/23:51:11		Checking for file name violation complete
+2022-02-12/23:51:11		Database operations begins here
+2022-02-12/23:51:11		Establishing connection with cassandra database
+2022-02-12/23:51:13		Successfully connected to the database
+2022-02-12/23:51:13		Creating table in cassandra database
+2022-02-12/23:51:13		Successfully created a table in the database
+2022-02-12/23:51:13		Inserting values into table in cassandra database
+2022-02-12/23:51:39		Start of training operation
+2022-02-12/23:51:39		Breaking the csv file into smaller chunks
+2022-02-12/23:51:40		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:51:40		Checking for file name violation
+2022-02-12/23:51:40		Checking for file name violation complete
+2022-02-12/23:51:40		Checking if any column has an empty column
+2022-02-12/23:51:40		Files with empty columns moved into archive
+2022-02-12/23:51:40		Checking and imputing NULL where data is missing
+2022-02-12/23:51:41		Imputed empty spaces with NULL successfully
+2022-02-12/23:51:41		Checking for file name violation
+2022-02-12/23:51:41		Checking for file name violation complete
+2022-02-12/23:51:41		Database operations begins here
+2022-02-12/23:51:41		Establishing connection with cassandra database
+2022-02-12/23:51:43		Successfully connected to the database
+2022-02-12/23:51:43		Creating table in cassandra database
+2022-02-12/23:51:43		Successfully created a table in the database
+2022-02-12/23:51:43		Inserting values into table in cassandra database
+2022-02-12/23:53:44		Start of training operation
+2022-02-12/23:53:44		Breaking the csv file into smaller chunks
+2022-02-12/23:53:45		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:53:45		Checking for file name violation
+2022-02-12/23:53:45		Checking for file name violation complete
+2022-02-12/23:53:45		Checking if any column has an empty column
+2022-02-12/23:53:45		Files with empty columns moved into archive
+2022-02-12/23:53:45		Checking and imputing NULL where data is missing
+2022-02-12/23:53:46		Imputed empty spaces with NULL successfully
+2022-02-12/23:53:46		Checking for file name violation
+2022-02-12/23:53:46		Checking for file name violation complete
+2022-02-12/23:53:46		Database operations begins here
+2022-02-12/23:53:46		Establishing connection with cassandra database
+2022-02-12/23:53:48		Successfully connected to the database
+2022-02-12/23:53:48		Creating table in cassandra database
+2022-02-12/23:53:48		Successfully created a table in the database
+2022-02-12/23:53:48		Inserting values into table in cassandra database
+2022-02-12/23:54:51		Start of training operation
+2022-02-12/23:54:51		Breaking the csv file into smaller chunks
+2022-02-12/23:54:52		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:54:52		Checking for file name violation
+2022-02-12/23:54:52		Checking for file name violation complete
+2022-02-12/23:54:52		Checking if any column has an empty column
+2022-02-12/23:54:52		Files with empty columns moved into archive
+2022-02-12/23:54:52		Checking and imputing NULL where data is missing
+2022-02-12/23:54:53		Imputed empty spaces with NULL successfully
+2022-02-12/23:54:53		Checking for file name violation
+2022-02-12/23:54:53		Checking for file name violation complete
+2022-02-12/23:54:53		Database operations begins here
+2022-02-12/23:54:53		Establishing connection with cassandra database
+2022-02-12/23:54:55		Successfully connected to the database
+2022-02-12/23:54:55		Creating table in cassandra database
+2022-02-12/23:54:55		Successfully created a table in the database
+2022-02-12/23:54:55		Inserting values into table in cassandra database
+2022-02-12/23:59:42		Start of training operation
+2022-02-12/23:59:42		Breaking the csv file into smaller chunks
+2022-02-12/23:59:42		Completed Breaking the csv file into smaller chunks
+2022-02-12/23:59:42		Checking for file name violation
+2022-02-12/23:59:42		Checking for file name violation complete
+2022-02-12/23:59:42		Checking if any column has an empty column
+2022-02-12/23:59:43		Files with empty columns moved into archive
+2022-02-12/23:59:43		Checking and imputing NULL where data is missing
+2022-02-12/23:59:43		Imputed empty spaces with NULL successfully
+2022-02-12/23:59:43		Checking for file name violation
+2022-02-12/23:59:43		Checking for file name violation complete
+2022-02-12/23:59:43		Database operations begins here
+2022-02-12/23:59:43		Establishing connection with cassandra database
+2022-02-12/23:59:46		Successfully connected to the database
+2022-02-12/23:59:46		Creating table in cassandra database
+2022-02-12/23:59:46		Successfully created a table in the database
+2022-02-12/23:59:46		Inserting values into table in cassandra database
+2022-02-13/00:00:11		Start of training operation
+2022-02-13/00:00:11		Breaking the csv file into smaller chunks
+2022-02-13/00:00:12		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:00:12		Checking for file name violation
+2022-02-13/00:00:12		Checking for file name violation complete
+2022-02-13/00:00:12		Checking if any column has an empty column
+2022-02-13/00:00:12		Files with empty columns moved into archive
+2022-02-13/00:00:12		Checking and imputing NULL where data is missing
+2022-02-13/00:00:13		Imputed empty spaces with NULL successfully
+2022-02-13/00:00:13		Checking for file name violation
+2022-02-13/00:00:13		Checking for file name violation complete
+2022-02-13/00:00:13		Database operations begins here
+2022-02-13/00:00:13		Establishing connection with cassandra database
+2022-02-13/00:00:15		Successfully connected to the database
+2022-02-13/00:00:15		Creating table in cassandra database
+2022-02-13/00:00:16		Successfully created a table in the database
+2022-02-13/00:00:16		Inserting values into table in cassandra database
+2022-02-13/00:00:39		Start of training operation
+2022-02-13/00:00:39		Breaking the csv file into smaller chunks
+2022-02-13/00:00:40		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:00:40		Checking for file name violation
+2022-02-13/00:00:40		Checking for file name violation complete
+2022-02-13/00:00:40		Checking if any column has an empty column
+2022-02-13/00:00:40		Files with empty columns moved into archive
+2022-02-13/00:00:40		Checking and imputing NULL where data is missing
+2022-02-13/00:00:41		Imputed empty spaces with NULL successfully
+2022-02-13/00:00:41		Checking for file name violation
+2022-02-13/00:00:41		Checking for file name violation complete
+2022-02-13/00:00:41		Database operations begins here
+2022-02-13/00:00:41		Establishing connection with cassandra database
+2022-02-13/00:00:43		Successfully connected to the database
+2022-02-13/00:00:43		Creating table in cassandra database
+2022-02-13/00:00:43		Successfully created a table in the database
+2022-02-13/00:00:43		Inserting values into table in cassandra database
+2022-02-13/00:01:38		Start of training operation
+2022-02-13/00:01:38		Breaking the csv file into smaller chunks
+2022-02-13/00:01:39		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:01:39		Checking for file name violation
+2022-02-13/00:01:39		Checking for file name violation complete
+2022-02-13/00:01:39		Checking if any column has an empty column
+2022-02-13/00:01:39		Files with empty columns moved into archive
+2022-02-13/00:01:39		Checking and imputing NULL where data is missing
+2022-02-13/00:01:40		Imputed empty spaces with NULL successfully
+2022-02-13/00:01:40		Checking for file name violation
+2022-02-13/00:01:40		Checking for file name violation complete
+2022-02-13/00:01:40		Database operations begins here
+2022-02-13/00:01:40		Establishing connection with cassandra database
+2022-02-13/00:01:42		Successfully connected to the database
+2022-02-13/00:01:42		Creating table in cassandra database
+2022-02-13/00:01:42		Successfully created a table in the database
+2022-02-13/00:01:42		Inserting values into table in cassandra database
+2022-02-13/00:05:39		Start of training operation
+2022-02-13/00:05:39		Breaking the csv file into smaller chunks
+2022-02-13/00:05:40		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:05:40		Checking for file name violation
+2022-02-13/00:05:40		Checking for file name violation complete
+2022-02-13/00:05:40		Checking if any column has an empty column
+2022-02-13/00:05:40		Files with empty columns moved into archive
+2022-02-13/00:05:40		Checking and imputing NULL where data is missing
+2022-02-13/00:05:41		Imputed empty spaces with NULL successfully
+2022-02-13/00:05:41		Checking for file name violation
+2022-02-13/00:05:41		Checking for file name violation complete
+2022-02-13/00:05:41		Database operations begins here
+2022-02-13/00:05:41		Establishing connection with cassandra database
+2022-02-13/00:05:43		Successfully connected to the database
+2022-02-13/00:05:43		Creating table in cassandra database
+2022-02-13/00:05:43		Successfully created a table in the database
+2022-02-13/00:05:43		Inserting values into table in cassandra database
+2022-02-13/00:06:31		Start of training operation
+2022-02-13/00:06:31		Breaking the csv file into smaller chunks
+2022-02-13/00:06:32		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:06:32		Checking for file name violation
+2022-02-13/00:06:32		Checking for file name violation complete
+2022-02-13/00:06:32		Checking if any column has an empty column
+2022-02-13/00:06:32		Files with empty columns moved into archive
+2022-02-13/00:06:32		Checking and imputing NULL where data is missing
+2022-02-13/00:06:33		Imputed empty spaces with NULL successfully
+2022-02-13/00:06:33		Checking for file name violation
+2022-02-13/00:06:33		Checking for file name violation complete
+2022-02-13/00:06:33		Database operations begins here
+2022-02-13/00:06:33		Establishing connection with cassandra database
+2022-02-13/00:06:35		Successfully connected to the database
+2022-02-13/00:06:35		Creating table in cassandra database
+2022-02-13/00:06:35		Successfully created a table in the database
+2022-02-13/00:06:35		Inserting values into table in cassandra database
+2022-02-13/00:07:09		Start of training operation
+2022-02-13/00:07:09		Breaking the csv file into smaller chunks
+2022-02-13/00:07:10		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:07:10		Checking for file name violation
+2022-02-13/00:07:10		Checking for file name violation complete
+2022-02-13/00:07:10		Checking if any column has an empty column
+2022-02-13/00:07:10		Files with empty columns moved into archive
+2022-02-13/00:07:10		Checking and imputing NULL where data is missing
+2022-02-13/00:07:11		Imputed empty spaces with NULL successfully
+2022-02-13/00:07:11		Checking for file name violation
+2022-02-13/00:07:11		Checking for file name violation complete
+2022-02-13/00:07:11		Database operations begins here
+2022-02-13/00:07:11		Establishing connection with cassandra database
+2022-02-13/00:07:13		Successfully connected to the database
+2022-02-13/00:07:13		Creating table in cassandra database
+2022-02-13/00:07:13		Successfully created a table in the database
+2022-02-13/00:07:13		Inserting values into table in cassandra database
+2022-02-13/00:07:51		Start of training operation
+2022-02-13/00:07:51		Breaking the csv file into smaller chunks
+2022-02-13/00:07:52		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:07:52		Checking for file name violation
+2022-02-13/00:07:52		Checking for file name violation complete
+2022-02-13/00:07:52		Checking if any column has an empty column
+2022-02-13/00:07:52		Files with empty columns moved into archive
+2022-02-13/00:07:52		Checking and imputing NULL where data is missing
+2022-02-13/00:07:53		Imputed empty spaces with NULL successfully
+2022-02-13/00:07:53		Checking for file name violation
+2022-02-13/00:07:53		Checking for file name violation complete
+2022-02-13/00:07:53		Database operations begins here
+2022-02-13/00:07:53		Establishing connection with cassandra database
+2022-02-13/00:07:55		Successfully connected to the database
+2022-02-13/00:07:55		Creating table in cassandra database
+2022-02-13/00:07:55		Successfully created a table in the database
+2022-02-13/00:07:55		Inserting values into table in cassandra database
+2022-02-13/00:08:25		Start of training operation
+2022-02-13/00:08:25		Breaking the csv file into smaller chunks
+2022-02-13/00:08:26		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:08:26		Checking for file name violation
+2022-02-13/00:08:26		Checking for file name violation complete
+2022-02-13/00:08:26		Checking if any column has an empty column
+2022-02-13/00:08:26		Files with empty columns moved into archive
+2022-02-13/00:08:26		Checking and imputing NULL where data is missing
+2022-02-13/00:08:27		Imputed empty spaces with NULL successfully
+2022-02-13/00:08:27		Checking for file name violation
+2022-02-13/00:08:27		Checking for file name violation complete
+2022-02-13/00:08:27		Database operations begins here
+2022-02-13/00:08:27		Establishing connection with cassandra database
+2022-02-13/00:08:30		Successfully connected to the database
+2022-02-13/00:08:30		Creating table in cassandra database
+2022-02-13/00:08:40		Successfully created a table in the database
+2022-02-13/00:08:40		Inserting values into table in cassandra database
+2022-02-13/00:09:10		Start of training operation
+2022-02-13/00:09:10		Breaking the csv file into smaller chunks
+2022-02-13/00:09:11		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:09:11		Checking for file name violation
+2022-02-13/00:09:11		Checking for file name violation complete
+2022-02-13/00:09:11		Checking if any column has an empty column
+2022-02-13/00:09:11		Files with empty columns moved into archive
+2022-02-13/00:09:11		Checking and imputing NULL where data is missing
+2022-02-13/00:09:12		Imputed empty spaces with NULL successfully
+2022-02-13/00:09:12		Checking for file name violation
+2022-02-13/00:09:12		Checking for file name violation complete
+2022-02-13/00:09:12		Database operations begins here
+2022-02-13/00:09:12		Establishing connection with cassandra database
+2022-02-13/00:09:13		Successfully connected to the database
+2022-02-13/00:09:13		Creating table in cassandra database
+2022-02-13/00:09:14		Successfully created a table in the database
+2022-02-13/00:09:14		Inserting values into table in cassandra database
+2022-02-13/00:10:20		Start of training operation
+2022-02-13/00:10:20		Breaking the csv file into smaller chunks
+2022-02-13/00:10:21		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:10:21		Checking for file name violation
+2022-02-13/00:10:21		Checking for file name violation complete
+2022-02-13/00:10:21		Checking if any column has an empty column
+2022-02-13/00:10:21		Files with empty columns moved into archive
+2022-02-13/00:10:21		Checking and imputing NULL where data is missing
+2022-02-13/00:10:22		Imputed empty spaces with NULL successfully
+2022-02-13/00:10:22		Checking for file name violation
+2022-02-13/00:10:22		Checking for file name violation complete
+2022-02-13/00:10:22		Database operations begins here
+2022-02-13/00:10:22		Establishing connection with cassandra database
+2022-02-13/00:10:23		Successfully connected to the database
+2022-02-13/00:10:23		Creating table in cassandra database
+2022-02-13/00:10:23		Successfully created a table in the database
+2022-02-13/00:10:23		Inserting values into table in cassandra database
+2022-02-13/00:11:03		Start of training operation
+2022-02-13/00:11:03		Breaking the csv file into smaller chunks
+2022-02-13/00:11:03		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:11:03		Checking for file name violation
+2022-02-13/00:11:03		Checking for file name violation complete
+2022-02-13/00:11:03		Checking if any column has an empty column
+2022-02-13/00:11:04		Files with empty columns moved into archive
+2022-02-13/00:11:04		Checking and imputing NULL where data is missing
+2022-02-13/00:11:04		Imputed empty spaces with NULL successfully
+2022-02-13/00:11:04		Checking for file name violation
+2022-02-13/00:11:04		Checking for file name violation complete
+2022-02-13/00:11:04		Database operations begins here
+2022-02-13/00:11:04		Establishing connection with cassandra database
+2022-02-13/00:11:06		Successfully connected to the database
+2022-02-13/00:11:06		Creating table in cassandra database
+2022-02-13/00:11:06		Successfully created a table in the database
+2022-02-13/00:11:06		Inserting values into table in cassandra database
+2022-02-13/00:14:02		Start of training operation
+2022-02-13/00:14:02		Breaking the csv file into smaller chunks
+2022-02-13/00:14:02		Completed Breaking the csv file into smaller chunks
+2022-02-13/00:14:02		Checking for file name violation
+2022-02-13/00:14:02		Checking for file name violation complete
+2022-02-13/00:14:02		Checking if any column has an empty column
+2022-02-13/00:14:02		Files with empty columns moved into archive
+2022-02-13/00:14:02		Checking and imputing NULL where data is missing
+2022-02-13/00:14:03		Imputed empty spaces with NULL successfully
+2022-02-13/00:14:03		Checking for file name violation
+2022-02-13/00:14:03		Checking for file name violation complete
+2022-02-13/00:14:03		Database operations begins here
+2022-02-13/00:14:03		Establishing connection with cassandra database
+2022-02-13/00:14:08		Successfully connected to the database
+2022-02-13/00:14:08		Creating table in cassandra database
+2022-02-13/00:14:08		Successfully created a table in the database
+2022-02-13/00:14:08		Inserting values into table in cassandra database

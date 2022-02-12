@@ -27,7 +27,7 @@ class file_operations:
         """
     def __init__(self):
 
-        self.path='Batch_files'
+        self.path='Training_Batch_files'
         self.good_files_path='Training_files_validated'
         self.bad_files_path='Bad_Training_files'
         self.schema=read_schema()

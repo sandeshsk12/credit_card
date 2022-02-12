@@ -545,3 +545,182 @@
 2022-02-12/01:04:40		Connected successfully
 2022-02-12/01:04:40		Training Table successfully created
 2022-02-12/01:04:40		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/22:33:57		Connected successfully
+2022-02-12/22:33:57		Training Table successfully created
+2022-02-12/22:33:57		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/22:36:03		Connected successfully
+2022-02-12/22:36:03		Training Table successfully created
+2022-02-12/22:36:03		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/22:37:09		Connected successfully
+2022-02-12/22:37:10		Prediction Table successfully created
+2022-02-12/22:37:10		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/22:38:12		Connected successfully
+2022-02-12/22:38:12		Training Table successfully created
+2022-02-12/22:38:12		Data Insertion failed. The error is: <Error from server: code=2000 [Syntax error in CQL query] message="line 1:35 no viable alternative at input 'ID' (insert into ccdp.training_database(['I]...)">
+2022-02-12/23:08:16		Connected successfully
+2022-02-12/23:08:16		Prediction Table successfully created
+2022-02-12/23:08:16		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:13:02		Connected successfully
+2022-02-12/23:13:02		Prediction Table successfully created
+2022-02-12/23:13:03		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:14:40		Connected successfully
+2022-02-12/23:14:40		Training Table successfully created
+2022-02-12/23:14:40		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:15:10		Connected successfully
+2022-02-12/23:15:10		Prediction Table successfully created
+2022-02-12/23:15:10		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:15:38		Connected successfully
+2022-02-12/23:15:38		Prediction Table successfully created
+2022-02-12/23:15:38		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:16:01		Connected successfully
+2022-02-12/23:16:01		Prediction Table successfully created
+2022-02-12/23:16:01		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name limit_bal"
+2022-02-12/23:16:46		Connected successfully
+2022-02-12/23:16:46		Prediction Table successfully created
+2022-02-12/23:16:46		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:17:32		Connected successfully
+2022-02-12/23:17:32		Prediction Table successfully created
+2022-02-12/23:17:32		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:17:59		Connected successfully
+2022-02-12/23:17:59		Prediction Table successfully created
+2022-02-12/23:17:59		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:19:03		Connected successfully
+2022-02-12/23:19:03		Prediction Table successfully created
+2022-02-12/23:19:03		Data Insertion failed. The error is: float() argument must be a string or a number, not 'list'
+2022-02-12/23:19:24		Connected successfully
+2022-02-12/23:19:24		Prediction Table successfully created
+2022-02-12/23:19:24		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:19:48		Connected successfully
+2022-02-12/23:19:48		Prediction Table successfully created
+2022-02-12/23:19:48		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:20:59		Connected successfully
+2022-02-12/23:20:59		Prediction Table successfully created
+2022-02-12/23:20:59		Data Insertion failed. The error is: string indices must be integers
+2022-02-12/23:21:57		Connected successfully
+2022-02-12/23:21:57		Prediction Table successfully created
+2022-02-12/23:21:57		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:22:16		Connected successfully
+2022-02-12/23:22:16		Prediction Table successfully created
+2022-02-12/23:22:16		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name sex"
+2022-02-12/23:24:15		Connected successfully
+2022-02-12/23:24:15		Prediction Table successfully created
+2022-02-12/23:26:33		Connected successfully
+2022-02-12/23:26:33		Prediction Table successfully created
+2022-02-12/23:26:33		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:27:00		Connected successfully
+2022-02-12/23:27:00		Prediction Table successfully created
+2022-02-12/23:27:00		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "SEX" of type int"
+2022-02-12/23:28:40		Connected successfully
+2022-02-12/23:28:40		Prediction Table successfully created
+2022-02-12/23:28:40		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:29:38		Connected successfully
+2022-02-12/23:29:39		Prediction Table successfully created
+2022-02-12/23:29:39		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (1.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:30:08		Connected successfully
+2022-02-12/23:30:08		Prediction Table successfully created
+2022-02-12/23:30:08		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:33:06		Connected successfully
+2022-02-12/23:33:06		Prediction Table successfully created
+2022-02-12/23:33:06		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:33:24		Connected successfully
+2022-02-12/23:33:24		Prediction Table successfully created
+2022-02-12/23:33:24		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:34:19		Connected successfully
+2022-02-12/23:34:19		Prediction Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:117 no viable alternative at input '(' (...training_database_2                                  ( "ID" float,"LIMIT_BAL" [varchar](...)">
+2022-02-12/23:34:19		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid FLOAT constant (20000.0) for "LIMIT_BAL" of type int"
+2022-02-12/23:35:58		Connected successfully
+2022-02-12/23:35:58		Prediction Table successfully created
+2022-02-12/23:35:58		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "ID""
+2022-02-12/23:36:57		Connected successfully
+2022-02-12/23:36:57		Prediction Table successfully created
+2022-02-12/23:36:58		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "LIMIT_BAL""
+2022-02-12/23:38:30		Connected successfully
+2022-02-12/23:38:30		Prediction Table successfully created
+2022-02-12/23:38:30		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Invalid STRING constant (1) for "id" of type float"
+2022-02-12/23:38:50		Connected successfully
+2022-02-12/23:38:50		Prediction Table successfully created
+2022-02-12/23:39:44		Connected successfully
+2022-02-12/23:39:44		Prediction Table successfully created
+2022-02-12/23:39:44		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:41:22		Connected successfully
+2022-02-12/23:41:22		Prediction Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:16 mismatched input 'ccdp' expecting K_NOT (create table if [ccdp]...)">
+2022-02-12/23:41:22		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:41:54		Connected successfully
+2022-02-12/23:42:04		Prediction Table creation failed. The error is : errors={'3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:29d54b18-28f5-4377-b23e-423ddbc05397
+2022-02-12/23:42:04		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="table ccdp.prediction_database does not exist"
+2022-02-12/23:42:30		Connected successfully
+2022-02-12/23:42:30		Prediction Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.prediction_database' doesn't exist"
+2022-02-12/23:42:30		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="table ccdp.prediction_database does not exist"
+2022-02-12/23:42:48		Connected successfully
+2022-02-12/23:42:49		Prediction Table successfully created
+2022-02-12/23:42:49		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name id"
+2022-02-12/23:43:19		Connected successfully
+2022-02-12/23:43:19		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:43:19		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name limit_bal"
+2022-02-12/23:44:30		Connected successfully
+2022-02-12/23:44:30		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:47:24		Connected successfully
+2022-02-12/23:47:24		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:47:24		Data Insertion failed. The error is: list index out of range
+2022-02-12/23:50:13		Connected successfully
+2022-02-12/23:50:13		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:50:13		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Unmatched column names/values"
+2022-02-12/23:51:13		Connected successfully
+2022-02-12/23:51:13		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:51:13		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Unmatched column names/values"
+2022-02-12/23:51:43		Connected successfully
+2022-02-12/23:51:43		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:51:43		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Unmatched column names/values"
+2022-02-12/23:52:06		Connected successfully
+2022-02-12/23:52:06		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:52:06		Data Insertion failed. The error is: not enough arguments for format string
+2022-02-12/23:52:45		Connected successfully
+2022-02-12/23:52:45		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:53:48		Connected successfully
+2022-02-12/23:53:48		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:53:48		Data Insertion failed. The error is: list index out of range
+2022-02-12/23:54:55		Connected successfully
+2022-02-12/23:54:55		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:54:55		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-12/23:56:14		Connected successfully
+2022-02-12/23:56:14		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:59:14		Connected successfully
+2022-02-12/23:59:14		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-12/23:59:46		Connected successfully
+2022-02-12/23:59:46		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-12/23:59:46		Data Insertion failed. The error is: list index out of range
+2022-02-13/00:00:15		Connected successfully
+2022-02-13/00:00:16		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-13/00:00:16		Data Insertion failed. The error is: list index out of range
+2022-02-13/00:00:43		Connected successfully
+2022-02-13/00:00:43		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-13/00:00:43		Data Insertion failed. The error is: list index out of range
+2022-02-13/00:01:42		Connected successfully
+2022-02-13/00:01:42		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-13/00:01:42		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:05:43		Connected successfully
+2022-02-13/00:05:43		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-13/00:05:43		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "default.payment.next.month""
+2022-02-13/00:06:35		Connected successfully
+2022-02-13/00:06:35		Training Table creation failed. The error is : Error from server: code=2200 [Invalid query] message="Table 'ccdp.training_databse' doesn't exist"
+2022-02-13/00:06:36		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:07:13		Connected successfully
+2022-02-13/00:07:13		Training Table creation failed. The error is : <Error from server: code=2000 [Syntax error in CQL query] message="line 1:713 mismatched input '(' expecting ')' (...float, "Defaulted" float                                 primary key[(]...)">
+2022-02-13/00:07:13		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:07:55		Connected successfully
+2022-02-13/00:07:55		Training Table creation failed. The error is : Table 'ccdp.training_database' already exists
+2022-02-13/00:07:55		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:08:30		Connected successfully
+2022-02-13/00:08:40		Training Table creation failed. The error is : errors={'3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:2095bbc6-ae77-4ffd-b082-939d26f4d74d': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=3b7abe6a-2898-4bd5-9882-286bb753ac9a-asia-south1.db.astra.datastax.com:29042:2095bbc6-ae77-4ffd-b082-939d26f4d74d
+2022-02-13/00:08:40		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:09:13		Connected successfully
+2022-02-13/00:09:14		Training Table successfully created
+2022-02-13/00:09:14		Data Insertion failed. The error is: Error from server: code=2200 [Invalid query] message="Undefined column name "Defaulted""
+2022-02-13/00:10:23		Connected successfully
+2022-02-13/00:10:23		Training Table creation failed. The error is : Table 'ccdp.training_database' already exists
+2022-02-13/00:11:06		Connected successfully
+2022-02-13/00:11:06		Training Table creation failed. The error is : Table 'ccdp.training_database' already exists
+2022-02-13/00:13:31		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/00:14:08		Connected successfully
+2022-02-13/00:14:08		Training Table creation failed. The error is : Table 'ccdp.training_database' already exists
+2022-02-13/00:16:59		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}

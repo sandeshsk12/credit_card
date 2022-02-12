@@ -88,13 +88,16 @@ class cassandra_ops:
                 Revisions : None
                 """
                 try:
-
-                        self.session.execute('create table if not exists ccdp.training_database  \
-                                ( ID float,LIMIT_BAL float, SEX float, EDUCATION float, MARRIAGE float, AGE float, PAY_0 float, \
-                                PAY_2 float, PAY_3 float, PAY_4 float, PAY_5 float, PAY_6 float, BILL_AMT1 float, BILL_AMT2 float, \
-                                BILL_AMT3 float, BILL_AMT4 float, BILL_AMT5 float, BILL_AMT6 float, PAY_AMT1 float, \
-                                PAY_AMT2 float, PAY_AMT3 float, PAY_AMT4 float, PAY_AMT5 float, PAY_AMT6 float, Defaulted float, primary key(ID))')
                         
+                        self.session.execute('create table ccdp.training_database  \
+                                ( "ID" float,"LIMIT_BAL" float,"SEX" float,"EDUCATION" float, \
+                                "MARRIAGE" float,"AGE" float,"PAY_0" float,"PAY_2" float, \
+                                "PAY_3" float,"PAY_4" float,"PAY_5" float,"PAY_6" float, \
+                                "BILL_AMT1" float,"BILL_AMT2" float,"BILL_AMT3" float, \
+                                "BILL_AMT4" float,"BILL_AMT5" float,"BILL_AMT6" float, \
+                                "PAY_AMT1" float,"PAY_AMT2" float,"PAY_AMT3" float, \
+                                "PAY_AMT4" float,"PAY_AMT5" float,"PAY_AMT6" float, "Defaulted" float, \
+                                primary key("ID"))')
                         self.logger.log(self.file,"Training Table successfully created")
                 except Exception as e:
                         
@@ -111,13 +114,16 @@ class cassandra_ops:
                 Revisions : None
                 """
                 try:
-
-                        self.session.execute('create table if not exists ccdp.prediction_database  \
-                                ( ID float,LIMIT_BAL float, SEX float, EDUCATION float, MARRIAGE float, AGE float, PAY_0 float, \
-                                PAY_2 float, PAY_3 float, PAY_4 float, PAY_5 float, PAY_6 float, BILL_AMT1 float, BILL_AMT2 float, \
-                                BILL_AMT3 float, BILL_AMT4 float, BILL_AMT5 float, BILL_AMT6 float, PAY_AMT1 float, \
-                                PAY_AMT2 float, PAY_AMT3 float, PAY_AMT4 float, PAY_AMT5 float, PAY_AMT6 float , primary key(ID))')
                         
+                        self.session.execute('create table ccdp.prediction_database  \
+                                ( "ID" float,"LIMIT_BAL" float,"SEX" float,"EDUCATION" float, \
+                                "MARRIAGE" float,"AGE" float,"PAY_0" float,"PAY_2" float, \
+                                "PAY_3" float,"PAY_4" float,"PAY_5" float,"PAY_6" float, \
+                                "BILL_AMT1" float,"BILL_AMT2" float,"BILL_AMT3" float, \
+                                "BILL_AMT4" float,"BILL_AMT5" float,"BILL_AMT6" float, \
+                                "PAY_AMT1" float,"PAY_AMT2" float,"PAY_AMT3" float, \
+                                "PAY_AMT4" float,"PAY_AMT5" float,"PAY_AMT6" float, \
+                                primary key("ID"))')
                         self.logger.log(self.file,"Prediction Table successfully created")
                 except Exception as e:
                         
@@ -156,12 +162,19 @@ class cassandra_ops:
                                 
                                 c=1
                                 for line in enumerate(reader):
+                                        
                                         item=line[1]
                                         
                                         
                                         
+                                        
                                         try:
-                                                self.session.execute("insert into ccdp.training_database(ID,LIMIT_BAL,SEX,EDUCATION,MARRIAGE,AGE,PAY_0,PAY_2,PAY_3,PAY_4,PAY_5,PAY_6,BILL_AMT1,BILL_AMT2,BILL_AMT3,BILL_AMT4,BILL_AMT5,BILL_AMT6,PAY_AMT1,PAY_AMT2,PAY_AMT3,PAY_AMT4,PAY_AMT5,PAY_AMT6,Defaulted) VALUES  (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" \
+                                                self.session.execute('insert into ccdp.training_database \
+                                                ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
+                                                "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
+                                                "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
+                                                "PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES \
+                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'
                                                         ,[      float(item[0]),
                                                                 float(item[1]),
                                                                 float(item[2]),
@@ -227,14 +240,18 @@ class cassandra_ops:
                                 
                                 c=1
                                 for line in enumerate(reader):
+                                        
                                         item=line[1]
                                         
                                         
-                                        
                                         try:
-                                                self.session.execute("insert into ccdp.prediction_database \
-                                                (ID, LIMIT_BAL, SEX, EDUCATION, MARRIAGE, AGE, PAY_0, PAY_2, PAY_3, PAY_4, PAY_5, PAY_6, BILL_AMT1, BILL_AMT2, BILL_AMT3, BILL_AMT4, BILL_AMT5, BILL_AMT6, PAY_AMT1, PAY_AMT2, PAY_AMT3, PAY_AMT4, PAY_AMT5, PAY_AMT6) VALUES  (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)" \
-                                                        ,[      float(item[0]),
+                                                self.session.execute('insert into ccdp.prediction_database \
+                                                ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
+                                                "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
+                                                "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
+                                                "PAY_AMT4","PAY_AMT5","PAY_AMT6") VALUES \
+                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
+                                                ,[              
                                                                 float(item[1]),
                                                                 float(item[2]),
                                                                 float(item[3]),
@@ -257,7 +274,8 @@ class cassandra_ops:
                                                                 float(item[20]),
                                                                 float(item[21]),
                                                                 float(item[22]),
-                                                                float(item[23])
+                                                                float(item[23]),
+                                                                float(item[24]),
                                                                 ])
 
                                                 self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
