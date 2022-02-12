@@ -206,7 +206,8 @@ class cassandra_ops:
                                         except Exception as e:
                                                 c=c+1
                                                 self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
-                                                raise e
+                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}" .format(file,c))
+                                                continue
                 return None
         
 
@@ -282,8 +283,8 @@ class cassandra_ops:
                                                 c=c+1
                                         except Exception as e:
                                                 c=c+1
-                                                self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
-                                                raise e
+                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}" .format(file,c))
+                                                continue
                 return None
                                         
                         
