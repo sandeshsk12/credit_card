@@ -1929,3 +1929,89 @@ Reshape your data either using array.reshape(-1, 1) if your data has a single fe
 2022-02-11/17:49:55		Successfully saved model
 2022-02-11/17:49:55		Saving model
 2022-02-11/17:49:55		Successfully saved model
+2022-02-13/02:52:51		Starting reading operation
+2022-02-13/02:52:51		Successfully read file
+2022-02-13/02:52:51		Checking for empty spaces in colum  names operation
+2022-02-13/02:52:51		Successfully checked and removed empty spaces
+2022-02-13/02:52:51		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/02:52:51		Failed to split the dataframe into features and target "['default_payment_next_month'] not found in axis"
+2022-02-13/09:10:57		Starting reading operation
+2022-02-13/09:10:57		Successfully read file
+2022-02-13/09:10:57		Checking for empty spaces in colum  names operation
+2022-02-13/09:10:57		Successfully checked and removed empty spaces
+2022-02-13/09:10:57		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/09:10:57		Failed to split the dataframe into features and target "['default.payment.next.month'] not found in axis"
+2022-02-13/09:32:47		Starting reading operation
+2022-02-13/09:32:47		Successfully read file
+2022-02-13/09:32:47		Checking for empty spaces in colum  names operation
+2022-02-13/09:32:47		Successfully checked and removed empty spaces
+2022-02-13/09:32:47		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/09:32:47		Failed to split the dataframe into features and target "['default.payment.next.month'] not found in axis"
+2022-02-13/09:33:34		Starting reading operation
+2022-02-13/09:33:34		Successfully read file
+2022-02-13/09:33:34		Checking for empty spaces in colum  names operation
+2022-02-13/09:33:34		Successfully checked and removed empty spaces
+2022-02-13/09:33:34		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/09:33:34		Failed to split the dataframe into features and target "['default.payment.next.month'] not found in axis"
+2022-02-13/09:38:18		Starting reading operation
+2022-02-13/09:38:18		Successfully read file
+2022-02-13/09:38:18		Checking for empty spaces in colum  names operation
+2022-02-13/09:38:18		Successfully checked and removed empty spaces
+2022-02-13/09:38:18		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/09:38:18		Created features dataframe
+2022-02-13/09:38:18		Created target dataframe
+2022-02-13/09:38:18		Checking for missing values in dataframes
+2022-02-13/09:38:18		No missing values found!!
+2022-02-13/09:38:18		Entered the impute_missing_values method of the Preprocessor class
+2022-02-13/09:38:18		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-13/09:38:18		Checking for columns that dont have variation
+2022-02-13/09:38:18		column SEX appears to be highly skewed
+2022-02-13/09:38:18		Completed Checking for columns that dont have variation
+2022-02-13/09:38:18		dropping columns that dont have variation
+2022-02-13/09:38:18		dropped columns that dont have variation
+2022-02-13/09:38:18		Scaling numerical columns
+2022-02-13/09:38:18		Finished Scaling
+2022-02-13/09:38:18		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-13/09:38:18		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-13/09:38:18		Entered data splitter function
+2022-02-13/09:38:18		Successfully split the data into 2 parts
+2022-02-13/09:38:18		Start model training
+2022-02-13/09:38:18		Successfully trained a model
+2022-02-13/09:38:18		Saving model
+2022-02-13/09:38:18		Successfully saved model
+2022-02-13/09:38:18		Saving model
+2022-02-13/09:38:18		Successfully saved model
+2022-02-13/16:51:09		Starting reading operation
+2022-02-13/16:51:09		Successfully read file
+2022-02-13/16:51:09		Checking for empty spaces in colum  names operation
+2022-02-13/16:51:09		Successfully checked and removed empty spaces
+2022-02-13/16:51:09		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/16:51:09		Failed to split the dataframe into features and target "['default.payment.next.month'] not found in axis"
+2022-02-13/17:00:08		Starting reading operation
+2022-02-13/17:00:08		Successfully read file
+2022-02-13/17:00:08		Checking for empty spaces in colum  names operation
+2022-02-13/17:00:08		Successfully checked and removed empty spaces
+2022-02-13/17:00:08		Attempting to split data into seperate dataframes containing features and target
+2022-02-13/17:00:08		Created features dataframe
+2022-02-13/17:00:08		Created target dataframe
+2022-02-13/17:00:08		Checking for missing values in dataframes
+2022-02-13/17:00:08		No missing values found!!
+2022-02-13/17:00:08		Entered the impute_missing_values method of the Preprocessor class
+2022-02-13/17:00:08		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-13/17:00:08		Checking for columns that dont have variation
+2022-02-13/17:00:08		column SEX appears to be highly skewed
+2022-02-13/17:00:08		Completed Checking for columns that dont have variation
+2022-02-13/17:00:08		dropping columns that dont have variation
+2022-02-13/17:00:08		dropped columns that dont have variation
+2022-02-13/17:00:08		Scaling numerical columns
+2022-02-13/17:00:08		Finished Scaling
+2022-02-13/17:00:08		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-13/17:00:08		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-02-13/17:00:08		Entered data splitter function
+2022-02-13/17:00:08		Successfully split the data into 2 parts
+2022-02-13/17:00:08		Start model training
+2022-02-13/17:00:08		Successfully trained a model
+2022-02-13/17:00:08		Saving model
+2022-02-13/17:00:08		Successfully saved model
+2022-02-13/17:00:08		Saving model
+2022-02-13/17:00:08		Successfully saved model

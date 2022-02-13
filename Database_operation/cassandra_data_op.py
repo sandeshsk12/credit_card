@@ -324,7 +324,7 @@ class cassandra_ops:
                 return None
                 
         
-        def db_to_csv(self):
+        def db_to_csv(self,process='training'):
                 """
                                 Method Name: db_to_csv
                                 Description: This method creates exports the database into a csv file
@@ -338,8 +338,8 @@ class cassandra_ops:
 
                 """
                 try:
-                        data=self.get_table()
-                        data.to_csv(self.output_folder+'/training_file.csv',index=False)
+                        data=self.get_table(process)
+                        data.to_csv(self.output_folder+'/{}_file.csv'.format(process),index=False)
                         self.logger.log(self.file,"Successfully created csv file")
                         return None
                 except Exception as e:

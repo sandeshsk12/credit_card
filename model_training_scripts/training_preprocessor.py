@@ -65,7 +65,7 @@ class preprocessor():
         return None
         
 
-    def seperate_target_features(self,data,target_variable='default_payment_next_month'):
+    def seperate_target_features(self,data,target_variable='Defaulted'):
         """
                 Method Name: seperate_target_features
                 Description:This method is used to divide the dataset into features and target
@@ -77,7 +77,8 @@ class preprocessor():
                 Revisions : None
                 """
         self.logger.log(self.log_file,"Attempting to split data into seperate dataframes containing features and target")
-        
+        print(data.columns)
+        print(len(data.columns))
         try:
             features=data.drop(target_variable,axis=1)
             self.logger.log(self.log_file,"Created features dataframe")

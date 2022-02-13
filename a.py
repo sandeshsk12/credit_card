@@ -1,8 +1,7 @@
-class trial():
-    def __init__(self,a=1,b=3):
-        self.a=a
-        self.b=b
+import pickle
+import pandas as pd
 
-ob=trial(a=3,b=5)
-ob2=trial()
-print(ob2.a)
+with open('models/trained_model') as f:
+    model=pickle.load(f)
+
+data=pd.read_csv('Prediction_files/UCI_Credit_Card.csv')

@@ -1074,3 +1074,101 @@
 2022-02-13/00:14:08		Creating table in cassandra database
 2022-02-13/00:14:08		Successfully created a table in the database
 2022-02-13/00:14:08		Inserting values into table in cassandra database
+2022-02-13/01:52:42		Start of training operation
+2022-02-13/01:52:42		Breaking the csv file into smaller chunks
+2022-02-13/01:52:43		Completed Breaking the csv file into smaller chunks
+2022-02-13/01:52:43		Checking for file name violation
+2022-02-13/01:52:43		Checking for file name violation complete
+2022-02-13/01:52:43		Checking if any column has an empty column
+2022-02-13/01:52:43		Files with empty columns moved into archive
+2022-02-13/01:52:43		Checking and imputing NULL where data is missing
+2022-02-13/01:52:44		Imputed empty spaces with NULL successfully
+2022-02-13/01:52:44		Checking for file name violation
+2022-02-13/01:52:44		Checking for file name violation complete
+2022-02-13/01:52:44		Database operations begins here
+2022-02-13/01:52:44		Establishing connection with cassandra database
+2022-02-13/01:52:47		Successfully connected to the database
+2022-02-13/01:52:47		Creating table in cassandra database
+2022-02-13/01:52:49		Successfully created a table in the database
+2022-02-13/01:52:49		Inserting values into table in cassandra database
+2022-02-13/02:52:49		Successfully inserted data into table in the database
+2022-02-13/02:52:49		Exporting contents in cassandra database into a csv
+2022-02-13/02:52:51		Successfully exported data in the database
+2022-02-13/02:52:51		closing cassandra database connection
+2022-02-13/02:52:51		Successfully closed session
+2022-02-13/02:52:51		Preprocessing files for training
+2022-02-13/02:52:51		Loading data from csv file
+2022-02-13/02:52:51		Successfully read data from main csv file
+2022-02-13/02:52:51		Checking if column names have empty spaces 
+2022-02-13/02:52:51		Successfully checked for blanks and spaces in column names
+2022-02-13/02:52:51		Seperating data into features and target variable
+2022-02-13/09:10:57		Preprocessing files for training
+2022-02-13/09:10:57		Loading data from csv file
+2022-02-13/09:10:57		Successfully read data from main csv file
+2022-02-13/09:10:57		Checking if column names have empty spaces 
+2022-02-13/09:10:57		Successfully checked for blanks and spaces in column names
+2022-02-13/09:10:57		Seperating data into features and target variable
+2022-02-13/09:32:47		Preprocessing files for training
+2022-02-13/09:32:47		Loading data from csv file
+2022-02-13/09:32:47		Successfully read data from main csv file
+2022-02-13/09:32:47		Checking if column names have empty spaces 
+2022-02-13/09:32:47		Successfully checked for blanks and spaces in column names
+2022-02-13/09:32:47		Seperating data into features and target variable
+2022-02-13/09:33:34		Preprocessing files for training
+2022-02-13/09:33:34		Loading data from csv file
+2022-02-13/09:33:34		Successfully read data from main csv file
+2022-02-13/09:33:34		Checking if column names have empty spaces 
+2022-02-13/09:33:34		Successfully checked for blanks and spaces in column names
+2022-02-13/09:33:34		Seperating data into features and target variable
+2022-02-13/09:38:18		Preprocessing files for training
+2022-02-13/09:38:18		Loading data from csv file
+2022-02-13/09:38:18		Successfully read data from main csv file
+2022-02-13/09:38:18		Checking if column names have empty spaces 
+2022-02-13/09:38:18		Successfully checked for blanks and spaces in column names
+2022-02-13/09:38:18		Seperating data into features and target variable
+2022-02-13/09:38:18		Successfully split the dataset into features and target
+2022-02-13/09:38:18		Checking for missing values in feature dataset
+2022-02-13/09:38:18		Checking for missing values complete
+2022-02-13/09:38:18		imputing values where data is missing
+2022-02-13/09:38:18		Successfully imputed data where missing
+2022-02-13/09:38:18		Checking for columns without deviations and dropping them
+2022-02-13/09:38:18		Successfully dropped columns that had very highly imbalanced dat
+2022-02-13/09:38:18		Scaling numerical values
+2022-02-13/09:38:18		Scaling complete
+2022-02-13/09:38:18		Checking for data imbalance and handling it
+2022-02-13/09:38:18		Handled imbalanced data
+2022-02-13/09:38:18		Splitting data into test and train dataset
+2022-02-13/09:38:18		Successfully split data into test and train
+2022-02-13/09:38:18		Training a logistic regression model
+2022-02-13/09:38:18		Model trained
+2022-02-13/09:38:18		Yet to save model
+2022-02-13/09:38:18		Model saved
+2022-02-13/16:51:09		Preprocessing files for training
+2022-02-13/16:51:09		Loading data from csv file
+2022-02-13/16:51:09		Successfully read data from main csv file
+2022-02-13/16:51:09		Checking if column names have empty spaces 
+2022-02-13/16:51:09		Successfully checked for blanks and spaces in column names
+2022-02-13/16:51:09		Seperating data into features and target variable
+2022-02-13/17:00:08		Preprocessing files for training
+2022-02-13/17:00:08		Loading data from csv file
+2022-02-13/17:00:08		Successfully read data from main csv file
+2022-02-13/17:00:08		Checking if column names have empty spaces 
+2022-02-13/17:00:08		Successfully checked for blanks and spaces in column names
+2022-02-13/17:00:08		Seperating data into features and target variable
+2022-02-13/17:00:08		Successfully split the dataset into features and target
+2022-02-13/17:00:08		Checking for missing values in feature dataset
+2022-02-13/17:00:08		Checking for missing values complete
+2022-02-13/17:00:08		imputing values where data is missing
+2022-02-13/17:00:08		Successfully imputed data where missing
+2022-02-13/17:00:08		Checking for columns without deviations and dropping them
+2022-02-13/17:00:08		Successfully dropped columns that had very highly imbalanced dat
+2022-02-13/17:00:08		Scaling numerical values
+2022-02-13/17:00:08		Scaling complete
+2022-02-13/17:00:08		Checking for data imbalance and handling it
+2022-02-13/17:00:08		Handled imbalanced data
+2022-02-13/17:00:08		Splitting data into test and train dataset
+2022-02-13/17:00:08		Successfully split data into test and train
+2022-02-13/17:00:08		Training a logistic regression model
+2022-02-13/17:00:08		Model trained
+2022-02-13/17:00:08		Yet to save model
+2022-02-13/17:00:08		Model saved

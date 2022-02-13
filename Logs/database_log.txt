@@ -724,3 +724,30 @@
 2022-02-13/00:14:08		Connected successfully
 2022-02-13/00:14:08		Training Table creation failed. The error is : Table 'ccdp.training_database' already exists
 2022-02-13/00:16:59		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/01:52:47		Connected successfully
+2022-02-13/01:52:49		Training Table successfully created
+2022-02-13/01:56:10		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:19:00		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:19:32		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:21:03		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:21:22		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:22:50		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:29:28		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:34:25		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:36:07		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:43:01		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:49:45		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:50:29		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:52:04		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 1 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 1, 'write_type': 'SIMPLE'}
+2022-02-13/02:52:42		Data Insertion failed. The error is: Error from server: code=1100 [Coordinator node timed out waiting for replica nodes' responses] message="Operation timed out - received only 0 responses." info={'consistency': 'LOCAL_QUORUM', 'required_responses': 2, 'received_responses': 0, 'write_type': 'SIMPLE'}
+2022-02-13/02:52:51		Table retrieval successful
+2022-02-13/02:52:51		Successfully created csv file
+2022-02-13/02:52:51		Shutdown successful
+2022-02-13/09:38:22		Connected successfully
+2022-02-13/09:38:23		Prediction Table successfully created
+2022-02-13/09:38:24		Table retrieval successful
+2022-02-13/09:38:24		Successfully created csv file
+2022-02-13/17:00:13		Connected successfully
+2022-02-13/17:00:13		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-13/17:00:15		Table retrieval successful
+2022-02-13/17:00:15		Successfully created csv file

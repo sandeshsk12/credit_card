@@ -5,8 +5,8 @@ from train_valid import train_validation
 from train_model import trainmodel
 from pred_valid import pred_validation
 
-a=train_validation()
-a.train_validation()
+#a=train_validation()
+#a.train_validation()
 b=trainmodel()
 b.train_model()
 

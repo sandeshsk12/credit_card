@@ -14386,3 +14386,318 @@
 2022-02-13/00:14:03		Verified file creditCardFraud_28011989_120239.csv
 2022-02-13/00:14:03		Verified file creditCardFraud_28011990_120240.csv
 2022-02-13/00:14:03		Completed the process of checking the file names
+2022-02-13/01:52:42		Breaking the complete csv file into chunks
+2022-02-13/01:52:43		Completed the process of dividing the main file
+2022-02-13/01:52:43		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/01:52:43		Moving Training_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Training_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/01:52:43		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/01:52:43		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/01:52:43		Completed the process of checking the file names
+2022-02-13/01:52:43		Attempting to check file contents
+2022-02-13/01:52:43		verifying creditCardFraud_28011960_120210.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011961_120211.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011962_120212.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011963_120213.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011964_120214.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011965_120215.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011966_120216.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011967_120217.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011968_120218.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011969_120219.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011970_120220.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011971_120221.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011972_120222.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011973_120223.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011974_120224.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011975_120225.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011976_120226.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011977_120227.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011978_120228.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011979_120229.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011980_120230.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011981_120231.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011982_120232.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011983_120233.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011984_120234.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011985_120235.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011986_120236.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011987_120237.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011988_120238.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011989_120239.csv
+2022-02-13/01:52:43		verifying creditCardFraud_28011990_120240.csv
+2022-02-13/01:52:43		Completed the process of checking the file contents
+2022-02-13/01:52:43		Attempting to impute Null values
+2022-02-13/01:52:44		Completed the process of checking the file contents
+2022-02-13/01:52:44		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/01:52:44		Moving Training_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Training_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/01:52:44		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/01:52:44		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/01:52:44		Completed the process of checking the file names
+2022-02-13/09:38:18		Breaking the complete csv file into chunks
+2022-02-13/09:38:19		Completed the process of dividing the main file
+2022-02-13/09:38:19		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/09:38:19		Moving Prediction_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Prediction_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/09:38:19		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/09:38:19		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/09:38:19		Completed the process of checking the file names
+2022-02-13/09:38:19		Attempting to check file contents
+2022-02-13/09:38:19		verifying creditCardFraud_28011960_120210.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011961_120211.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011962_120212.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011963_120213.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011964_120214.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011965_120215.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011966_120216.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011967_120217.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011968_120218.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011969_120219.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011970_120220.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011971_120221.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011972_120222.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011973_120223.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011974_120224.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011975_120225.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011976_120226.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011977_120227.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011978_120228.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011979_120229.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011980_120230.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011981_120231.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011982_120232.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011983_120233.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011984_120234.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011985_120235.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011986_120236.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011987_120237.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011988_120238.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011989_120239.csv
+2022-02-13/09:38:19		verifying creditCardFraud_28011990_120240.csv
+2022-02-13/09:38:19		Completed the process of checking the file contents
+2022-02-13/09:38:19		Attempting to impute Null values
+2022-02-13/09:38:20		Completed the process of checking the file contents
+2022-02-13/09:38:20		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/09:38:20		Moving Prediction_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Prediction_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/09:38:20		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/09:38:20		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/09:38:20		Completed the process of checking the file names
+2022-02-13/17:00:08		Breaking the complete csv file into chunks
+2022-02-13/17:00:09		Completed the process of dividing the main file
+2022-02-13/17:00:09		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/17:00:09		Moving Prediction_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Prediction_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/17:00:09		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/17:00:09		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/17:00:09		Completed the process of checking the file names
+2022-02-13/17:00:09		Attempting to check file contents
+2022-02-13/17:00:09		verifying creditCardFraud_28011960_120210.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011961_120211.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011962_120212.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011963_120213.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011964_120214.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011965_120215.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011966_120216.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011967_120217.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011968_120218.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011969_120219.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011970_120220.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011971_120221.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011972_120222.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011973_120223.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011974_120224.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011975_120225.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011976_120226.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011977_120227.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011978_120228.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011979_120229.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011980_120230.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011981_120231.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011982_120232.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011983_120233.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011984_120234.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011985_120235.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011986_120236.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011987_120237.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011988_120238.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011989_120239.csv
+2022-02-13/17:00:09		verifying creditCardFraud_28011990_120240.csv
+2022-02-13/17:00:09		Completed the process of checking the file contents
+2022-02-13/17:00:09		Attempting to impute Null values
+2022-02-13/17:00:10		Completed the process of checking the file contents
+2022-02-13/17:00:10		Verified file creditCardFraud_28011960_120210.csv
+2022-02-13/17:00:10		Moving Prediction_Batch_files/creditCardFraud_28011960_120210faulty.csv to Bad_Prediction_files/creditCardFraud_28011960_120210faulty.csv
+2022-02-13/17:00:10		Bad file identifiedcreditCardFraud_28011960_120210faulty.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011961_120211.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011962_120212.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011963_120213.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011964_120214.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011965_120215.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011966_120216.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011967_120217.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011968_120218.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011969_120219.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011970_120220.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011971_120221.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011972_120222.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011973_120223.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011974_120224.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011975_120225.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011976_120226.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011977_120227.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011978_120228.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011979_120229.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011980_120230.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011981_120231.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011982_120232.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011983_120233.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011984_120234.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011985_120235.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011986_120236.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011987_120237.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011988_120238.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011989_120239.csv
+2022-02-13/17:00:10		Verified file creditCardFraud_28011990_120240.csv
+2022-02-13/17:00:10		Completed the process of checking the file names
