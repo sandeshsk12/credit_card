@@ -1,3 +1,4 @@
+from concurrent.futures import process
 from File_operations.file_ops import file_operations
 from application_logging.logger import App_Logger
 from Database_operation.cassandra_data_op import cassandra_ops
@@ -22,6 +23,7 @@ class pred_validation():
         self.file_operator.log_file=open('Logs/file_operations_log.txt','a+')
         self.file_operator.logger = App_Logger()
         self.file_operator.file_name='UCI_Credit_Card.csv'
+        
 
         self.database_operator=cassandra_ops()
         self.database_operator.path = 'Prediction_files_validated/'
@@ -29,6 +31,7 @@ class pred_validation():
         self.database_operator.goodFilePath = "Prediction_files_validated/"
         self.database_operator.logger = App_Logger()
         self.database_operator.file=open('Logs/database_log.txt','a+')
+        self.database_operator.output_folder='prediction_files_from_db'
 
         
     
@@ -77,12 +80,12 @@ class pred_validation():
 
             
             self.logger.log(self.log_file,"Exporting contents in cassandra database into a csv")
-            self.database_operator.db_to_csv()
+            self.database_operator.db_to_csv(process='prediction')
             self.logger.log(self.log_file,"Successfully exported data in the database")
 
             
             self.logger.log(self.log_file,"closing cassandra database connection")
-            #self.database_operator.close_cassandra()
+            self.database_operator.close_cassandra()
             self.logger.log(self.log_file,"Successfully closed session")
 
             self.log_file.close()

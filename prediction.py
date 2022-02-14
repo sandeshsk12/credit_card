@@ -16,7 +16,7 @@ class predict():
     def __init__(self):
         self.model_path='models/trained_model'
         self.logger = App_Logger()
-        self.file_to_be_predicted='prediction_files_from_db/UCI_Credit_Card.csv'
+        self.file_to_be_predicted='prediction_files_from_db/prediction_file.csv'
         self.log_file=open('Logs/Prediction_main.txt','a+')
 
 
@@ -43,8 +43,7 @@ class predict():
             raise e
 
 
-a=predict()
-a.predict()
+
 """
 
 

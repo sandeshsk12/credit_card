@@ -53,7 +53,7 @@ class train_validation():
 
             
             self.logger.log(self.log_file,"Exporting contents in cassandra database into a csv")
-            self.database_operator.db_to_csv(process='training')
+            self.database_operator.db_to_csv()
             self.logger.log(self.log_file,"Successfully exported data in the database")
 
             

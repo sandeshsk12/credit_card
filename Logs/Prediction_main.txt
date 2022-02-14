@@ -1,0 +1,127 @@
+2022-02-14/00:40:58		Start of prediction on data 
+2022-02-14/00:40:58		Failed to predict .The error is [Errno 2] No such file or directory: 'models/trained_model'
+2022-02-14/02:10:40		Start of prediction operation
+2022-02-14/02:10:40		Breaking the csv file into smaller chunks
+2022-02-14/02:10:41		Completed Breaking the csv file into smaller chunks
+2022-02-14/02:10:41		Checking for file name violation
+2022-02-14/02:10:41		Checking for file name violation complete
+2022-02-14/02:10:41		Checking if any column has an empty column
+2022-02-14/02:10:41		Files with empty columns moved into archive
+2022-02-14/02:10:41		Checking and imputing NULL where data is missing
+2022-02-14/02:10:42		Imputed empty spaces with NULL successfully
+2022-02-14/02:10:42		Checking for file name violation
+2022-02-14/02:10:42		Checking for file name violation complete
+2022-02-14/02:10:42		Database operations begins here
+2022-02-14/02:10:42		Establishing connection with cassandra database
+2022-02-14/02:10:44		Successfully connected to the database
+2022-02-14/02:10:44		Creating table in cassandra database
+2022-02-14/02:10:44		Successfully created a table in the database
+2022-02-14/02:10:44		Inserting values into table in cassandra database
+2022-02-14/02:10:44		Successfully inserted data into table in the database
+2022-02-14/02:10:44		Exporting contents in cassandra database into a csv
+2022-02-14/02:10:45		Successfully exported data in the database
+2022-02-14/02:10:45		closing cassandra database connection
+2022-02-14/02:10:45		Successfully closed session
+2022-02-14/02:10:45		Start of prediction on data 
+2022-02-14/02:10:45		Successfully loaded model
+2022-02-14/02:10:45		Failed to predict .The error is [Errno 2] File b'prediction_files_from_db/UCI_Credit_Card.csv' does not exist: b'prediction_files_from_db/UCI_Credit_Card.csv'
+2022-02-14/02:16:07		Start of prediction operation
+2022-02-14/02:16:07		Breaking the csv file into smaller chunks
+2022-02-14/02:16:08		Completed Breaking the csv file into smaller chunks
+2022-02-14/02:16:08		Checking for file name violation
+2022-02-14/02:16:08		Checking for file name violation complete
+2022-02-14/02:16:08		Checking if any column has an empty column
+2022-02-14/02:16:08		Files with empty columns moved into archive
+2022-02-14/02:16:08		Checking and imputing NULL where data is missing
+2022-02-14/02:16:09		Imputed empty spaces with NULL successfully
+2022-02-14/02:16:09		Checking for file name violation
+2022-02-14/02:16:09		Checking for file name violation complete
+2022-02-14/02:16:09		Database operations begins here
+2022-02-14/02:16:09		Establishing connection with cassandra database
+2022-02-14/02:16:11		Successfully connected to the database
+2022-02-14/02:16:11		Creating table in cassandra database
+2022-02-14/02:16:11		Successfully created a table in the database
+2022-02-14/02:16:11		Inserting values into table in cassandra database
+2022-02-14/03:28:23		Successfully inserted data into table in the database
+2022-02-14/03:28:23		Exporting contents in cassandra database into a csv
+2022-02-14/03:28:23		Successfully exported data in the database
+2022-02-14/03:28:23		closing cassandra database connection
+2022-02-14/03:28:23		Successfully closed session
+2022-02-14/03:28:23		Start of prediction on data 
+2022-02-14/03:28:23		Successfully loaded model
+2022-02-14/03:28:23		Failed to predict .The error is [Errno 2] File b'prediction_files_from_db/UCI_Credit_Card.csv' does not exist: b'prediction_files_from_db/UCI_Credit_Card.csv'
+2022-02-14/03:30:18		Start of prediction operation
+2022-02-14/03:30:18		Breaking the csv file into smaller chunks
+2022-02-14/03:30:18		Completed Breaking the csv file into smaller chunks
+2022-02-14/03:30:18		Checking for file name violation
+2022-02-14/03:30:18		Checking for file name violation complete
+2022-02-14/03:30:18		Checking if any column has an empty column
+2022-02-14/03:30:18		Files with empty columns moved into archive
+2022-02-14/03:30:18		Checking and imputing NULL where data is missing
+2022-02-14/03:30:19		Imputed empty spaces with NULL successfully
+2022-02-14/03:30:19		Checking for file name violation
+2022-02-14/03:30:19		Checking for file name violation complete
+2022-02-14/03:30:19		Database operations begins here
+2022-02-14/03:30:19		Establishing connection with cassandra database
+2022-02-14/03:30:21		Successfully connected to the database
+2022-02-14/03:30:21		Creating table in cassandra database
+2022-02-14/03:30:21		Successfully created a table in the database
+2022-02-14/03:30:21		Inserting values into table in cassandra database
+2022-02-14/03:30:21		Successfully inserted data into table in the database
+2022-02-14/03:30:21		Exporting contents in cassandra database into a csv
+2022-02-14/03:30:22		Successfully exported data in the database
+2022-02-14/03:30:22		closing cassandra database connection
+2022-02-14/03:30:22		Successfully closed session
+2022-02-14/03:30:22		Start of prediction on data 
+2022-02-14/03:30:22		Successfully loaded model
+2022-02-14/03:30:22		Failed to predict .The error is [Errno 2] File b'prediction_files_from_db/UCI_Credit_Card.csv' does not exist: b'prediction_files_from_db/UCI_Credit_Card.csv'
+2022-02-14/03:32:31		Start of prediction operation
+2022-02-14/03:32:31		Breaking the csv file into smaller chunks
+2022-02-14/03:32:31		Completed Breaking the csv file into smaller chunks
+2022-02-14/03:32:31		Checking for file name violation
+2022-02-14/03:32:31		Checking for file name violation complete
+2022-02-14/03:32:31		Checking if any column has an empty column
+2022-02-14/03:32:31		Files with empty columns moved into archive
+2022-02-14/03:32:31		Checking and imputing NULL where data is missing
+2022-02-14/03:32:32		Imputed empty spaces with NULL successfully
+2022-02-14/03:32:32		Checking for file name violation
+2022-02-14/03:32:32		Checking for file name violation complete
+2022-02-14/03:32:32		Database operations begins here
+2022-02-14/03:32:32		Establishing connection with cassandra database
+2022-02-14/03:32:34		Successfully connected to the database
+2022-02-14/03:32:34		Creating table in cassandra database
+2022-02-14/03:32:34		Successfully created a table in the database
+2022-02-14/03:32:34		Inserting values into table in cassandra database
+2022-02-14/03:32:34		Successfully inserted data into table in the database
+2022-02-14/03:32:34		Exporting contents in cassandra database into a csv
+2022-02-14/03:32:34		Successfully exported data in the database
+2022-02-14/03:32:34		closing cassandra database connection
+2022-02-14/03:32:34		Successfully closed session
+2022-02-14/03:32:34		Start of prediction on data 
+2022-02-14/03:32:34		Successfully loaded model
+2022-02-14/03:32:34		Failed to predict .The error is [Errno 2] File b'prediction_files_from_db/UCI_Credit_Card.csv' does not exist: b'prediction_files_from_db/UCI_Credit_Card.csv'
+2022-02-14/11:51:41		Start of prediction operation
+2022-02-14/11:51:41		Breaking the csv file into smaller chunks
+2022-02-14/11:51:42		Completed Breaking the csv file into smaller chunks
+2022-02-14/11:51:42		Checking for file name violation
+2022-02-14/11:51:42		Checking for file name violation complete
+2022-02-14/11:51:42		Checking if any column has an empty column
+2022-02-14/11:51:42		Files with empty columns moved into archive
+2022-02-14/11:51:42		Checking and imputing NULL where data is missing
+2022-02-14/11:51:43		Imputed empty spaces with NULL successfully
+2022-02-14/11:51:43		Checking for file name violation
+2022-02-14/11:51:43		Checking for file name violation complete
+2022-02-14/11:51:43		Database operations begins here
+2022-02-14/11:51:43		Establishing connection with cassandra database
+2022-02-14/11:51:45		Successfully connected to the database
+2022-02-14/11:51:45		Creating table in cassandra database
+2022-02-14/11:51:45		Successfully created a table in the database
+2022-02-14/11:51:45		Inserting values into table in cassandra database
+2022-02-14/11:51:45		Successfully inserted data into table in the database
+2022-02-14/11:51:45		Exporting contents in cassandra database into a csv
+2022-02-14/11:51:45		Successfully exported data in the database
+2022-02-14/11:51:45		closing cassandra database connection
+2022-02-14/11:51:45		Successfully closed session
+2022-02-14/11:51:45		Start of prediction on data 
+2022-02-14/11:51:45		Successfully loaded model
+2022-02-14/11:51:45		Predicting values
