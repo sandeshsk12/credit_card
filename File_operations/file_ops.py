@@ -58,7 +58,7 @@ class file_operations:
                 new = data.iloc[i:i+1001]
                 name = "creditCardFraud_" +str(date) + '_' + str(time) + ".csv"
                 new.to_csv(self.path+'/'+name, index=None, header=True)
-                i += 1
+                i += 1000
                 date+=1
                 time+=1
 

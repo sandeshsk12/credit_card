@@ -8,6 +8,7 @@ import pandas as pd
 from application_logging.logger import App_Logger
 import shutil
 from File_operations.schema_reader import read_schema
+import time
 
 
 
@@ -169,6 +170,47 @@ class cassandra_ops:
                                         
                                         
                                         try:
+                                                #print(item[0],end=' ')
+                                                #time.sleep(1)
+                                                self.session.execute('insert into ccdp.training_database \
+                                                ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
+                                                "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
+                                                "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
+                                                "PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES \
+                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'
+                                                        ,[      float(item[0]),
+                                                                float(item[1]),
+                                                                float(item[2]),
+                                                                float(item[3]),
+                                                                float(item[4]),
+                                                                float(item[5]),
+                                                                float(item[6]),
+                                                                float(item[7]),
+                                                                float(item[8]),
+                                                                float(item[9]),
+                                                                float(item[10]),
+                                                                float(item[11]),
+                                                                float(item[12]),
+                                                                float(item[13]),
+                                                                float(item[14]),
+                                                                float(item[15]),
+                                                                float(item[16]),
+                                                                float(item[17]),
+                                                                float(item[18]),
+                                                                float(item[19]),
+                                                                float(item[20]),
+                                                                float(item[21]),
+                                                                float(item[22]),
+                                                                float(item[23]),
+                                                                float(item[24])])
+                                                if c%100 ==0: print(item[0])
+                                                self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
+                                                c=c+1
+                                                #print(c)
+                                        except Exception as e:
+                                                c=c+1
+                                                self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
+                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}. Attempting again" .format(file,c))
                                                 self.session.execute('insert into ccdp.training_database \
                                                 ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
                                                 "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
@@ -201,13 +243,7 @@ class cassandra_ops:
                                                                 float(item[23]),
                                                                 float(item[24])])
 
-                                                self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
-                                                c=c+1
-                                        except Exception as e:
-                                                c=c+1
-                                                self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
-                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}" .format(file,c))
-                                                continue
+                                                
                 return None
         
 
