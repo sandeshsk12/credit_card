@@ -75,7 +75,7 @@ class pred_validation():
 
             
             self.logger.log(self.log_file,"Inserting values into table in cassandra database")
-            #self.database_operator.insert_values_into_prediction_database()
+            self.database_operator.insert_values_into_prediction_database()
             self.logger.log(self.log_file,"Successfully inserted data into table in the database")
 
             
