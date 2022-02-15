@@ -1,6 +1,7 @@
 import pandas as pd
 from application_logging.logger import App_Logger
 
+
 class data_loader():
     """
                 Class Name: data_loader
@@ -10,11 +11,11 @@ class data_loader():
                 Version :1
                 Revisions : None
                 """
-    def __init__(self):
-        self.path='training_file_from_db/training_file.csv'
-        self.logger = App_Logger()
-        self.log_file=open('Logs/training_log.txt','a+')
 
+    def __init__(self):
+        self.path = 'training_file_from_db/training_file.csv'
+        self.logger = App_Logger()
+        self.log_file = open('Logs/training_log.txt', 'a+')
 
     def load_data(self):
         """
@@ -26,12 +27,11 @@ class data_loader():
                 Version :1
                 Revisions : None
                 """
-        self.logger.log(self.log_file,"Starting reading operation")
+        self.logger.log(self.log_file, "Starting reading operation")
         try:
-            self.data=pd.read_csv(self.path)
-            self.logger.log(self.log_file,"Successfully read file")
+            self.data = pd.read_csv(self.path)
+            self.logger.log(self.log_file, "Successfully read file")
             return self.data
         except Exception as e:
-            self.logger.log(self.log_file,"Failed to read file %s" %e)
+            self.logger.log(self.log_file, "Failed to read file %s" % e)
         return None
-        

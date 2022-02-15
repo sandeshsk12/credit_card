@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import pickle
 
+
 class trainer():
     """
                 Class Name: trainer
@@ -13,11 +14,13 @@ class trainer():
                 Version :1
                 Revisions : None
                 """
+
     def __init__(self):
-        
+
         self.logger = App_Logger()
-        self.log_file=open('Logs/training_log.txt','a+')
-    def data_splitter(self,features,target):
+        self.log_file = open('Logs/training_log.txt', 'a+')
+
+    def data_splitter(self, features, target):
         """
                 Method Name: data_splitter
                 Description: This method is used to split the dataframe into testing and training parts
@@ -26,16 +29,19 @@ class trainer():
                 Version :1
                 Revisions : None
                 """
-        self.logger.log(self.log_file,"Entered data splitter function")
+        self.logger.log(self.log_file, "Entered data splitter function")
         try:
-            X_train,X_test,y_train,y_test = train_test_split(features,target,test_size=0.2,random_state=10)
-            self.logger.log(self.log_file,"Successfully split the data into 2 parts")
-            return X_train,X_test,y_train,y_test
+            X_train, X_test, y_train, y_test = train_test_split(
+                features, target, test_size=0.2, random_state=10)
+            self.logger.log(
+                self.log_file, "Successfully split the data into 2 parts")
+            return X_train, X_test, y_train, y_test
         except Exception as e:
-            self.logger.log(self.log_file,"Could not split. The error was : %s" %e)
+            self.logger.log(
+                self.log_file, "Could not split. The error was : %s" % e)
         return None
 
-    def trainer(self,X_train,y_train):
+    def trainer(self, X_train, y_train):
         """
                 Method Name: trainer
                 Description: This method is used to train and build a model on the train dataset
@@ -44,18 +50,19 @@ class trainer():
                 Version :1
                 Revisions : None
                 """
-        self.logger.log(self.log_file,"Start model training")
+        self.logger.log(self.log_file, "Start model training")
         try:
-            model=LogisticRegression()
-            model.fit(X_train,y_train)
-            self.logger.log(self.log_file,"Successfully trained a model")
+            model = LogisticRegression()
+            model.fit(X_train, y_train)
+            self.logger.log(self.log_file, "Successfully trained a model")
             self.save_model(model)
             return model
         except Exception as e:
-            self.logger.log(self.log_file,"Could not split. The error was : %s" %e)
+            self.logger.log(
+                self.log_file, "Could not split. The error was : %s" % e)
         return None
 
-    def save_model(self,model):
+    def save_model(self, model):
         """
                 Method Name: save_model
                 Description: This method is used to save the model.
@@ -64,25 +71,13 @@ class trainer():
                 Version :1
                 Revisions : None
         """
-        self.logger.log(self.log_file,"Saving model")
+        self.logger.log(self.log_file, "Saving model")
         try:
-            with open('models/trained_model','wb') as f:
-                pickle.dump(model,f)
-            self.logger.log(self.log_file,"Successfully saved model")
+            with open('models/trained_model', 'wb') as f:
+                pickle.dump(model, f)
+            self.logger.log(self.log_file, "Successfully saved model")
             return model
         except Exception as e:
-            self.logger.log(self.log_file,"Could not the model. The error was : %s" %e)
+            self.logger.log(
+                self.log_file, "Could not the model. The error was : %s" % e)
         return None
-
-
-
-
-
-        
-
-
-
-
-    
-
-

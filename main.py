@@ -6,13 +6,13 @@ from train_model import trainmodel
 from pred_valid import pred_validation
 from prediction import predict
 
-a=train_validation()
+a = train_validation()
 a.train_validation()
-b=trainmodel()
+b = trainmodel()
 b.train_model()
 
-c=pred_validation()
+c = pred_validation()
 c.pred_validation()
 
-d=predict()
+d = predict()
 d.predict()

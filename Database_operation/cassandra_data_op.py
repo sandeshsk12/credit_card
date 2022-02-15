@@ -8,89 +8,71 @@ import pandas as pd
 from application_logging.logger import App_Logger
 import shutil
 from File_operations.schema_reader import read_schema
-import time
-
-
-
-
-
-
-
 
 
 class cassandra_ops:
+    """
+    This class shall be used to perform cassandra operations.
+    Operations that can be done are 
+            create table 
+            insert values into table
+            show values
+            drop table
+            close connection
+    Written By: Sandesh
+    Version: 1.0
+    Revisions: None
+    """
+
+    def __init__(self):
+        self.path = 'Training_files_validated/'
+        self.badFilePath = "Bad_Training_files/"
+        self.goodFilePath = "Training_files_validated/"
+        self.logger = App_Logger()
+        self.file = open('Logs/database_log.txt', 'a+')
+        self.output_folder = 'training_file_from_db'
+
+    def cassandra_connection(self):
         """
-        This class shall be used to perform cassandra operations.
-        Operations that can be done are 
-                create table 
-                insert values into table
-                show values
-                drop table
-                close connection
-        Written By: Sandesh
-        Version: 1.0
-        Revisions: None
+        Method Name: Cassandra connection
+        Description: This method is used to connect to the cassandra database
+        Output: Connection to Database
+
+        Written by: Sandesh
+        Version :1
+        Revisions : None
         """
+        try:
+            cloud_config = {
+                'secure_connect_bundle': 'secure-connect-ineuron.zip'
+            }
+            auth_provider = PlainTextAuthProvider(
+                'FfdDwAlGnqNUwQSlnZHEXhZg', '-WT.2BcPIAquAyRmrPQrI6-DT3IydQ1nT,IRTkorOWI1pUsxhZNYbxJMYRqFXjg+TFpB0Iox7fkfw74Nqpo9cWSp-OgmQ57CFYJb0OCiHDr7_79ULfWcNHEN3G+4tued')
+            cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
 
-        def __init__(self):
-                self.path = 'Training_files_validated/'
-                self.badFilePath = "Bad_Training_files/"
-                self.goodFilePath = "Training_files_validated/"
-                self.logger = App_Logger()
-                self.file=open('Logs/database_log.txt','a+')
-                self.output_folder='training_file_from_db'
-                
-                
+            self.session = cluster.connect()
 
-        def cassandra_connection(self):
-                """
-                Method Name: Cassandra connection
-                Description: This method is used to connect to the cassandra database
-                Output: Connection to Database
+            self.logger.log(self.file, "Connected successfully")
 
-                Written by: Sandesh
-                Version :1
-                Revisions : None
-                """
-                try:
-                        cloud_config= {
-                                'secure_connect_bundle': 'secure-connect-ineuron.zip'
-                        }
-                        auth_provider = PlainTextAuthProvider('FfdDwAlGnqNUwQSlnZHEXhZg', '-WT.2BcPIAquAyRmrPQrI6-DT3IydQ1nT,IRTkorOWI1pUsxhZNYbxJMYRqFXjg+TFpB0Iox7fkfw74Nqpo9cWSp-OgmQ57CFYJb0OCiHDr7_79ULfWcNHEN3G+4tued')
-                        cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
-                        
-                        self.session = cluster.connect()
-                        
-                        self.logger.log(self.file,"Connected successfully")
+        except Exception as e:
 
+            self.logger.log(
+                self.file, "Connection Failed. The error is : %s" % e)
 
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Connection Failed. The error is : %s" % e)
-                        
-                return None
+        return None
 
+    def create_training_table(self):
+        """
+        Method Name: create_table
+        Description: This method is used to create a table in the cassandra database
+        Output: None
+        Written by: Sandesh
+        Version :1
+        Revisions : None
+        """
+        try:
 
-
-
-
-
-
-
-
-
-        def create_training_table(self):
-                """
-                Method Name: create_table
-                Description: This method is used to create a table in the cassandra database
-                Output: None
-                Written by: Sandesh
-                Version :1
-                Revisions : None
-                """
-                try:
-                        
-                        self.session.execute('create table ccdp.training_database  \
+            self.session.execute('create table ccdp.training_database  \
                                 ( "ID" float,"LIMIT_BAL" float,"SEX" float,"EDUCATION" float, \
                                 "MARRIAGE" float,"AGE" float,"PAY_0" float,"PAY_2" float, \
                                 "PAY_3" float,"PAY_4" float,"PAY_5" float,"PAY_6" float, \
@@ -99,24 +81,25 @@ class cassandra_ops:
                                 "PAY_AMT1" float,"PAY_AMT2" float,"PAY_AMT3" float, \
                                 "PAY_AMT4" float,"PAY_AMT5" float,"PAY_AMT6" float, "Defaulted" float, \
                                 primary key("ID"))')
-                        self.logger.log(self.file,"Training Table successfully created")
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Training Table creation failed. The error is : %s" % e)
-                return None
+            self.logger.log(self.file, "Training Table successfully created")
+        except Exception as e:
 
-        def create_prediction_table(self):
-                """
-                Method Name: create_table
-                Description: This method is used to create a table in the cassandra database
-                Output: None
-                Written by: Sandesh
-                Version :1
-                Revisions : None
-                """
-                try:
-                        
-                        self.session.execute('create table ccdp.prediction_database  \
+            self.logger.log(
+                self.file, "Training Table creation failed. The error is : %s" % e)
+        return None
+
+    def create_prediction_table(self):
+        """
+        Method Name: create_table
+        Description: This method is used to create a table in the cassandra database
+        Output: None
+        Written by: Sandesh
+        Version :1
+        Revisions : None
+        """
+        try:
+
+            self.session.execute('create table ccdp.prediction_database  \
                                 ( "ID" float,"LIMIT_BAL" float,"SEX" float,"EDUCATION" float, \
                                 "MARRIAGE" float,"AGE" float,"PAY_0" float,"PAY_2" float, \
                                 "PAY_3" float,"PAY_4" float,"PAY_5" float,"PAY_6" float, \
@@ -125,304 +108,289 @@ class cassandra_ops:
                                 "PAY_AMT1" float,"PAY_AMT2" float,"PAY_AMT3" float, \
                                 "PAY_AMT4" float,"PAY_AMT5" float,"PAY_AMT6" float, \
                                 primary key("ID"))')
-                        self.logger.log(self.file,"Prediction Table successfully created")
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Prediction Table creation failed. The error is : %s" % e)
-                return None
+            self.logger.log(self.file, "Prediction Table successfully created")
+        except Exception as e:
 
+            self.logger.log(
+                self.file, "Prediction Table creation failed. The error is : %s" % e)
+        return None
 
+    def insert_values_into_training_database(self):
+        """
+                        Method Name: insert_values
+                        Description: This method inserts the Good data files from the Good_Raw folder into the
+                                        above created table.
+                        Output: None
+                        On Failure: Raise Exception
 
-        def insert_values_into_training_database(self):
+                        Written By: iNeuron Intelligence
+                        Edited by: Sandesh
+                        Version: 2.0
+                        Revisions: None
 
-                """
-                                Method Name: insert_values
-                                Description: This method inserts the Good data files from the Good_Raw folder into the
-                                                above created table.
-                                Output: None
-                                On Failure: Raise Exception
+        """
 
-                                Written By: iNeuron Intelligence
-                                Edited by: Sandesh
-                                Version: 2.0
-                                Revisions: None
+        goodFilePath = self.goodFilePath
+        badFilePath = self.badFilePath
+        onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
+        log_file = open('Logs/database_insertion_log.txt', 'a+')
 
-                """
-                
-                goodFilePath= self.goodFilePath
-                badFilePath = self.badFilePath
-                onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
-                log_file = open('Logs/database_insertion_log.txt','a+')
+        for file in onlyfiles:
 
-                for file in onlyfiles:
-                        
-                        with open(goodFilePath+'/'+file,'r') as csv_data:
-                                next(csv_data)
-                                reader= csv.reader(csv_data,delimiter=',')
-                                #csv reader object
-                                
-                                c=1
-                                for line in enumerate(reader):
-                                        
-                                        item=line[1]
-                                        
-                                        
-                                        
-                                        
-                                        try:
-                                                #print(item[0],end=' ')
-                                                #time.sleep(1)
-                                                self.session.execute('insert into ccdp.training_database \
+            with open(goodFilePath+'/'+file, 'r') as csv_data:
+                next(csv_data)
+                reader = csv.reader(csv_data, delimiter=',')
+                # csv reader object
+
+                c = 1
+                for line in enumerate(reader):
+
+                    item = line[1]
+
+                    try:
+                        self.session.execute('insert into ccdp.training_database \
                                                 ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
                                                 "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
                                                 "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
                                                 "PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES \
-                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'
-                                                        ,[      float(item[0]),
-                                                                float(item[1]),
-                                                                float(item[2]),
-                                                                float(item[3]),
-                                                                float(item[4]),
-                                                                float(item[5]),
-                                                                float(item[6]),
-                                                                float(item[7]),
-                                                                float(item[8]),
-                                                                float(item[9]),
-                                                                float(item[10]),
-                                                                float(item[11]),
-                                                                float(item[12]),
-                                                                float(item[13]),
-                                                                float(item[14]),
-                                                                float(item[15]),
-                                                                float(item[16]),
-                                                                float(item[17]),
-                                                                float(item[18]),
-                                                                float(item[19]),
-                                                                float(item[20]),
-                                                                float(item[21]),
-                                                                float(item[22]),
-                                                                float(item[23]),
-                                                                float(item[24])])
-                                                if c%100 ==0: print(item[0])
-                                                self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
-                                                c=c+1
-                                                #print(c)
-                                        except Exception as e:
-                                                c=c+1
-                                                self.logger.log(self.file,"Data Insertion failed. The error is: %s" % e)
-                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}. Attempting again" .format(file,c))
-                                                self.session.execute('insert into ccdp.training_database \
-                                                ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
-                                                "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
-                                                "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
-                                                "PAY_AMT4","PAY_AMT5","PAY_AMT6","Defaulted") VALUES \
-                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'
-                                                        ,[      float(item[0]),
-                                                                float(item[1]),
-                                                                float(item[2]),
-                                                                float(item[3]),
-                                                                float(item[4]),
-                                                                float(item[5]),
-                                                                float(item[6]),
-                                                                float(item[7]),
-                                                                float(item[8]),
-                                                                float(item[9]),
-                                                                float(item[10]),
-                                                                float(item[11]),
-                                                                float(item[12]),
-                                                                float(item[13]),
-                                                                float(item[14]),
-                                                                float(item[15]),
-                                                                float(item[16]),
-                                                                float(item[17]),
-                                                                float(item[18]),
-                                                                float(item[19]),
-                                                                float(item[20]),
-                                                                float(item[21]),
-                                                                float(item[22]),
-                                                                float(item[23]),
-                                                                float(item[24])])
+                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)',
+                                             [float(item[0]),
+                                                 float(
+                                                 item[1]),
+                                                 float(
+                                                 item[2]),
+                                                 float(
+                                                 item[3]),
+                                                 float(
+                                                 item[4]),
+                                                 float(
+                                                 item[5]),
+                                                 float(
+                                                 item[6]),
+                                                 float(
+                                                 item[7]),
+                                                 float(
+                                                 item[8]),
+                                                 float(
+                                                 item[9]),
+                                                 float(
+                                                 item[10]),
+                                                 float(
+                                                 item[11]),
+                                                 float(
+                                                 item[12]),
+                                                 float(
+                                                 item[13]),
+                                                 float(
+                                                 item[14]),
+                                                 float(
+                                                 item[15]),
+                                                 float(
+                                                 item[16]),
+                                                 float(
+                                                 item[17]),
+                                                 float(
+                                                 item[18]),
+                                                 float(
+                                                 item[19]),
+                                                 float(
+                                                 item[20]),
+                                                 float(
+                                                 item[21]),
+                                                 float(
+                                                 item[22]),
+                                                 float(
+                                                 item[23]),
+                                                 float(item[24])])
 
-                                                
-                return None
-        
+                        self.logger.log(
+                            log_file, "Insertion successful for record {} : line-{}" .format(file, c))
+                        c = c+1
+                    except Exception as e:
+                        c = c+1
+                        self.logger.log(
+                            self.file, "Data Insertion failed. The error is: %s" % e)
+                        self.logger.log(
+                            log_file, "Insertion failed !!!!!!!!.For record {} : line-{}" .format(file, c))
+                        continue
+        return None
 
-        def insert_values_into_prediction_database(self):
+    def insert_values_into_prediction_database(self):
+        """
+                        Method Name: insert_values
+                        Description: This method inserts the Good data files from the Good_Raw folder into the
+                                        above created table.
+                        Output: None
+                        On Failure: Raise Exception
 
-                """
-                                Method Name: insert_values
-                                Description: This method inserts the Good data files from the Good_Raw folder into the
-                                                above created table.
-                                Output: None
-                                On Failure: Raise Exception
+                        Written By: iNeuron Intelligence
+                        Edited by: Sandesh
+                        Version: 2.0
+                        Revisions: None
 
-                                Written By: iNeuron Intelligence
-                                Edited by: Sandesh
-                                Version: 2.0
-                                Revisions: None
+        """
 
-                """
-                
-                goodFilePath= self.goodFilePath
-                badFilePath = self.badFilePath
-                onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
-                log_file = open('Logs/database_insertion_log.txt','a+')
+        goodFilePath = self.goodFilePath
+        badFilePath = self.badFilePath
+        onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
+        log_file = open('Logs/database_insertion_log.txt', 'a+')
 
-                for file in onlyfiles:
-                        
-                        with open(goodFilePath+'/'+file,'r') as csv_data:
-                                next(csv_data)
-                                reader= csv.reader(csv_data,delimiter=',')
-                                #csv reader object
-                                
-                                c=1
-                                for line in enumerate(reader):
-                                        
-                                        item=line[1]
-                                        
-                                        
-                                        try:
-                                                self.session.execute('insert into ccdp.prediction_database \
+        for file in onlyfiles:
+
+            with open(goodFilePath+'/'+file, 'r') as csv_data:
+                next(csv_data)
+                reader = csv.reader(csv_data, delimiter=',')
+                # csv reader object
+
+                c = 1
+                for line in enumerate(reader):
+
+                    item = line[1]
+
+                    try:
+                        self.session.execute('insert into ccdp.prediction_database \
                                                 ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
                                                 "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
                                                 "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
                                                 "PAY_AMT4","PAY_AMT5","PAY_AMT6") VALUES \
-                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)' \
-                                                ,[              
-                                                                float(item[1]),
-                                                                float(item[2]),
-                                                                float(item[3]),
-                                                                float(item[4]),
-                                                                float(item[5]),
-                                                                float(item[6]),
-                                                                float(item[7]),
-                                                                float(item[8]),
-                                                                float(item[9]),
-                                                                float(item[10]),
-                                                                float(item[11]),
-                                                                float(item[12]),
-                                                                float(item[13]),
-                                                                float(item[14]),
-                                                                float(item[15]),
-                                                                float(item[16]),
-                                                                float(item[17]),
-                                                                float(item[18]),
-                                                                float(item[19]),
-                                                                float(item[20]),
-                                                                float(item[21]),
-                                                                float(item[22]),
-                                                                float(item[23]),
-                                                                float(item[24]),
-                                                                ])
+                                                (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)', [
+                            float(item[1]),
+                            float(item[2]),
+                            float(item[3]),
+                            float(item[4]),
+                            float(item[5]),
+                            float(item[6]),
+                            float(item[7]),
+                            float(item[8]),
+                            float(item[9]),
+                            float(item[10]),
+                            float(item[11]),
+                            float(item[12]),
+                            float(item[13]),
+                            float(item[14]),
+                            float(item[15]),
+                            float(item[16]),
+                            float(item[17]),
+                            float(item[18]),
+                            float(item[19]),
+                            float(item[20]),
+                            float(item[21]),
+                            float(item[22]),
+                            float(item[23]),
+                            float(item[24]),
+                        ])
 
-                                                self.logger.log(log_file,"Insertion successful for record {} : line-{}" .format(file,c))
-                                                c=c+1
-                                        except Exception as e:
-                                                c=c+1
-                                                self.logger.log(log_file,"Insertion failed !!!!!!!!.For record {} : line-{}" .format(file,c))
-                                                continue
-                return None
-                                        
-                        
+                        self.logger.log(
+                            log_file, "Insertion successful for record {} : line-{}" .format(file, c))
+                        c = c+1
+                    except Exception as e:
+                        c = c+1
+                        self.logger.log(
+                            log_file, "Insertion failed !!!!!!!!.For record {} : line-{}" .format(file, c))
+                        continue
+        return None
 
-        def get_table(self,process="training"):
-                """
-                                Method Name: get_table
-                                Description: This method displays the data present in the table
-                                Output: Dataframe containing data
-                                On Failure: log error
-
-                                
-                                Written by: Sandesh
-                                Version: 1.0
-                                Revisions: None
-
-                """
-                try:
-                        data=(list(self.session.execute('select * from ccdp.{}_database;'.format(process))))
-                        
-                        
-                        df=pd.DataFrame(data)
-                        # Cassandra keeps messing up the order. Need to figure it out properly
-                        df.sort_values(by=['ID'],ascending=True,inplace=True)
-                        # This is the actual order of columns. Cassandra messes up this also. Should figure this out also
-                        #df=df[['ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0',
-                        #        'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
-                        #       'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1',
-                        #       'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6',
-                        #        'default_payment_next_month']]
-                        self.logger.log(self.file,"Table retrieval successful")
-                        return df
-                        
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Table retrieval failed. The error is: %s" % e)
-                return None
-                
-        
-        def db_to_csv(self,process='training'):
-                """
-                                Method Name: db_to_csv
-                                Description: This method creates exports the database into a csv file
-                                Output: csv containing data
-                                On Failure: log error
-
-                                
-                                Written by: Sandesh
-                                Version: 1.0
-                                Revisions: None
-
-                """
-                try:
-                        data=self.get_table(process)
-                        data.to_csv(self.output_folder+'/{}_file.csv'.format(process),index=False)
-                        self.logger.log(self.file,"Successfully created csv file")
-                        return None
-                except Exception as e:
-                        self.logger.log(self.file,"Failed to create csv. The error is: %s" % e)
-                return None
+    def get_table(self, process="training"):
+        """
+                        Method Name: get_table
+                        Description: This method displays the data present in the table
+                        Output: Dataframe containing data
+                        On Failure: log error
 
 
-        def delete_table(self):
-                """
-                                Method Name: delete_table
-                                Description: This method deletes the created table
-                                On Failure: log error
+                        Written by: Sandesh
+                        Version: 1.0
+                        Revisions: None
 
-                                
-                                Written by: Sandesh
-                                Version: 1.0
-                                Revisions: None
+        """
+        try:
+            data = (list(self.session.execute(
+                'select * from ccdp.{}_database;'.format(process))))
 
-                """
-                try:
-                        a=3
-                        #### Please dont delete this table. It's very difficult to upload data
-                        ### Don't delete self.session.execute('drop table ccdp."UCI_Credit_Card"') ### dont' delete
-                        
-                        self.logger.log(self.file,"Table deletion successful:")
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Failed to delete table. The error is: %s" % e)
-                return None
-        
-        def close_cassandra(self):
-                """
-                                Method Name: close_cassandra
-                                Description: This method is used to clode the cassandra and self.session and disconnect from the server
-                                On Failure: log error
+            df = pd.DataFrame(data)
+            # Cassandra keeps messing up the order. Need to figure it out properly
+            df.sort_values(by=['ID'], ascending=True, inplace=True)
+            # This is the actual order of columns. Cassandra messes up this also. Should figure this out also
+            # df=df[['ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0',
+            #        'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
+            #       'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1',
+            #       'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6',
+            #        'default_payment_next_month']]
+            self.logger.log(self.file, "Table retrieval successful")
+            return df
 
-                                
-                                Written by: Sandesh
-                                Version: 1.0
-                                Revisions: None
+        except Exception as e:
 
-                """
-                try:
-                        self.session.shutdown()
-                        
-                        self.logger.log(self.file,"Shutdown successful")
-                except Exception as e:
-                        
-                        self.logger.log(self.file,"Shutdown failed. The error is : %s" % e)
-                return None
+            self.logger.log(
+                self.file, "Table retrieval failed. The error is: %s" % e)
+        return None
+
+    def db_to_csv(self, process='training'):
+        """
+                        Method Name: db_to_csv
+                        Description: This method creates exports the database into a csv file
+                        Output: csv containing data
+                        On Failure: log error
+
+
+                        Written by: Sandesh
+                        Version: 1.0
+                        Revisions: None
+
+        """
+        try:
+            data = self.get_table(process)
+            data.to_csv(self.output_folder +
+                        '/{}_file.csv'.format(process), index=False)
+            self.logger.log(self.file, "Successfully created csv file")
+            return None
+        except Exception as e:
+            self.logger.log(
+                self.file, "Failed to create csv. The error is: %s" % e)
+        return None
+
+    def delete_table(self):
+        """
+                        Method Name: delete_table
+                        Description: This method deletes the created table
+                        On Failure: log error
+
+
+                        Written by: Sandesh
+                        Version: 1.0
+                        Revisions: None
+
+        """
+        try:
+            a = 3
+            # Please dont delete this table. It's very difficult to upload data
+            # Don't delete ### self.session.execute('drop table ccdp."UCI_Credit_Card"') ### dont' delete
+
+            self.logger.log(self.file, "Table deletion successful:")
+        except Exception as e:
+
+            self.logger.log(
+                self.file, "Failed to delete table. The error is: %s" % e)
+        return None
+
+    def close_cassandra(self):
+        """
+                        Method Name: close_cassandra
+                        Description: This method is used to clode the cassandra and self.session and disconnect from the server
+                        On Failure: log error
+
+
+                        Written by: Sandesh
+                        Version: 1.0
+                        Revisions: None
+
+        """
+        try:
+            self.session.shutdown()
+
+            self.logger.log(self.file, "Shutdown successful")
+        except Exception as e:
+
+            self.logger.log(
+                self.file, "Shutdown failed. The error is : %s" % e)
+        return None

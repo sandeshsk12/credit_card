@@ -12,15 +12,15 @@ app = Flask(__name__)
 def home():
     return render_template('Form.html')
 
-@app.route('/predict',methods=['POST'])
+
+@app.route('/predict', methods=['POST'])
 def predict():
     '''
     For rendering results on HTML GUI
     '''
     int_features = [int(x) for x in request.form.values()]
-    log_file=open('front.txt','a+')
-    logger.log(log_file,"Checking and imputing NULL where data is missing")
-    
+    log_file = open('front.txt', 'a+')
+    logger.log(log_file, "Checking and imputing NULL where data is missing")
 
     return render_template('Form.html', prediction_text='Employee Salary should be $ {}'.format('a'))
 
