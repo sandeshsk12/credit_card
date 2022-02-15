@@ -43,3 +43,20 @@
 2022-02-15/19:40:41		Model trained
 2022-02-15/19:40:41		Yet to save model
 2022-02-15/19:40:41		Model saved
+2022-02-16/02:07:27		Start of training operation
+2022-02-16/02:07:27		Breaking the csv file into smaller chunks
+2022-02-16/02:07:27		Completed Breaking the csv file into smaller chunks
+2022-02-16/02:07:27		Checking for file name violation
+2022-02-16/02:07:27		Checking for file name violation complete
+2022-02-16/02:07:27		Checking if any column has an empty column
+2022-02-16/02:07:28		Files with empty columns moved into archive
+2022-02-16/02:07:28		Checking and imputing NULL where data is missing
+2022-02-16/02:07:28		Imputed empty spaces with NULL successfully
+2022-02-16/02:07:28		Checking for file name violation
+2022-02-16/02:07:29		Checking for file name violation complete
+2022-02-16/02:07:29		Database operations begins here
+2022-02-16/02:07:29		Establishing connection with cassandra database
+2022-02-16/02:07:30		Successfully connected to the database
+2022-02-16/02:07:30		Creating table in cassandra database
+2022-02-16/02:07:31		Successfully created a table in the database
+2022-02-16/02:07:31		Inserting values into table in cassandra database

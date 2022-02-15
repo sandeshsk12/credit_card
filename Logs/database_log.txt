@@ -18,3 +18,5 @@
 2022-02-15/22:47:13		Table retrieval successful
 2022-02-15/22:47:13		Successfully created csv file
 2022-02-15/22:47:13		Shutdown successful
+2022-02-16/02:07:30		Connected successfully
+2022-02-16/02:07:31		Training Table successfully created
