@@ -248,12 +248,14 @@ class cassandra_ops:
                     item = line[1]
 
                     try:
+
                         self.session.execute('insert into ccdp.prediction_database \
                                                 ( "ID","LIMIT_BAL","SEX","EDUCATION","MARRIAGE","AGE","PAY_0","PAY_2", \
                                                 "PAY_3","PAY_4","PAY_5","PAY_6","BILL_AMT1","BILL_AMT2","BILL_AMT3", \
                                                 "BILL_AMT4","BILL_AMT5","BILL_AMT6","PAY_AMT1","PAY_AMT2","PAY_AMT3", \
                                                 "PAY_AMT4","PAY_AMT5","PAY_AMT6") VALUES \
                                                 (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)', [
+                            float(item[0]),
                             float(item[1]),
                             float(item[2]),
                             float(item[3]),
@@ -277,7 +279,7 @@ class cassandra_ops:
                             float(item[21]),
                             float(item[22]),
                             float(item[23]),
-                            float(item[24]),
+
                         ])
 
                         self.logger.log(
@@ -311,11 +313,10 @@ class cassandra_ops:
             # Cassandra keeps messing up the order. Need to figure it out properly
             df.sort_values(by=['ID'], ascending=True, inplace=True)
             # This is the actual order of columns. Cassandra messes up this also. Should figure this out also
-            # df=df[['ID', 'LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_0',
-            #        'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2',
-            #       'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1',
-            #       'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6',
-            #        'default_payment_next_month']]
+            df = df[["ID", "LIMIT_BAL", "SEX", "EDUCATION", "MARRIAGE", "AGE", "PAY_0", "PAY_2",
+                     "PAY_3", "PAY_4", "PAY_5", "PAY_6", "BILL_AMT1", "BILL_AMT2", "BILL_AMT3",
+                                                "BILL_AMT4", "BILL_AMT5", "BILL_AMT6", "PAY_AMT1", "PAY_AMT2", "PAY_AMT3",
+                                                "PAY_AMT4", "PAY_AMT5", "PAY_AMT6", "Defaulted"]]
             self.logger.log(self.file, "Table retrieval successful")
             return df
 
