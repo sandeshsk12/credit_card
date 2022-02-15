@@ -23,6 +23,8 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
+    a = cassandra_ops()
+    a.delete_table()
     c = pred_validation()
     c.pred_validation()
 

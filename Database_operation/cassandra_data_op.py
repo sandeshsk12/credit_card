@@ -372,7 +372,7 @@ class cassandra_ops:
             a = 3
             # Please dont delete this table. It's very difficult to upload data
             # Don't delete ### self.session.execute('drop table ccdp."UCI_Credit_Card"') ### dont' delete
-
+            elf.session.execute('drop table ccdp.prediction_database')
             self.logger.log(self.file, "Table deletion successful:")
         except Exception as e:
 
