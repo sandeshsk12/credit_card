@@ -1,9 +1,13 @@
+from sklearn.metrics import confusion_matrix, classification_report
+import matplotlib.pyplot as plt
+import seaborn as sn
+from sklearn.metrics import confusion_matrix
 import pickle
 import pandas as pd
 from application_logging.logger import App_Logger
 
 
-class predict():
+class predict_data():
     """
                 Class Name: predict
                 Description: This method is used to predict the outcome given the features
@@ -19,7 +23,7 @@ class predict():
         self.file_to_be_predicted = 'prediction_files_from_db/prediction_file.csv'
         self.log_file = open('Logs/Prediction_main.txt', 'a+')
 
-    def predict(self):
+    def predict_data(self):
 
         self.logger.log(self.log_file, "Start of prediction on data ")
         try:
@@ -33,7 +37,7 @@ class predict():
                 y.append(model.predict([data.iloc[i, 1:].to_list()])[0])
 
             data['defaulted'] = y
-            data.to_csv('predicted_files/predicted_file.csv')
+            data.to_csv('predicted_files/predicted_file.csv', index=False)
 
         except Exception as e:
             self.logger.log(
@@ -41,35 +45,29 @@ class predict():
             raise e
 
 
-"""
+a = predict_data()
+a.predict_data()
 
 
+with open('models/trained_model', 'rb') as f:
+    model = pickle.load(f)
 
-with open('models/trained_model','rb') as f:
-    model=pickle.load(f)
+data = pd.read_csv('Prediction_files/UCI_Credit_Card.csv')
+data2 = pd.read_csv('UCI_Credit_Card.csv')
 
-data=pd.read_csv('Prediction_files/UCI_Credit_Card.csv')
-data2=pd.read_csv('UCI_Credit_Card.csv')
-
-y=[]
+y = []
 for i in range(len(data)):
-    y.append(model.predict([data.iloc[i,1:].to_list()])[0])
+    y.append(model.predict([data.iloc[i, 1:].to_list()])[0])
 
-data['defaulted']=y
+data['defaulted'] = y
 print(data[:4])
 
 
-from sklearn.metrics import confusion_matrix
-
-cm= confusion_matrix(data2.iloc[:,-1],y)
-import seaborn as sn
-import matplotlib.pyplot as plt
-sn.heatmap(cm,annot=True)
+cm = confusion_matrix(data2.iloc[:, -1], y)
+sn.heatmap(cm, annot=True)
 plt.xlabel("predicted")
 plt.ylabel("Truth")
 
 
-#printing classifcation report 
-from sklearn.metrics import confusion_matrix , classification_report
-print(classification_report(data2.iloc[:,-1],y))
-"""
+# printing classifcation report
+print(classification_report(data2.iloc[:, -1], y))
