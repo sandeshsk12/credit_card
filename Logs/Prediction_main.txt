@@ -1,1 +1,30 @@
 
+2022-02-15/19:04:30		Start of prediction on data 
+2022-02-15/19:04:30		Failed to predict .The error is [Errno 2] No such file or directory: 'models/trained_model'
+2022-02-15/19:12:52		Start of prediction on data 
+2022-02-15/19:12:52		Failed to predict .The error is [Errno 2] No such file or directory: 'models/trained_model'
+2022-02-15/19:40:41		Start of prediction operation
+2022-02-15/19:40:41		Breaking the csv file into smaller chunks
+2022-02-15/19:40:41		Completed Breaking the csv file into smaller chunks
+2022-02-15/19:40:41		Checking for file name violation
+2022-02-15/19:40:41		Checking for file name violation complete
+2022-02-15/19:40:41		Checking if any column has an empty column
+2022-02-15/19:40:42		Files with empty columns moved into archive
+2022-02-15/19:40:42		Checking and imputing NULL where data is missing
+2022-02-15/19:40:42		Imputed empty spaces with NULL successfully
+2022-02-15/19:40:42		Checking for file name violation
+2022-02-15/19:40:42		Checking for file name violation complete
+2022-02-15/19:40:42		Database operations begins here
+2022-02-15/19:40:42		Establishing connection with cassandra database
+2022-02-15/19:40:44		Successfully connected to the database
+2022-02-15/19:40:44		Creating table in cassandra database
+2022-02-15/19:40:45		Successfully created a table in the database
+2022-02-15/19:40:45		Inserting values into table in cassandra database
+2022-02-15/20:02:03		Successfully inserted data into table in the database
+2022-02-15/20:02:03		Exporting contents in cassandra database into a csv
+2022-02-15/20:02:13		Successfully exported data in the database
+2022-02-15/20:02:13		closing cassandra database connection
+2022-02-15/20:02:13		Successfully closed session
+2022-02-15/20:02:13		Start of prediction on data 
+2022-02-15/20:02:13		Successfully loaded model
+2022-02-15/20:02:13		Predicting values
