@@ -28,3 +28,53 @@
 2022-02-15/20:02:13		Start of prediction on data 
 2022-02-15/20:02:13		Successfully loaded model
 2022-02-15/20:02:13		Predicting values
+2022-02-15/21:59:28		Start of prediction operation
+2022-02-15/21:59:28		Breaking the csv file into smaller chunks
+2022-02-15/21:59:28		Completed Breaking the csv file into smaller chunks
+2022-02-15/21:59:28		Checking for file name violation
+2022-02-15/21:59:28		Checking for file name violation complete
+2022-02-15/21:59:28		Checking if any column has an empty column
+2022-02-15/21:59:28		Files with empty columns moved into archive
+2022-02-15/21:59:28		Checking and imputing NULL where data is missing
+2022-02-15/21:59:29		Imputed empty spaces with NULL successfully
+2022-02-15/21:59:29		Checking for file name violation
+2022-02-15/21:59:29		Checking for file name violation complete
+2022-02-15/21:59:29		Database operations begins here
+2022-02-15/21:59:29		Establishing connection with cassandra database
+2022-02-15/21:59:31		Successfully connected to the database
+2022-02-15/21:59:31		Creating table in cassandra database
+2022-02-15/21:59:31		Successfully created a table in the database
+2022-02-15/21:59:31		Inserting values into table in cassandra database
+2022-02-15/22:21:09		Successfully inserted data into table in the database
+2022-02-15/22:21:09		Exporting contents in cassandra database into a csv
+2022-02-15/22:21:15		Successfully exported data in the database
+2022-02-15/22:21:15		closing cassandra database connection
+2022-02-15/22:21:15		Successfully closed session
+2022-02-15/22:21:15		Start of prediction on data 
+2022-02-15/22:21:15		Successfully loaded model
+2022-02-15/22:21:15		Failed to predict .The error is Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+2022-02-15/22:26:15		Start of prediction operation
+2022-02-15/22:26:15		Breaking the csv file into smaller chunks
+2022-02-15/22:26:15		Completed Breaking the csv file into smaller chunks
+2022-02-15/22:26:15		Checking for file name violation
+2022-02-15/22:26:15		Checking for file name violation complete
+2022-02-15/22:26:15		Checking if any column has an empty column
+2022-02-15/22:26:15		Files with empty columns moved into archive
+2022-02-15/22:26:15		Checking and imputing NULL where data is missing
+2022-02-15/22:26:16		Imputed empty spaces with NULL successfully
+2022-02-15/22:26:16		Checking for file name violation
+2022-02-15/22:26:16		Checking for file name violation complete
+2022-02-15/22:26:16		Database operations begins here
+2022-02-15/22:26:16		Establishing connection with cassandra database
+2022-02-15/22:26:17		Successfully connected to the database
+2022-02-15/22:26:17		Creating table in cassandra database
+2022-02-15/22:26:18		Successfully created a table in the database
+2022-02-15/22:26:18		Inserting values into table in cassandra database
+2022-02-15/22:47:01		Successfully inserted data into table in the database
+2022-02-15/22:47:01		Exporting contents in cassandra database into a csv
+2022-02-15/22:47:13		Successfully exported data in the database
+2022-02-15/22:47:13		closing cassandra database connection
+2022-02-15/22:47:13		Successfully closed session
+2022-02-15/22:47:13		Start of prediction on data 
+2022-02-15/22:47:13		Successfully loaded model
+2022-02-15/22:47:13		Predicting values

@@ -10,7 +10,7 @@ class pred_validation():
 
     """
 
-    def __init__(self):
+    def __init__(self, path='UCI_Credit_Card.csv'):
         self.log_file = open('Logs/Prediction_main.txt', 'a+')
         self.logger = App_Logger()
 
@@ -25,7 +25,7 @@ class pred_validation():
         self.file_operator.log_file = open(
             'Logs/file_operations_log.txt', 'a+')
         self.file_operator.logger = App_Logger()
-        self.file_operator.file_name = 'UCI_Credit_Card.csv'
+        self.file_operator.file_name = path
 
         self.database_operator = cassandra_ops()
         self.database_operator.path = 'Prediction_files_validated/'

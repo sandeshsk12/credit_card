@@ -8,3 +8,13 @@
 2022-02-15/20:02:12		Table retrieval successful
 2022-02-15/20:02:13		Successfully created csv file
 2022-02-15/20:02:13		Shutdown successful
+2022-02-15/21:59:31		Connected successfully
+2022-02-15/21:59:31		Prediction Table creation failed. The error is : Table 'ccdp.prediction_database' already exists
+2022-02-15/22:21:14		Table retrieval successful
+2022-02-15/22:21:15		Successfully created csv file
+2022-02-15/22:21:15		Shutdown successful
+2022-02-15/22:26:17		Connected successfully
+2022-02-15/22:26:18		Prediction Table successfully created
+2022-02-15/22:47:13		Table retrieval successful
+2022-02-15/22:47:13		Successfully created csv file
+2022-02-15/22:47:13		Shutdown successful
