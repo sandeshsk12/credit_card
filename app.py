@@ -17,7 +17,7 @@ def home():
 
 
 @app.route("/predict", methods=['POST'])
-def predictRouteClient():
+def predict():
     try:
         if request.json is not None:
             path = request.json['filepath']
@@ -30,7 +30,7 @@ def predictRouteClient():
 
             # predicting for dataset present in database
             path = pred.predict_data()
-            return Response("Prediction File created !!!")
+            return render_template('index.html')
         elif request.form is not None:
             path = request.form['filepath']
 
@@ -42,7 +42,7 @@ def predictRouteClient():
 
             # predicting for dataset present in database
             path = pred.predict_data()
-            return Response("Prediction File created !!!")
+            return render_template('index.html')
         else:
             print('Nothing Matched')
     except ValueError:
@@ -82,4 +82,4 @@ def trainRouteClient():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
