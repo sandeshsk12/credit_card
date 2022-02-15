@@ -18,14 +18,7 @@ def home():
 
 @app.route("/predict", methods=['POST'])
 def predict():
-    pred_val = pred_validation()  # object initialization
-
-    pred_val.pred_validation()  # calling the prediction_validation function
-
-    pred = predict_data()  # object initialization
-
-    # predicting for dataset present in database
-    path = pred.predict_data()
+    a = 2
     return render_template('index.html')
 
 
