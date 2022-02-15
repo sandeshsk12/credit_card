@@ -11,7 +11,7 @@ from prediction import predict_data
 app = Flask(__name__)
 
 
-@app.route("/", methods=['GET'])
+@app.route("/")
 def home():
     return render_template('index.html')
 
@@ -81,6 +81,5 @@ def trainRouteClient():
     return Response("Training successfull!!")
 
 
-port = int(os.getenv("PORT", 5000))
 if __name__ == "__main__":
     app.run()
