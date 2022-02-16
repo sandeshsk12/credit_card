@@ -1,18 +1,20 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template, send_file
+from flask import Flask, request, jsonify, render_template, send_file, redirect
 import pickle
 import pandas as pd
-from flask_wtf import FlaskForm
-from wtforms import FileField, SubmitField
+#from Flask_WTF import FlaskForm
+#from wtforms import FileField, SubmitField
 from werkzeug.utils import secure_filename
 import os
-from wtforms.validators import InputRequired
+#from wtforms.validators import InputRequired
 
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'supersecretkey'
 app.config['UPLOAD_FOLDER'] = 'static/files'
 model = pickle.load(open('models/trained_model', 'rb'))
+app.config["FILE_UPLOADS"] = "uploads"
+app.config["ALLOWED_FILE_EXTENSIONS"] = ["csv"]
 
 
 class UploadFileForm(FlaskForm):
@@ -65,6 +67,51 @@ def predict():
 def download_file():
     p = 'predicted_files/predicted_file.csv'
     return send_file(p, as_attachment=True)
+
+
+@app.route("/upload-file", methods=["GET", "POST"])
+def upload_file():
+
+    if request.method == "POST":
+
+        if request.files:
+
+            image = request.files["files"]
+
+            if image.filename == "":
+                print("No filename")
+                return redirect(request.url)
+
+            if allowed_file(image.filename):
+                filename = secure_filename(image.filename)
+
+                image.save(os.path.join(app.config["FILE_UPLOADS"], filename))
+
+                print("FILE saved")
+
+                return redirect(request.url)
+
+            else:
+                print("That file extension is not allowed")
+                return redirect(request.url)
+
+    return render_template('index.html')
+
+
+def allowed_file(filename):
+
+    # We only want files with a . in the filename
+    if not "." in filename:
+        return False
+
+    # Split the extension from the filename
+    ext = filename.rsplit(".", 1)[1]
+
+    # Check if the extension is in ALLOWED_IMAGE_EXTENSIONS
+    if ext.upper() in app.config["ALLOWED_FILE_EXTENSIONS"]:
+        return True
+    else:
+        return False
 
 
 if __name__ == "__main__":

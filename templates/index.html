@@ -356,6 +356,22 @@
 		<br>
 		<br>
 		{{ prediction_text }}
+		<h1>Upload a file</h1>
+		<hr>
+
+		<form action="/upload-file" method="POST" enctype="multipart/form-data">
+
+			<div class="form-group">
+				<label>Select file</label>
+				<div class="custom-file">
+					<input type="file" class="custom-file-input" name="file" id="file">
+					<label class="custom-file-label" for="file">Select file...</label>
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-primary">Upload</button>
+
+		</form>
 
 	</div>
 
