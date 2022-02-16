@@ -64,6 +64,9 @@ class file_operations:
                 date += 1
                 time += 1
 
+                if i > len(data):
+                    break
+
                 # Below code is meant to forcefully create a bad file just for emulation purpose
                 while faulty_record == True:
                     new.to_csv(self.path+'/' +
