@@ -1,14 +1,6 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-from Database_operation.cassandra_data_op import cassandra_ops
-import pandas as pd
-from File_operations.file_ops import file_operations
-from train_valid import train_validation
-from train_model import trainmodel
-from pred_valid import pred_validation
-from prediction import predict_data
-from flask import Response
 
 
 app = Flask(__name__)
@@ -30,8 +22,9 @@ def predict():
     final_features = [np.array(int_features)]
     print(int_features)
     output = model.predict(final_features)
+    output_string = output.map({0: 'wont default', 1: 'will default'})
 
-    return render_template('index.html', prediction_text='Output should be $ {}'.format(output))
+    return render_template('index.html', prediction_text='The customer {}'.format(output_string))
 
 
 if __name__ == "__main__":
