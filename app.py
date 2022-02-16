@@ -13,7 +13,7 @@ from flask import Response
 
 app = Flask(__name__)
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('models/trained_model', 'rb'))
 
 
 @app.route('/')
@@ -29,21 +29,9 @@ def predict():
     int_features = [int(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     print(int_features)
-    prediction = model.predict(final_features)
+    output = model.predict(final_features)
 
-    output = round(prediction[0], 2)
-    a = train_validation()
-    a.train_validation()
-
-    b = trainmodel()
-    b.train_model()
-    c = pred_validation()
-    c.pred_validation()
-
-    d = predict_data()
-    d.predict_data()
-
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
+    return render_template('index.html', prediction_text='Output should be $ {}'.format(output))
 
 
 if __name__ == "__main__":
