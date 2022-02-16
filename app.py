@@ -1,13 +1,9 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-from Database_operation.cassandra_data_op import cassandra_ops
+
 import pandas as pd
-from File_operations.file_ops import file_operations
-from train_valid import train_validation
-from train_model import trainmodel
-from pred_valid import pred_validation
-from prediction import predict_data
+
 from flask import Response
 
 
@@ -23,7 +19,7 @@ def home():
 def predict():
     '''
     For rendering results on HTML GUI
-    '''
+
     a = train_validation()
     a.train_validation()
 
@@ -34,6 +30,8 @@ def predict():
 
     d = predict_data()
     d.predict_data()
+    '''
+    a = 2
 
     return Response("Prediction File created !!!")
 
