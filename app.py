@@ -8,6 +8,7 @@ from train_valid import train_validation
 from train_model import trainmodel
 from pred_valid import pred_validation
 from prediction import predict_data
+from flask import Response
 
 
 app = Flask(__name__)
@@ -23,15 +24,18 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    a = cassandra_ops()
-    a.delete_table()
+    a = train_validation()
+    a.train_validation()
+
+    b = trainmodel()
+    b.train_model()
     c = pred_validation()
     c.pred_validation()
 
     d = predict_data()
     d.predict_data()
 
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
+    return Response("Prediction File created !!!")
 
 
 if __name__ == "__main__":
