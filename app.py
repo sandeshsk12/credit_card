@@ -1,6 +1,7 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
+import pandas as pd
 
 
 app = Flask(__name__)
@@ -18,6 +19,16 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
+
+    data = pd.read_csv('prediction_files_from_db/prediction_file.csv')
+
+    y = []
+    for i in range(len(data)):
+        y.append(model.predict([data.iloc[i, 1:].to_list()])[0])
+
+    data['defaulted'] = y
+    data.to_csv('predicted_files/predicted_file.csv', index=False)
+
     int_features = [int(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     print(int_features)
