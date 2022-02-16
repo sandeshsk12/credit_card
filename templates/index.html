@@ -47,6 +47,11 @@
 			<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
 		</form>
 
+		<h2> Download predicted file</h2>
+		<p>
+			<a href="{{url_for('download_file')}}">Download</a>
+		</p>
+
 		<br>
 		<br>
 		{{ prediction_text }}

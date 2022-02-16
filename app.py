@@ -1,5 +1,5 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_file
 import pickle
 import pandas as pd
 
@@ -35,6 +35,12 @@ def predict():
     output = 'will default' if (model.predict(final_features)) == 1 else 0
 
     return render_template('index.html', prediction_text='The customer {}'.format(output))
+
+
+@app.route('/download')
+def download_file():
+    p = 'predicted_files/predicted_file.csv'
+    return send_file(p, as_attachment=True)
 
 
 if __name__ == "__main__":
