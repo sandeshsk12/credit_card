@@ -21,7 +21,7 @@ def predict():
     int_features = [int(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     print(int_features)
-    output = 'will default' if (model.predict(final_features)[0]) == 1 else 0
+    output = 'will default' if (model.predict(final_features)) == 1 else 0
     output_string = output.map({0: 'wont default', 1: 'will default'})
 
     return render_template('index.html', prediction_text='The customer {}'.format(output_string))
