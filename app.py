@@ -28,11 +28,18 @@ def predict():
 
     data['defaulted'] = y
     data.to_csv('predicted_files/predicted_file.csv', index=False)
+    int_features = []
 
-    int_features = [int(x) for x in request.form.values()]
+    for x in request.form.values():
+        try:
+            int_features.append(int(x))
+        except:
+            pass
+
     final_features = [np.array(int_features)]
     print(int_features)
-    output = 'will default' if (model.predict(final_features)) == 1 else 0
+    output = 'will default' if (model.predict(
+        final_features)) == 1 else "won't default"
 
     return render_template('index.html', prediction_text='The customer {}'.format(output))
 
