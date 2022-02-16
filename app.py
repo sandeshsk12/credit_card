@@ -2,11 +2,22 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template, send_file
 import pickle
 import pandas as pd
+from flask_wtf import FlaskForm
+from wtforms import FileField, SubmitField
+from werkzeug.utils import secure_filename
+import os
+from wtforms.validators import InputRequired
 
 
 app = Flask(__name__)
-
+app.config['SECRET_KEY'] = 'supersecretkey'
+app.config['UPLOAD_FOLDER'] = 'static/files'
 model = pickle.load(open('models/trained_model', 'rb'))
+
+
+class UploadFileForm(FlaskForm):
+    file = FileField("File", validators=[InputRequired()])
+    submit = SubmitField("Upload File")
 
 
 @app.route('/')
@@ -19,6 +30,12 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
+    form = UploadFileForm()
+    if form.validate_on_submit():
+        file = form.file.data  # First grab the file
+        file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),
+                  app.config['UPLOAD_FOLDER'], secure_filename(file.filename)))  # Then save the file
+        return "File has been uploaded."
 
     data = pd.read_csv('prediction_files_from_db/prediction_file.csv')
 
@@ -41,7 +58,7 @@ def predict():
     output = 'will default' if (model.predict(
         final_features)) == 1 else "won't default"
 
-    return render_template('index.html', prediction_text='The customer {}'.format(output))
+    return render_template('index.html', prediction_text='The customer {}'.format(output), form=form)
 
 
 @app.route('/download')
