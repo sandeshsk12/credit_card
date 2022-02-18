@@ -14,5 +14,3 @@ pandas
 gunicorn
 imbalanced-learn
 imblearn
-Flask-WTF
-wWTForms
