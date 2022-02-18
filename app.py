@@ -1,25 +1,18 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template, send_file, redirect
+from flask import Flask, request, jsonify, render_template, send_file, redirect, flash, redirect, url_for
 import pickle
 import pandas as pd
-#from Flask_WTF import FlaskForm
-#from wtforms import FileField, SubmitField
+
 from werkzeug.utils import secure_filename
 import os
-#from wtforms.validators import InputRequired
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'supersecretkey'
-app.config['UPLOAD_FOLDER'] = 'static/files'
 model = pickle.load(open('models/trained_model', 'rb'))
-app.config["FILE_UPLOADS"] = "uploads"
-app.config["ALLOWED_FILE_EXTENSIONS"] = ["csv"]
 
-
-class UploadFileForm(FlaskForm):
-    file = FileField("File", validators=[InputRequired()])
-    submit = SubmitField("Upload File")
+app.config["IMAGE_UPLOADS"] = "uploads"
+app.config["ALLOWED_IMAGE_EXTENSIONS"] = ["JPEG", "JPG", "PNG", "GIF", "CSV"]
+app.config["MAX_IMAGE_FILESIZE"] = 0.5 * 1024 * 1024
 
 
 @app.route('/')
@@ -32,12 +25,6 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    form = UploadFileForm()
-    if form.validate_on_submit():
-        file = form.file.data  # First grab the file
-        file.save(os.path.join(os.path.abspath(os.path.dirname(__file__)),
-                  app.config['UPLOAD_FOLDER'], secure_filename(file.filename)))  # Then save the file
-        return "File has been uploaded."
 
     data = pd.read_csv('prediction_files_from_db/prediction_file.csv')
 
@@ -60,7 +47,7 @@ def predict():
     output = 'will default' if (model.predict(
         final_features)) == 1 else "won't default"
 
-    return render_template('index.html', prediction_text='The customer {}'.format(output), form=form)
+    return render_template('index.html', prediction_text='The customer {}'.format(output))
 
 
 @app.route('/download')
@@ -69,25 +56,25 @@ def download_file():
     return send_file(p, as_attachment=True)
 
 
-@app.route("/upload-file", methods=["GET", "POST"])
-def upload_file():
+@app.route("/upload-image", methods=["GET", "POST"])
+def upload_image():
 
     if request.method == "POST":
 
         if request.files:
 
-            image = request.files["files"]
+            image = request.files["image"]
 
             if image.filename == "":
                 print("No filename")
                 return redirect(request.url)
 
-            if allowed_file(image.filename):
+            if allowed_image(image.filename):
                 filename = secure_filename(image.filename)
 
-                image.save(os.path.join(app.config["FILE_UPLOADS"], filename))
+                image.save(os.path.join(app.config["IMAGE_UPLOADS"], filename))
 
-                print("FILE saved")
+                print("Image saved")
 
                 return redirect(request.url)
 
@@ -98,7 +85,7 @@ def upload_file():
     return render_template('index.html')
 
 
-def allowed_file(filename):
+def allowed_image(filename):
 
     # We only want files with a . in the filename
     if not "." in filename:
@@ -108,7 +95,7 @@ def allowed_file(filename):
     ext = filename.rsplit(".", 1)[1]
 
     # Check if the extension is in ALLOWED_IMAGE_EXTENSIONS
-    if ext.upper() in app.config["ALLOWED_FILE_EXTENSIONS"]:
+    if ext.upper() in app.config["ALLOWED_IMAGE_EXTENSIONS"]:
         return True
     else:
         return False
