@@ -10,9 +10,9 @@ import os
 app = Flask(__name__)
 model = pickle.load(open('models/trained_model', 'rb'))
 
-app.config["IMAGE_UPLOADS"] = "uploads"
-app.config["ALLOWED_IMAGE_EXTENSIONS"] = ["JPEG", "JPG", "PNG", "GIF", "CSV"]
-app.config["MAX_IMAGE_FILESIZE"] = 0.5 * 1024 * 1024
+app.config["FILE_UPLOADS"] = "prediction_files_from_db"
+app.config["ALLOWED_FILE_EXTENSIONS"] = ["JPEG", "JPG", "PNG", "GIF", "CSV"]
+app.config["MAX_file_FILESIZE"] = 0.5 * 1024 * 1024
 
 
 @app.route('/')
@@ -25,7 +25,6 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-
     data = pd.read_csv('prediction_files_from_db/prediction_file.csv')
 
     y = []
@@ -35,7 +34,6 @@ def predict():
     data['defaulted'] = y
     data.to_csv('predicted_files/predicted_file.csv', index=False)
     int_features = []
-
     for x in request.form.values():
         try:
             int_features.append(int(x))
@@ -56,25 +54,34 @@ def download_file():
     return send_file(p, as_attachment=True)
 
 
-@app.route("/upload-image", methods=["GET", "POST"])
-def upload_image():
+@app.route("/upload-file", methods=["GET", "POST"])
+def upload_file():
 
     if request.method == "POST":
 
         if request.files:
 
-            image = request.files["image"]
+            file = request.files["file"]
 
-            if image.filename == "":
+            if file.filename == "":
                 print("No filename")
                 return redirect(request.url)
 
-            if allowed_image(image.filename):
-                filename = secure_filename(image.filename)
+            if allowed_file(file.filename):
+                filename = secure_filename(file.filename)
 
-                image.save(os.path.join(app.config["IMAGE_UPLOADS"], filename))
+                file.save(os.path.join(app.config["FILE_UPLOADS"], filename))
 
-                print("Image saved")
+                print("file saved")
+                data = pd.read_csv(
+                    'prediction_files_from_db/prediction_file.csv')
+
+                y = []
+                for i in range(len(data)):
+                    y.append(model.predict([data.iloc[i, 1:].to_list()])[0])
+
+                data['defaulted'] = y
+                data.to_csv('predicted_files/predicted_file.csv', index=False)
 
                 return redirect(request.url)
 
@@ -85,7 +92,7 @@ def upload_image():
     return render_template('index.html')
 
 
-def allowed_image(filename):
+def allowed_file(filename):
 
     # We only want files with a . in the filename
     if not "." in filename:
@@ -94,8 +101,8 @@ def allowed_image(filename):
     # Split the extension from the filename
     ext = filename.rsplit(".", 1)[1]
 
-    # Check if the extension is in ALLOWED_IMAGE_EXTENSIONS
-    if ext.upper() in app.config["ALLOWED_IMAGE_EXTENSIONS"]:
+    # Check if the extension is in ALLOWED_file_EXTENSIONS
+    if ext.upper() in app.config["ALLOWED_FILE_EXTENSIONS"]:
         return True
     else:
         return False
