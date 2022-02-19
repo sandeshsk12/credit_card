@@ -128,3 +128,28 @@
 2022-02-19/18:40:47		Start of prediction on data 
 2022-02-19/18:40:47		Successfully loaded model
 2022-02-19/18:40:47		Predicting values
+2022-02-19/19:24:04		Start of prediction operation
+2022-02-19/19:24:04		Breaking the csv file into smaller chunks
+2022-02-19/19:24:04		Completed Breaking the csv file into smaller chunks
+2022-02-19/19:24:04		Checking for file name violation
+2022-02-19/19:24:04		Checking for file name violation complete
+2022-02-19/19:24:04		Checking if any column has an empty column
+2022-02-19/19:24:04		Files with empty columns moved into archive
+2022-02-19/19:24:04		Checking and imputing NULL where data is missing
+2022-02-19/19:24:04		Imputed empty spaces with NULL successfully
+2022-02-19/19:24:04		Checking for file name violation
+2022-02-19/19:24:04		Checking for file name violation complete
+2022-02-19/19:24:04		Database operations begins here
+2022-02-19/19:24:04		Establishing connection with cassandra database
+2022-02-19/19:24:05		Successfully connected to the database
+2022-02-19/19:24:05		Creating table in cassandra database
+2022-02-19/19:24:05		Successfully created a table in the database
+2022-02-19/19:24:05		Inserting values into table in cassandra database
+2022-02-19/19:26:30		Successfully inserted data into table in the database
+2022-02-19/19:26:30		Exporting contents in cassandra database into a csv
+2022-02-19/19:26:32		Successfully exported data in the database
+2022-02-19/19:26:32		closing cassandra database connection
+2022-02-19/19:26:32		Successfully closed session
+2022-02-19/19:26:32		Start of prediction on data 
+2022-02-19/19:26:32		Successfully loaded model
+2022-02-19/19:26:32		Predicting values

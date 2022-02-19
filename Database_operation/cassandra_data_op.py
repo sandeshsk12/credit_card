@@ -35,13 +35,15 @@ class cassandra_ops:
     def cassandra_connection(self):
         """
         Method Name: Cassandra connection
-        Description: This method is used to connect to the cassandra database
-        Output: Connection to Database
-
+        Description: This method is used to connect to a cloud cassandra database. 
+        Output: None
+        On failure : log erro but not do nothing
         Written by: Sandesh
         Version :1
         Revisions : None
         """
+        self.logger.log(
+            self.file, "Attempting to establish a connection between computer and cassandra database")
         try:
             cloud_config = {
                 'secure_connect_bundle': 'secure-connect-ineuron.zip'
@@ -52,24 +54,31 @@ class cassandra_ops:
 
             self.session = cluster.connect()
 
-            self.logger.log(self.file, "Connected successfully")
+            self.logger.log(
+                self.file, "Connected to remote cassandra database successfully")
 
         except Exception as e:
 
             self.logger.log(
-                self.file, "Connection Failed. The error is : %s" % e)
+                self.file, "Failed to connect to remote cassandra connection. The error is : %s" % e)
+
+        finally:
+            self.logger.log(
+                self.file, "Exiting the cassandra_connection function")
 
         return None
 
     def create_training_table(self):
         """
         Method Name: create_table
-        Description: This method is used to create a table in the cassandra database
+        Description: This method is used to create a training table in the remote cassandra database
         Output: None
         Written by: Sandesh
         Version :1
         Revisions : None
         """
+        self.logger.log(
+            self.file, "Attempting to create a training database in the remote cassandra database")
         try:
 
             self.session.execute('create table ccdp.training_database  \
@@ -86,17 +95,22 @@ class cassandra_ops:
 
             self.logger.log(
                 self.file, "Training Table creation failed. The error is : %s" % e)
+        finally:
+            self.logger.log(
+                self.file, "Exiting the create_training_table method")
         return None
 
     def create_prediction_table(self):
         """
         Method Name: create_table
-        Description: This method is used to create a table in the cassandra database
+        Description: This method is used to create a table for prediction data in the cassandra database
         Output: None
         Written by: Sandesh
         Version :1
         Revisions : None
         """
+        self.logger.log(
+            self.file, "Attempting to create a prediction database in the remote cassandra database")
         try:
 
             self.session.execute('create table ccdp.prediction_database  \
@@ -113,23 +127,26 @@ class cassandra_ops:
 
             self.logger.log(
                 self.file, "Prediction Table creation failed. The error is : %s" % e)
+        finally:
+            self.logger.log(
+                self.file, "Exiting the create prediction_table_method")
         return None
 
     def insert_values_into_training_database(self):
         """
                         Method Name: insert_values
-                        Description: This method inserts the Good data files from the Good_Raw folder into the
-                                        above created table.
+                        Description: This method inserts the data in validated training files into a remote cassandra database.
                         Output: None
-                        On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
-                        Edited by: Sandesh
+
+
+                        Written by: Sandesh
                         Version: 2.0
                         Revisions: None
 
         """
-
+        self.logger.log(
+            self.file, "Attempting to insert values into training database")
         goodFilePath = self.goodFilePath
         badFilePath = self.badFilePath
         onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
@@ -213,6 +230,8 @@ class cassandra_ops:
                         self.logger.log(
                             log_file, "Insertion failed !!!!!!!!.For record {} : line-{}" .format(file, c))
                         continue
+        self.logger.log(
+            self.file, "Exiting the function of inserting_values_into_training_database")
         return None
 
     def insert_values_into_prediction_database(self):
@@ -229,7 +248,8 @@ class cassandra_ops:
                         Revisions: None
 
         """
-
+        self.logger.log(
+            self.file, "Attempting to insert values into training database")
         goodFilePath = self.goodFilePath
         badFilePath = self.badFilePath
         onlyfiles = [f for f in sorted(os.listdir(goodFilePath))]
@@ -290,6 +310,8 @@ class cassandra_ops:
                         self.logger.log(
                             log_file, "Insertion failed !!!!!!!!.For record {} : line-{}" .format(file, c))
                         continue
+        self.logger.log(
+            self.file, "Exiting the function of inserting_values_into_prediciton_database")
         return None
 
     def get_table(self, process="training"):
@@ -305,6 +327,8 @@ class cassandra_ops:
                         Revisions: None
 
         """
+        self.logger.log(
+            self.file, "Attempting to retrieve {} database from the remote cassandra database".format(process))
         try:
             data = (list(self.session.execute(
                 'select * from ccdp.{}_database;'.format(process))))
@@ -330,6 +354,9 @@ class cassandra_ops:
 
             self.logger.log(
                 self.file, "Table retrieval failed. The error is: %s" % e)
+        finally:
+            self.logger.log(
+                self.file, "Failed to retrieve database from the {} table".format(process))
         return None
 
     def db_to_csv(self, process='training'):
@@ -345,6 +372,8 @@ class cassandra_ops:
                         Revisions: None
 
         """
+        self.logger.log(
+            self.file, "Attempting to write the data from {} database into a csv file for easier processing".format(process))
         try:
             data = self.get_table(process)
             data.to_csv(self.output_folder +
@@ -353,10 +382,12 @@ class cassandra_ops:
             return None
         except Exception as e:
             self.logger.log(
-                self.file, "Failed to create csv. The error is: %s" % e)
+                self.file, "Failed to create csv for {} database . The error is: {}".format(process, e))
+        finally:
+            self.logger.log(self.file, "Exiting get_table function")
         return None
 
-    def delete_table(self):
+    def delete_table(self, process='training'):
         """
                         Method Name: delete_table
                         Description: This method deletes the created table
@@ -368,16 +399,21 @@ class cassandra_ops:
                         Revisions: None
 
         """
+        self.logger.log(
+            self.file, "Attempting to delete {} table".format(process))
         try:
             a = 3
             # Please dont delete this table. It's very difficult to upload data
             # Don't delete ### self.session.execute('drop table ccdp."UCI_Credit_Card"') ### dont' delete
-            elf.session.execute('drop table ccdp.prediction_database')
-            self.logger.log(self.file, "Table deletion successful:")
+            self.session.execute('drop table ccdp.{}_database'.format(process))
+            self.logger.log(
+                self.file, "{} Table deletion successful:".format(process))
         except Exception as e:
 
             self.logger.log(
-                self.file, "Failed to delete table. The error is: %s" % e)
+                self.file, "Failed to delete {} table. The error is: {}".format(process, e))
+        finally:
+            self.logger.log(self.file, "Exiting function delete_table")
         return None
 
     def close_cassandra(self):
@@ -392,6 +428,8 @@ class cassandra_ops:
                         Revisions: None
 
         """
+        self.logger.log(
+            self.file, "Attempting to close the connection between computer and cassandra database")
         try:
             self.session.shutdown()
 
@@ -400,4 +438,7 @@ class cassandra_ops:
 
             self.logger.log(
                 self.file, "Shutdown failed. The error is : %s" % e)
+        finally:
+            self.logger.log(self.file, "Exiting the close_cassandra function")
+
         return None
