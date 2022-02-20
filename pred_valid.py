@@ -6,8 +6,13 @@ from File_operations.schema_reader import read_schema
 
 
 class pred_validation():
-    """
 
+    """
+    This class shall be used to perform validation of prediction file and upload the data into a remote cassandra database.
+
+    Written By: Sandesh
+    Version: 1.0
+    Revisions: None
     """
 
     def __init__(self, path='UCI_Credit_Card.csv'):
@@ -15,7 +20,6 @@ class pred_validation():
         self.logger = App_Logger()
 
         self.file_operator = file_operations()
-        # database_operator=cassandra_ops()
 
         self.file_operator.path = 'Prediction_Batch_files'
         self.file_operator.good_files_path = 'Prediction_files_validated'
@@ -65,8 +69,6 @@ class pred_validation():
             self.file_operator.check_filename_and_move()
             self.logger.log(
                 self.log_file, "Checking for file name violation complete")
-
-            # Database operations doesnt work yet
 
             self.logger.log(self.log_file, "Database operations begins here")
             self.logger.log(

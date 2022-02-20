@@ -8,7 +8,7 @@ import pickle
 class trainer():
     """
                 Class Name: trainer
-                Description: This method is used to preprocess or clean the data before data is used for training
+                Description: This method is used to train a model 
 
                 Written by: Sandesh
                 Version :1
@@ -24,6 +24,9 @@ class trainer():
         """
                 Method Name: data_splitter
                 Description: This method is used to split the dataframe into testing and training parts
+                Input: Method expects two inputs. 
+                        1. dataframe consisting of independant variables
+                        2. Dataframe consisting of dependant variables
                 Output: Returns a tuple of 4 arrays .X_train,X_test,y_train,y_test 
                 Written by: Sandesh
                 Version :1
@@ -39,12 +42,18 @@ class trainer():
         except Exception as e:
             self.logger.log(
                 self.log_file, "Could not split. The error was : %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "Finished splitting into testing and training")
         return None
 
     def trainer(self, X_train, y_train):
         """
                 Method Name: trainer
                 Description: This method is used to train and build a model on the train dataset
+                Input: Expects two inputs 
+                        1. Dataframe consisting of training independant variable data
+                        2. Dataframe consisting of training dependant vraiable data
                 Output: object of model class 
                 Written by: Sandesh
                 Version :1
@@ -60,12 +69,15 @@ class trainer():
         except Exception as e:
             self.logger.log(
                 self.log_file, "Could not split. The error was : %s" % e)
+        finally:
+            self.logger.log(self.log_file, "Finished Training")
         return None
 
     def save_model(self, model):
         """
                 Method Name: save_model
                 Description: This method is used to save the model.
+                Input: Model object
                 Output: object of model class 
                 Written by: Sandesh
                 Version :1
@@ -80,4 +92,6 @@ class trainer():
         except Exception as e:
             self.logger.log(
                 self.log_file, "Could not the model. The error was : %s" % e)
+        finally:
+            self.logger.log(self.log_file, "Finished saving operation")
         return None

@@ -42,12 +42,15 @@ class preprocessor():
             return self.data
         except Exception as e:
             self.logger.log(self.log_file, "Failed to read file %s" % e)
+        finally:
+            self.logger.log(self.log_file, "Finished reading operation")
         return None
 
     def check_empty_spaces_in_col_names(self, data):
         """
                 Method Name: check_empty_spaces_in_col_names
-                Description:This method is used to remove the empty spaces in the column name if any
+                Description: This method is used to remove the empty spaces in the column name if any
+                output: dataframe with column names that dont have spaces
 
                 Written by: Sandesh
                 Version :1
@@ -66,12 +69,16 @@ class preprocessor():
             return data[new_col_names]
         except Exception as e:
             self.logger.log(self.log_file, "Failed to read file %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "Finished checking for empty spaces in column names")
         return None
 
     def seperate_target_features(self, data, target_variable='Defaulted'):
         """
                 Method Name: seperate_target_features
                 Description:This method is used to divide the dataset into features and target
+                Input: String describing the target variable
                 Output: Retruns two dataframes. The first dataframe is the features dataframe
                         The second dataframe consists of the target variable
 
@@ -93,12 +100,16 @@ class preprocessor():
         except Exception as e:
             self.logger.log(
                 self.log_file, "Failed to split the dataframe into features and target %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "finished splitting data into features and target")
         return None
 
     def check_missing(self, data):
         """
                 Method Name: check_missing
                 Description: This method is used to check if the dataframe has any missing values.
+                Input: dataframe
                 Output: Returns a tuple of Boolean,Integer and array. 
                         Boolean-True if missing values are present and False if there are no missing values
                         Integer - The total number of missing values in the entire dataframe
@@ -134,12 +145,16 @@ class preprocessor():
 
         except Exception as e:
             self.logger.log(self.log_file, "Failed to read file %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "finished checking for missing values")
         return None
 
     def cols_without_deviation(self, data):
         """
                                         Method Name: cols_without_deviation
                                         Description: This method identifies columns that are highly skewed or imbalanced
+                                        Input : Dataframe
                                         Output: Returns list of columns with very low standard deviation
                                         On Failure: Raise Exception
 
@@ -164,12 +179,16 @@ class preprocessor():
 
         except Exception as e:
             self.logger.log(self.log_file, "Failed to read file %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "Finished checking for columns that dont have variation in data")
         return None
 
     def drop_cols_without_deviation(self, data, cols_without_deviation):
         """
                                         Method Name: cols_without_deviation
                                         Description: This method drops columns that are highly skewed or imbalanced
+                                        Input: DataFrame
                                         Output: Returns dataframe without columns having low standard deviation
                                         On Failure: Raise Exception
 
@@ -189,12 +208,19 @@ class preprocessor():
 
         except Exception as e:
             self.logger.log(self.log_file, "Failed to read file %s" % e)
+        finally:
+            self.logger.log(
+                self.log_file, "Completed the process of dropping columns with low deviation")
         return None
 
     def impute_missing_values(self, data, cols_with_missing_values):
         """
                                         Method Name: impute_missing_values
                                         Description: This method replaces all the missing values in the Dataframe using KNN Imputer.
+                                        Input: expecting two inputs
+                                        1. Dataframe
+                                        2. Columns with missing values
+
                                         Output: A Dataframe which has all the missing values imputed.
                                         On Failure: Raise Exception
 
@@ -218,12 +244,16 @@ class preprocessor():
                 self.log_file, 'Exception occured in impute_missing_values method of the Preprocessor class. Exception message:  ' + str(e))
             self.logger.log(
                 self.log_file, 'Imputing missing values failed. Exited the impute_missing_values method of the Preprocessor class')
+        finally:
+            self.logger.log(
+                self.log_file, "Finished the process of imputing null values")
             raise Exception()
 
     def scale_numerical_cols(self, data):
         """
                                         Method Name: scale_numerical_cols
                                         Description: This method scales the numerical values using a standard scaler
+                                        Input: dataframe
                                         On Failure: Raise Exception
                                         output: Scaled dataframe
 
@@ -241,12 +271,17 @@ class preprocessor():
 
             self.logger.log(
                 self.log_file, "Could not scale. The error was : %s" % e)
+        finally:
+            self.logger.log(self.log_file, "Finished scaling data")
         return None
 
     def handle_imbalanced_dataset(self, x, y):
         """
         Method Name: handle_imbalanced_dataset
         Description: This method handles the imbalanced dataset to make it a balanced one.
+        Input: Expects two inputs.
+                1. Dataframe consisting of independant variables
+                2. DataFrame consisting of dependent variables
         Output: new balanced feature and target columns
         On Failure: Raise Exception
 
@@ -272,3 +307,5 @@ class preprocessor():
             self.logger.log(self.log_file,
                             'dataset balancing Failed. Exited the handle_imbalanced_dataset method of the Preprocessor class')
             raise Exception()
+        finally:
+            self.logger.log(self.log_file, "Finished balancing datasets")

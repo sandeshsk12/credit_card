@@ -5,6 +5,11 @@ from model_training_scripts.training import trainer
 
 class trainmodel():
     """
+    This class shall be used to load data from a remote cassandra database, preprocess it and train a model on the training dataset.
+
+    Written By: Sandesh
+    Version: 1.0
+    Revisions: None
     """
 
     def __init__(self):

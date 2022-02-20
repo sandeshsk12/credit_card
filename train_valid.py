@@ -4,8 +4,13 @@ from Database_operation.cassandra_data_op import cassandra_ops
 
 
 class train_validation():
-    """
 
+    """
+    This class shall be used to perform validation of training file and upload the data into a remote cassandra database.
+
+    Written By: Sandesh
+    Version: 1.0
+    Revisions: None
     """
 
     def __init__(self):

@@ -13,13 +13,12 @@ from application_logging.logger import App_Logger
 
 class file_operations:
     """
-        This class shall be used to perform File operations.
+        This class shall be used to perform all File operations.
         Operations that can be done are 
                 check if the file names are according to the naming conventions 
                 Check if the column names are as specified and if columns contain data
                 Impute Null value where data is missing
-                drop table
-                close connection
+
         Written By: Sandesh
         Version: 1.0
         Revisions: None
@@ -35,6 +34,7 @@ class file_operations:
         self.log_file = open('Logs/file_operations_log.txt', 'a+')
         self.logger = App_Logger()
         self.file_name = 'UCI_Credit_Card.csv'
+        self.bad_file_log = open('Logs/bad_file_logs.txt')
 
     def break_file_into_smaller_files(self):
         """
@@ -51,10 +51,11 @@ class file_operations:
         i = 0
         faulty_record = True
         self.logger.log(
-            self.log_file, "Breaking the complete csv file into chunks")
+            self.log_file, "Attempting to Break the complete csv file into chunks")
 
         try:
             data = pd.read_csv(self.file_name)
+
             for j in range(0, 31):
                 new = data.iloc[i:i+1001]
                 name = "creditCardFraud_" + \
@@ -76,21 +77,23 @@ class file_operations:
 
             self.logger.log(
                 self.log_file, "Could not break down the csv file %s" % e)
-        self.logger.log(
-            self.log_file, "Completed the process of dividing the main file")
+        finally:
+            self.logger.log(
+                self.log_file, "Completed the process of dividing the main file")
         return None
 
     def check_filename_and_move(self):
         """
                 Method Name: check_filename_and_move
                 Description: Reads the filename and checks if it is according to the naming convention specified. Move files with correct name to good folder and 
-                            move files with wrong file name inot bad folder
+                            move files with wrong file name into archive folder
                 Output: None
 
                 Written by: Sandesh
                 Version :1
                 Revisions : None
         """
+        self.logger.log(self.log_file, "Attempting to verify the file names")
         try:
             for file_name in sorted(os.listdir(self.path)):
                 source = (os.path.join(self.path+'/'+file_name))
@@ -106,6 +109,7 @@ class file_operations:
                     except:
                         self.logger.log(
                             self.log_file, "Could not verify the file name. The error is: %s" % e)
+                        self.logger.log()
 
                 else:
                     shutil.copy(source, bad_files_dest)
@@ -158,14 +162,17 @@ class file_operations:
                         except Exception as e:
                             self.logger.log(
                                 self.log_file, "Could not move the bad file. The error is: %s" % e)
+                            self.logger.log(
+                                self.bad_file_log, "filename {}, reject reason{}".format(file_name, e))
                     else:
                         pass
         except Exception as e:
 
             self.logger.log(
                 self.log_file, "Could not check the file contents. The error is: %s" % e)
-        self.logger.log(
-            self.log_file, "Completed the process of checking the file contents")
+        finally:
+            self.logger.log(
+                self.log_file, "Completed the process of checking the file contents")
         return None
 
     def impute_null(self):
@@ -198,6 +205,7 @@ class file_operations:
 
             self.logger.log(
                 self.log_file, "Could not check the file contents. The error is: %s" % e)
-        self.logger.log(
-            self.log_file, "Completed the process of checking the file contents")
+        finally:
+            self.logger.log(
+                self.log_file, "Completed the process of checking the file contents")
         return None
