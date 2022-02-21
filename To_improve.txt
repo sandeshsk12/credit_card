@@ -1,0 +1,5 @@
+add def__str__
+add different exceptions
+deploy on aws or azure
+Use public, private ? self.__a -> to define private keyword, o._test__a-> access private keyword
+use inheritance ?
